@@ -1,6 +1,7 @@
 RewriteEngine on
 
 RewriteRule ^gui/.* - [L]
+RewriteRule ^files/.* - [L]
 RewriteRule ^vendor/.* - [L]
 RewriteRule ^robots.txt$ - [L]
 

@@ -15,6 +15,9 @@
                         <a data-toggle="tooltip" data-placement="bottom" title="Folge mir auf GitHub"
                            href="https://github.com/cyguCH" target="_blank"><i class="fab fa-github"></i></a>
                     </div>
+                    <div class="rsa-fingerprint">
+                        <a href="files/id_rsa.pub.txt">59:01:f2:63:42:19:5b:59:1e:13:35:f1:96:ca:f2:e5</a>
+                    </div>
                 </div>
             </div>
         </section>

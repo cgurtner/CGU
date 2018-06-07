@@ -98,3 +98,8 @@ ol.breadcrumb {
     padding: unset;
     background-color: unset;
 }
+
+div.rsa-fingerprint {
+    font-size: 12px;
+    text-align: center;
+}
