@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Home",
+    "url": "home",
+    "path": "content/page/home.php",
+    "display": false,
+    "disabled": false
+  },
+  {
+    "title": "Werdegang",
+    "url": "werdegang",
+    "path": "content/page/werdegang.php",
+    "display": true,
+    "disabled": false
+  },
+  {
+    "title": "Projekte",
+    "url": "projekte",
+    "path": "content/page/projekte.php",
+    "display": true,
+    "disabled": false
+  },
+  {
+    "title": "Blog",
+    "url": "blog",
+    "path": "content/page/blog.php",
+    "display": true,
+    "disabled": false
+  },
+  {
+    "title": "Test Blog 1",
+    "url": "blog/test-1",
+    "path": "content/page/blog/test-1.php",
+    "type": "blog",
+    "display": false,
+    "disabled": false
+  },
+  {
+    "title": "Kontakt",
+    "url": "kontakt",
+    "path": "content/page/kontakt.php",
+    "type": "page",
+    "display": true,
+    "disabled": false
+  }
+]

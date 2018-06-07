@@ -1,0 +1,100 @@
+body {
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    font-size: 15px;
+    letter-spacing: .12em;
+}
+
+a {
+    color: #be1622;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: unset;
+}
+
+button[type="submit"] {
+    background-color: #be1622;
+    border: unset;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:active:focus {
+    background-color: #990000 !important;
+}
+
+span.badge-red {
+    color: #fff;
+    background-color: #990000;
+}
+
+.form-control:focus {
+    border-color: #ced4da !important;
+    box-shadow: 0px 0px 0px #333 inset, 0px 0px 5px #ced4da;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+
+h1.home {
+    text-align: center;
+    margin-bottom: unset;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: .12em;
+}
+
+h2.home {
+    text-align: center;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: .12em;
+}
+
+div.h1-box {
+    margin-bottom: 1rem;
+}
+
+div.container {
+    max-width: 1000px;
+}
+
+div.social-links {
+    text-align: center;
+    font-size: 15px;
+}
+
+div.social-links a,
+div.social-links a:active {
+    color: rgba(0, 0, 0, .5);
+}
+
+div.social-links a:hover {
+    color: #333;
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+ol.breadcrumb {
+    padding: unset;
+    background-color: unset;
+}

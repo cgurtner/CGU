@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./php/web
+      dockerfile: Dockerfile
+    ports:
+      - 127.0.0.1:8080:80
+    volumes:
+      - ./php/web:/var/www/html
