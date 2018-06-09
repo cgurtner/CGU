@@ -1,17 +1,1 @@
-{
-  "baseURL": "http://localhost:8080/",
-  "email": {
-    "to": {
-      "address": "i@cygu.ch"
-    },
-    "from": {
-      "address": "no-reply@cygu.ch",
-      "name": "Cyrill Gurtner"
-    },
-    "smtp": {
-      "host": "antiqua.sui-inter.net",
-      "user": "no-reply@cygu.ch",
-      "password": "cAcHAc&A3#4AmcAHsCAKa"
-    }
-  }
-}
+.docker.config.json
