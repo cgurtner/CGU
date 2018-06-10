@@ -8,12 +8,12 @@
                         <h2 class="home">Software Developer<span class="blink">_</span></h2>
                     </header>
                     <div class="social-links">
+                        <a data-toggle="tooltip" data-placement="bottom" title="Ich auf GitLab"
+                           href="https://gitlab.com/cygu" target="_blank"><i class="fab fa-gitlab"></i></a>
                         <a data-toggle="tooltip" data-placement="bottom" title="Folge mir auf Facebook"
                            href="https://www.facebook.com/cyguCH" target="_blank"><i class="fab fa-facebook"></i></a>
                         <a data-toggle="tooltip" data-placement="bottom" title="Folge mir auf Instagram"
                            href="https://www.instagram.com/cygu_" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a data-toggle="tooltip" data-placement="bottom" title="Folge mir auf GitLab"
-                           href="https://gitlab.com/cygu" target="_blank"><i class="fab fa-gitlab"></i></a>
                         <a data-toggle="tooltip" data-placement="bottom" title="Folge meinem Blog RSS"
                            href="<?php echo CONFIG['baseURL']; ?>blog.rss" target="_blank"><i
                                     class="fas fa-rss"></i></a>
