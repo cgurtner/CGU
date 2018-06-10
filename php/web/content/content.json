@@ -3,6 +3,7 @@
     "title": "Home",
     "url": "home",
     "path": "content/page/home.php",
+    "type": "page",
     "display": false,
     "disabled": false
   },
@@ -10,6 +11,7 @@
     "title": "Werdegang",
     "url": "werdegang",
     "path": "content/page/werdegang.php",
+    "type": "page",
     "display": true,
     "disabled": false
   },
@@ -17,6 +19,7 @@
     "title": "Projekte",
     "url": "projekte",
     "path": "content/page/projekte.php",
+    "type": "page",
     "display": true,
     "disabled": false
   },
@@ -24,6 +27,7 @@
     "title": "Blog",
     "url": "blog",
     "path": "content/page/blog.php",
+    "type": "page",
     "display": true,
     "disabled": false
   },

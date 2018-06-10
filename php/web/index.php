@@ -24,6 +24,15 @@ if ($page == null || $page['disabled'] || !file_exists($page['path'])) {
     die();
 }
 
+$pageTitle = 'Cyrill Gurtner';
+if ($page['url'] === 'home') {
+    $pageTitle = $pageTitle . ' | Software Developer';
+} else if ($page['url'] !== 'home' && $page['type'] === 'page') {
+    $pageTitle = $page['title'] . ' | ' . $pageTitle;
+} else if ($page['type'] === 'blog') {
+    $pageTitle = $page['title'] . ' | Blog | ' . $pageTitle;
+}
+
 ?>
     <!DOCTYPE HTML>
 
@@ -34,7 +43,7 @@ if ($page == null || $page['disabled'] || !file_exists($page['path'])) {
         <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="gui/css/fontawesome-all.min.css"/>
         <link rel="stylesheet" href="gui/css/cgu-1.0.0.css"/>
-        <title><?php echo($page['url'] == 'home' ? 'Cyrill Gurtner | Software Developer' : $page['title'] . ' | Cyrill Gurtner'); ?></title>
+        <title><?php echo $pageTitle; ?></title>
     </head>
     <body>
 
