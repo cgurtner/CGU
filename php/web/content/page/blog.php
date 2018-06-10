@@ -1,9 +1,9 @@
 <main>
     <div class="container">
         <section>
-            <div class="row">
-                <div class="col pt-5 h1-box">
-                    <header>
+            <header>
+                <div class="row">
+                    <div class="col pt-5 h1-box">
                         <h1>Blog</h1>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
@@ -11,9 +11,9 @@
                                 <li class="breadcrumb-item active" aria-current="page">Blog</li>
                             </ol>
                         </nav>
-                    </header>
+                    </div>
                 </div>
-            </div>
+            </header>
             <?php
             $html = '';
             foreach (PAGES as $page) {
