@@ -14,7 +14,7 @@
                            href="https://www.facebook.com/cyguCH" target="_blank"><i class="fab fa-facebook"></i></a>
                         <a data-toggle="tooltip" data-placement="bottom" title="Folge mir auf Instagram"
                            href="https://www.instagram.com/cygu_" target="_blank"><i class="fab fa-instagram"></i></a>
-                        <a data-toggle="tooltip" data-placement="bottom" title="Folge meinem Blog RSS"
+                        <a data-toggle="tooltip" data-placement="bottom" title="Blog RSS"
                            href="<?php echo CONFIG['baseURL']; ?>blog.rss" target="_blank"><i
                                     class="fas fa-rss"></i></a>
                     </div>
