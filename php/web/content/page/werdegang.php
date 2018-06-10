@@ -1,19 +1,7 @@
 <main>
     <div class="container">
         <section>
-            <header>
-                <div class="row">
-                    <div class="col pt-5 h1-box">
-                        <h1>Werdegang</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="Home" hreflang="de">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Werdegang</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </header>
+            <?php include_once("content/comp/header.php"); ?>
             <section>
                 <div class="row">
                     <div class="col-sm-12">
