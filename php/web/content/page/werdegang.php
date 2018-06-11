@@ -150,11 +150,11 @@
                                         entwickelt mit welcher Mitarbeiter zu Meetings eingeladen, Traktanden erfasst
                                         und
                                         anschliessend ein Protokoll für alle Teilnehmer veröffentlicht werden kann. Als
-                                        Technologien eingesetzt habe ich <span class="badge badge-red">HTML/CSS</span>,
-                                        <span class="badge badge-red">JS/JQuery</span>, <span
-                                                class="badge badge-red">OO PHP</span>,
-                                        <span class="badge badge-red">MySQL</span> und <span
-                                                class="badge badge-red">LaTeX</span>
+                                        Technologien eingesetzt habe ich <span class="badge badge-red">HTML/CSS</span>
+                                        <span class="badge badge-red">JS/JQuery</span>
+                                        <span class="badge badge-red">OO PHP</span>
+                                        <span class="badge badge-red">MySQL</span> und
+                                        <span class="badge badge-red">LaTeX</span>
                                         um die Dokumentation zu schreiben.
                                     </p>
                                     <p>
