@@ -2,7 +2,7 @@
 
 $breadLinks = '<li class="breadcrumb-item"><a href="home">Home</a></li>';
 if ($page['type'] === 'blog') {
-    $breadLinks = '<li class="breadcrumb-item"><a href="blog">Blog</a></li>';
+    $breadLinks .= '<li class="breadcrumb-item"><a href="blog">Blog</a></li>';
     $breadLinks .= '<li class="breadcrumb-item active" aria-current="page">' . $page['title'] . '</li>';
 } else {
     $breadLinks .= '<li class="breadcrumb-item active" aria-current="page">' . $page['title'] . '</li>';
