@@ -25,7 +25,10 @@
 function getActive($page, $url)
 {
     $ret = '';
-    if ($page['url'] == $url) {
+    if (
+        $page['url'] == $url ||
+        $page['url'] === 'blog' && strpos($url, 'blog') === 0
+    ) {
         $ret = 'active';
     }
     return $ret;
