@@ -38,8 +38,8 @@
             <footer class="text-right">
                 <hr/>
                 Hat dir dieser Beitrag geholfen? Spendier mir ein
-                <a href="https://paypal.me/cyguCH/2.50" target="_blank"><i class="fas fa-coffee"></i></a> oder ein
-                <a href="https://paypal.me/cyguCH/5" target="_blank"><i class="fas fa-beer"></i></a>
+                <a href="<?php echo CONFIG['paypal']; ?>/2.50" target="_blank"><i class="fas fa-coffee"></i></a> oder ein
+                <a href="<?php echo CONFIG['paypal']; ?>/5" target="_blank"><i class="fas fa-beer"></i></a>
             </footer>
         </article>
     </div>
