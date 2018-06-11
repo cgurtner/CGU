@@ -9,7 +9,7 @@
                     </header>
                     <div class="social-links">
                         <a data-toggle="tooltip" data-placement="bottom" title="Ich auf GitLab"
-                           href="https://gitlab.com/cygu" target="_blank"><i class="fab fa-gitlab"></i></a>
+                           href="https://gitlab.com/cyguCH" target="_blank"><i class="fab fa-gitlab"></i></a>
                         <a data-toggle="tooltip" data-placement="bottom" title="Folge mir auf Facebook"
                            href="https://www.facebook.com/cyguCH" target="_blank"><i class="fab fa-facebook"></i></a>
                         <a data-toggle="tooltip" data-placement="bottom" title="Folge mir auf Instagram"
