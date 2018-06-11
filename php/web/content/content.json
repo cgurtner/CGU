@@ -20,8 +20,8 @@
     "url": "projekte",
     "path": "content/page/projekte.php",
     "type": "page",
-    "display": true,
-    "disabled": false
+    "display": false,
+    "disabled": true
   },
   {
     "title": "Blog",
