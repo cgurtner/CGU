@@ -1,0 +1,12 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Cyrill Gurtner",
+  "url": "https://cygu.ch",
+  "sameAs": [
+    "https://www.facebook.com/cyguCH",
+    "https://www.instagram.com/cygu_",
+    "https://gitlab.com/cyguCH",
+    "https://paypal.me/cyguCH"
+  ]
+}
