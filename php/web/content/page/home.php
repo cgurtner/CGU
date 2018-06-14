@@ -1,9 +1,10 @@
 <main>
     <div class="container">
-        <section>
+        <section class="section-home">
             <div class="row">
                 <div class="col pt-5">
                     <header>
+                        <img src="gui/image/portrait_cyrill_gurtner.jpg" alt="Porträt von Cyrill Gurtner" class="avatar mb-3"/>
                         <h1>Cyrill Gurtner</h1>
                         <h2>Software Developer<span class="blink">_</span></h2>
                     </header>

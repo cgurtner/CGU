@@ -69,6 +69,20 @@ h5 {
     letter-spacing: .12em;
 }
 
+section.section-home {
+    text-align: center;
+}
+
+img.avatar {
+    border-radius: 50%;
+    border: 4px solid #343a40;
+    width: 225px;
+}
+
+.pt-5 {
+    padding-top: 6rem !important;
+}
+
 button.collapse-button {
     font-size: 15px;
     padding: unset;
