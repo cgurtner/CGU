@@ -23,9 +23,6 @@
                             <i class="fab fa-gitlab"></i>
                         </a>
                     </div>
-                    <div class="rsa-fingerprint">
-                        <a href="files/id_rsa.pub.txt">59:01:f2:63:42:19:5b:59:1e:13:35:f1:96:ca:f2:e5</a>
-                    </div>
                 </div>
             </div>
         </section>

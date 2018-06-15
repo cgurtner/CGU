@@ -1,5 +1,7 @@
 {
   "baseURL": "http://localhost:8000/",
+  "rsa-fingerprint": "59:01:f2:63:42:19:5b:59:1e:13:35:f1:96:ca:f2:e5",
+  "rsa-link": "files/id_rsa.pub.txt",
   "email": {
     "to": {
       "address": "i@cygu.ch"
