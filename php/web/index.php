@@ -40,6 +40,7 @@ if ($page['url'] === 'home') {
     <head>
         <base href="<?php echo CONFIG['baseURL']; ?>">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="icon" href="gui/image/favicon.png" />
         <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css"/>
         <link rel="stylesheet" href="gui/css/fontawesome-all.min.css"/>
         <link rel="stylesheet" href="gui/css/cgu-1.0.0.css"/>
