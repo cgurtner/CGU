@@ -3,6 +3,7 @@ body {
     color: #343a40;
     font-size: 15px;
     letter-spacing: .12em;
+    background-color: #fafafa;
 }
 
 a, button.collapse-button {
