@@ -9,4 +9,5 @@ php -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece38
 php composer-setup.php && \
 php -r "unlink('composer-setup.php');"
 
+RUN ln -s /tmp/composer.phar /bin/composer
 RUN cd /var/www/html/
