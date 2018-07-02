@@ -32,6 +32,14 @@
     "disabled": false
   },
   {
+    "title": "Gallerie",
+    "url": "gallerie",
+    "path": "content/page/gallerie.php",
+    "type": "page",
+    "display": true,
+    "disabled": false
+  },
+  {
     "title": "Test Blog 1",
     "url": "blog/test-1",
     "path": "content/page/blog/test-1.php",
