@@ -25,9 +25,9 @@ button[type="submit"]:active:focus {
     background-color: #990000 !important;
 }
 
-span.badge-red {
+span.badge {
     color: #fff;
-    background-color: #be1622;
+    background-color: #343a40;
 }
 
 .form-control:focus {
