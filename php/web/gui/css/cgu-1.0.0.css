@@ -1,9 +1,18 @@
-body {
+html, body {
     font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
     color: #343a40;
     font-size: 15px;
     letter-spacing: .12em;
     background-color: #fafafa;
+    height: 100%;
+}
+
+main.fs-bg {
+    height: 100%;
+    background-image: url("../image/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a, button.collapse-button {
@@ -68,10 +77,6 @@ h5 {
     font-weight: normal;
     font-size: 15px;
     letter-spacing: .12em;
-}
-
-section.section-home {
-    text-align: center;
 }
 
 img.avatar {
