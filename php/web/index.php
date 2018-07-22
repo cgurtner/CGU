@@ -53,6 +53,7 @@ if ($page['url'] === 'home') {
 
     <script src="gui/js/jquery.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script async defer src="//www.instagram.com/embed.js"></script>
     <script src="gui/js/cgu-1.0.0.js"></script>
     </body>
     </html>
