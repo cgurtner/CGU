@@ -141,3 +141,12 @@ ul.bullet {
     list-style-type: square;
     padding-left: 15px;
 }
+
+img.instagram-profile-picture {
+    border: 1px solid rgba(0, 0, 0, .0975);
+    border-radius: 50%;
+}
+
+hr.instagram-delimiter {
+    margin-bottom: 2rem;
+}
