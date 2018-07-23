@@ -15,10 +15,10 @@ foreach ($recent as $snippet) {
             <section>
                 <header>
                     <div class="row">
-                        <div class="col-12 col-sm-2">
+                        <div class="col-sm-2 d-none d-sm-block">
                             <img src="<?php echo $owner['profile_picture']; ?>"
-                                 alt="Cyrill Gurtner Instragram Profilbild"
-                                 class="instagram-profile-picture img-fluid mb-3">
+                                 alt="Cyrill Gurtner Instagram Profilbild"
+                                 class="instagram-profile-picture img-fluid mb-3 .d-sm-none">
                         </div>
                         <div class="col-12 col-sm-10">
                             <h2><a href="<?php echo CONFIG['instagram']; ?>" target="_blank"><?php echo $owner['username']; ?></a></h2>
@@ -42,7 +42,7 @@ foreach ($recent as $snippet) {
                     if ($rowCounter == 1) {
                         $html .= '<div class="row">';
                     }
-                    $html .= '<div class="col-sm-12 col-md-4">';
+                    $html .= '<div class="col-12 col-sm-6 col-md-4">';
                     $html .= $codeSnippet;
                     $html .= '</div>';
                     if ($rowCounter % 3 == 0) {
