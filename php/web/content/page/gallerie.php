@@ -24,8 +24,8 @@ foreach ($recent as $snippet) {
                             <h2><a href="<?php echo CONFIG['instagram']; ?>" target="_blank"><?php echo $owner['username']; ?></a></h2>
                             <p>
                                 <span><strong><?php echo $owner['counts']['media']; ?></strong> post</span>
-                                <span><strong><?php echo $owner['counts']['follows']; ?></strong> follower</span>
-                                <span><strong><?php echo $owner['counts']['followed_by']; ?></strong> following</span>
+                                <span><strong><?php echo $owner['counts']['followed_by']; ?></strong> follower</span>
+                                <span><strong><?php echo $owner['counts']['follows']; ?></strong> following</span>
                             </p>
                             <p>
                                 <span><strong><?php echo $owner['full_name']; ?></strong></span><br/>
