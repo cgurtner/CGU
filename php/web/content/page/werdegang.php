@@ -13,13 +13,13 @@
                                 <div class="col-sm-12 col-md-4">
                                     <header>
                                         <h3>Datahouse AG</h3>
+                                        <p>
+                                            September 2011 - heute<br/>
+                                            Software Developer<br/>
+                                            <a href="https://www.datahouse.ch/" hreflang="de"
+                                               target="_blank">datahouse.ch</a>
+                                        </p>
                                     </header>
-                                    <p>
-                                        September 2011 - heute<br/>
-                                        Software Developer<br/>
-                                        <a href="https://www.datahouse.ch/" hreflang="de"
-                                           target="_blank">datahouse.ch</a>
-                                    </p>
                                 </div>
                                 <div class="col-sm-12 col-md-8">
                                     <p>
@@ -49,12 +49,12 @@
                                 <div class="col-sm-12 col-md-4">
                                     <header>
                                         <h3>Hochschule für Technik Rapperswil</h3>
+                                        <p>
+                                            September 2016 - heute<br/>
+                                            BSc FHO in Informatik<br/>
+                                            <a href="https://www.hsr.ch/" hreflang="de" target="_blank">hsr.ch</a>
+                                        </p>
                                     </header>
-                                    <p>
-                                        September 2016 - heute<br/>
-                                        BSc FHO in Informatik<br/>
-                                        <a href="https://www.hsr.ch/" hreflang="de" target="_blank">hsr.ch</a>
-                                    </p>
                                 </div>
                                 <div class="col-sm-12 col-md-8">
                                     <img src="gui/image/hsr.png" class="img-fluid mb-3"
@@ -77,12 +77,13 @@
                                 <div class="col-sm-12 col-md-4">
                                     <header>
                                         <h3>AKAD College</h3>
+                                        <p>
+                                            August 2013 - Februar 2015<br/>
+                                            Eidg. Tech. Berufsmaturität<br/>
+                                            <a href="https://www.akad.ch/de-CH" hreflang="de"
+                                               target="_blank">akad.ch</a>
+                                        </p>
                                     </header>
-                                    <p>
-                                        August 2013 - Februar 2015<br/>
-                                        Eidg. Tech. Berufsmaturität<br/>
-                                        <a href="https://www.akad.ch/de-CH" hreflang="de" target="_blank">akad.ch</a>
-                                    </p>
                                 </div>
                                 <div class="col-sm-12 col-md-8">
                                     <p>
@@ -113,13 +114,13 @@
                                 <div class="col-sm-12 col-md-4">
                                     <header>
                                         <h3>Informatikschule Olten</h3>
+                                        <p>
+                                            Juli 2009 - Juli 2013<br/>
+                                            Applikationsentwickler EFZ<br/>
+                                            <a href="https://www.informatikschuleolten.ch/" hreflang="de"
+                                               target="_blank">informatikschuleolten.ch</a>
+                                        </p>
                                     </header>
-                                    <p>
-                                        Juli 2009 - Juli 2013<br/>
-                                        Applikationsentwickler EFZ<br/>
-                                        <a href="https://www.informatikschuleolten.ch/" hreflang="de"
-                                           target="_blank">informatikschuleolten.ch</a>
-                                    </p>
                                 </div>
                                 <div class="col-sm-12 col-md-8">
                                     <p>
