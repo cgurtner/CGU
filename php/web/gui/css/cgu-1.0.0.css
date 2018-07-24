@@ -15,6 +15,12 @@ main.fs-bg {
     background-size: cover;
 }
 
+h4.inline {
+    display: inline;
+    font-size: inherit;
+    font-weight: bold;
+}
+
 a, button.collapse-button {
     color: #be1622;
 }
@@ -35,8 +41,7 @@ button[type="submit"]:active:focus {
 }
 
 span.badge {
-    color: #fff;
-    background-color: #343a40;
+    background-color: rgba(0, 0, 0, .1);
 }
 
 .form-control:focus {
@@ -143,7 +148,7 @@ ul.bullet {
 }
 
 img.instagram-profile-picture {
-    border: 1px solid rgba(0, 0, 0, .0975);
+    border: 1px solid rgba(0,0,0,.1);
     border-radius: 50%;
 }
 

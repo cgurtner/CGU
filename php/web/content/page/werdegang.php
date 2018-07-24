@@ -22,16 +22,68 @@
                                     </header>
                                 </div>
                                 <div class="col-sm-12 col-md-8">
-                                    <p>
-                                        Datahouse gehört zu den führenden Anbietern von Daten und Analysen. Wir erheben,
-                                        vernetzen
-                                        und analysieren Daten für Ihr Unternehmen und entwickeln innovative
-                                        Web-Applikationen.
-                                        Datahouse wurde 2005 als Spin-off-Unternehmen der ETH Zürich gegründet und ist
-                                        seit
-                                        2014
-                                        eine Tochtergesellschaft der Wüest Partner AG.
-                                    </p>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Aus Daten werden Informationen</h4>
+                                        </header>
+                                        <p>
+                                            Datahouse gehört zu den führenden Anbietern von Daten und Analysen. Wir
+                                            erheben,
+                                            vernetzen
+                                            und analysieren Daten für Ihr Unternehmen und entwickeln innovative
+                                            Web-Applikationen.
+                                            Datahouse wurde 2005 als Spin-off-Unternehmen der ETH Zürich gegründet und
+                                            ist
+                                            seit
+                                            2014
+                                            eine Tochtergesellschaft der Wüest Partner AG.
+                                        </p>
+                                        <p>
+                                            Meine Tätigkeits- und Aufgabenbereiche umfassen als Software Developer unter
+                                            anderem die folgenden.
+                                        </p>
+                                    </section>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Entwicklung und technische Konzipierung von
+                                                Benutzeroberflächen</h4>
+                                        </header>
+                                        <p>
+                                            Erstellung von modernen Benutzeroberflächen in <span
+                                                    class="badge">HTML/CSS</span> und <span
+                                                    class="badge">JS/JQuery</span>.
+                                        </p>
+                                        <p>
+                                            Umsetzung von modernen Single-Page-Applications mithilfe von
+                                            Frameworks und Libraries wie <span class="badge">Angular</span> und <span
+                                                    class="badge">React</span>
+                                        </p>
+                                    </section>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Entwicklung und technische Konzipierung von
+                                                Software-Lösungen</h4>
+                                        </header>
+                                        <p>
+                                            Definition der Software-Architektur und Entwicklung von komplexen
+                                            Webapplikationen in
+                                            <span class="badge">OO PHP</span>,
+                                            Implementation von Datenwebservices in <span class="badge">C++</span> sowie
+                                            Planung und Modellierung von komplexen,
+                                            relationalen Datenbankmodellen in <span class="badge">MySQL</span> und <span
+                                                    class="badge">PostgreSQL</span>.
+                                        </p>
+                                    </section>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Unterhalt und Support von Webapplikationen</h4>
+                                        </header>
+                                        <p>
+                                            Entgegennahme und Verarbeitung von Kundenanfragen in Betriebsprojekten.
+                                            Durchführung der Fehleranalyse und Behebung von selbst entwickelten oder
+                                            bereits bestehenden Webapplikationen.
+                                        </p>
+                                    </section>
                                 </div>
                             </div>
                         </section>
