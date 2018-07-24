@@ -21,7 +21,8 @@ foreach ($recent as $snippet) {
                                  class="instagram-profile-picture img-fluid mb-3 .d-sm-none">
                         </div>
                         <div class="col-12 col-sm-10">
-                            <h2><a href="<?php echo CONFIG['instagram']; ?>" target="_blank"><?php echo $owner['username']; ?></a></h2>
+                            <h2><a href="<?php echo CONFIG['instagram']; ?>"
+                                   target="_blank"><?php echo $owner['username']; ?></a></h2>
                             <p>
                                 <span><strong><?php echo $owner['counts']['media']; ?></strong> post</span>
                                 <span><strong><?php echo $owner['counts']['followed_by']; ?></strong> follower</span>
@@ -29,7 +30,9 @@ foreach ($recent as $snippet) {
                             </p>
                             <p>
                                 <span><strong><?php echo $owner['full_name']; ?></strong></span><br/>
-                                <?php echo nl2br($owner['bio']); ?>
+                                <?php
+                                echo str_replace(CONFIG['email']['to']['address'], '<a href="mailto:' . CONFIG['email']['to']['address'] . '">' . CONFIG['email']['to']['address'] . '</a>', nl2br($owner['bio']));
+                                ?>
                             </p>
                         </div>
                     </div>

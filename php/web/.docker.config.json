@@ -4,7 +4,7 @@
   "rsa-link": "files/id_rsa.pub.txt",
   "email": {
     "to": {
-      "address": "i@cygu.ch"
+      "address": "biz@cygu.ch"
     },
     "from": {
       "address": "no-reply@cygu.ch",
