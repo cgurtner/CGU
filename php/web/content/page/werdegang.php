@@ -141,9 +141,7 @@
                                         sowie
                                         die Naturwissenschaften Physik und Chemie. Abschluss der Ausbildung bilden die
                                         eidgenössischen Prüfungen sowie die interdisziplinäre Projektarbeit (IDPA),
-                                        welche
-                                        ich
-                                        im Hauptfach Physik realisiert und gut abgeschlossen habe.
+                                        welche ich im Hauptfach Physik realisiert und gut abgeschlossen habe.
                                     </p>
                                 </div>
                             </div>
