@@ -15,12 +15,6 @@ main.fs-bg {
     background-size: cover;
 }
 
-h4.inline {
-    display: inline;
-    font-size: inherit;
-    font-weight: bold;
-}
-
 a, button.collapse-button {
     color: #be1622;
 }
@@ -72,10 +66,10 @@ h3 {
     letter-spacing: .12em;
 }
 
-h4 {
-    font-weight: normal;
-    font-size: 17.5px;
-    letter-spacing: .12em;
+h4.inline {
+    display: inline;
+    font-size: inherit;
+    font-weight: bold;
 }
 
 h5 {
