@@ -28,15 +28,10 @@
                                         </header>
                                         <p>
                                             Datahouse gehört zu den führenden Anbietern von Daten und Analysen. Wir
-                                            erheben,
-                                            vernetzen
-                                            und analysieren Daten für Ihr Unternehmen und entwickeln innovative
+                                            erheben, vernetzen und analysieren Daten für Ihr Unternehmen und entwickeln innovative
                                             Web-Applikationen.
                                             Datahouse wurde 2005 als Spin-off-Unternehmen der ETH Zürich gegründet und
-                                            ist
-                                            seit
-                                            2014
-                                            eine Tochtergesellschaft der Wüest Partner AG.
+                                            ist seit 2014 eine Tochtergesellschaft der Wüest Partner AG.
                                         </p>
                                         <p>
                                             Meine Tätigkeits- und Aufgabenbereiche umfassen als Software Developer unter
@@ -49,14 +44,9 @@
                                                 Benutzeroberflächen</h4>
                                         </header>
                                         <p>
-                                            Erstellung von modernen Benutzeroberflächen in <span
-                                                    class="badge">HTML/CSS</span> und <span
-                                                    class="badge">JS/JQuery</span>.
-                                        </p>
-                                        <p>
-                                            Umsetzung von modernen Single-Page-Applications mithilfe von
-                                            Frameworks und Libraries wie <span class="badge">Angular</span> und <span
-                                                    class="badge">React</span>
+                                            Erstellung von modernen Benutzeroberflächen in HTML/CSS und JS/JQuery.
+                                            Umsetzung von Single-Page-Applications mit modernen Frameworks und
+                                            Libraries wie Angular und React.
                                         </p>
                                     </section>
                                     <section>
@@ -66,12 +56,9 @@
                                         </header>
                                         <p>
                                             Definition der Software-Architektur und Entwicklung von komplexen
-                                            Webapplikationen in
-                                            <span class="badge">OO PHP</span>,
-                                            Implementation von Datenwebservices in <span class="badge">C++</span> sowie
+                                            Webapplikationen in OO PHP, Implementation von Datenwebservices in C++ sowie
                                             Planung und Modellierung von komplexen,
-                                            relationalen Datenbankmodellen in <span class="badge">MySQL</span> und <span
-                                                    class="badge">PostgreSQL</span>.
+                                            relationalen Datenbankmodellen in MySQL und PostgreSQL.
                                         </p>
                                     </section>
                                     <section>
@@ -203,12 +190,8 @@
                                         entwickelt mit welcher Mitarbeiter zu Meetings eingeladen, Traktanden erfasst
                                         und
                                         anschliessend ein Protokoll für alle Teilnehmer veröffentlicht werden kann. Als
-                                        Technologien eingesetzt habe ich <span class="badge badge-red">HTML/CSS</span>
-                                        <span class="badge badge-red">JS/JQuery</span>
-                                        <span class="badge badge-red">OO PHP</span>
-                                        <span class="badge badge-red">MySQL</span> und
-                                        <span class="badge badge-red">LaTeX</span>
-                                        um die Dokumentation zu schreiben.
+                                        Technologien eingesetzt habe ich HTML/CSS, JS/JQuery, OO PHP, MySQL und
+                                        LaTeX um die Dokumentation zu schreiben.
                                     </p>
                                     <p>
                                         Im Juli 2013 schloss ich meine Lehre zum Applikationsentwickler EFZ mit der
