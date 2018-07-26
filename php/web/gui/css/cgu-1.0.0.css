@@ -58,6 +58,14 @@ h2 {
     font-weight: normal;
     font-size: 25px;
     letter-spacing: .12em;
+    color: white;
+    background-color: #343a40;
+    padding: 2px 0 2px 5px;
+}
+
+h2.insta {
+    background-color: unset;
+    padding: unset;
 }
 
 h3 {

@@ -21,7 +21,7 @@ foreach ($recent as $snippet) {
                                  class="instagram-profile-picture img-fluid mb-3 .d-sm-none">
                         </div>
                         <div class="col-12 col-sm-10">
-                            <h2><a href="<?php echo CONFIG['instagram']; ?>"
+                            <h2 class="insta"><a href="<?php echo CONFIG['instagram']; ?>"
                                    target="_blank"><?php echo $owner['username']; ?></a></h2>
                             <p>
                                 <span><strong><?php echo $owner['counts']['media']; ?></strong> post</span>
