@@ -14,6 +14,7 @@
                                     <header>
                                         <h3>Marjeta Gurtner</h3>
                                         <p>
+                                            NDS Kulturmanager FH<br>
                                             <a href="https://mg-erfolg.ch" lang="de">https://mg-erfolg.ch</a>
                                         </p>
                                     </header>
