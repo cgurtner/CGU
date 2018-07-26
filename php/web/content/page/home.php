@@ -5,7 +5,7 @@
                 <div class="col pt-5 text-center">
                     <header>
                         <h1>Cyrill Gurtner</h1>
-                        <h2>Software Developer<span class="blink">_</span></h2>
+                        <h2 class="unset-background">Software Developer<span class="blink">_</span></h2>
                     </header>
                     <div class="social-links" itemscope itemtype="http://schema.org/Person">
                         <link itemprop="url" href="<?php echo CONFIG['baseURL']; ?>">

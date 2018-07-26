@@ -63,9 +63,10 @@ h2 {
     padding: 2px 0 2px 5px;
 }
 
-h2.insta {
+h2.unset-background {
     background-color: unset;
     padding: unset;
+    color: inherit;
 }
 
 h3 {
