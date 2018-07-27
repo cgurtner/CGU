@@ -28,7 +28,8 @@
                                         </header>
                                         <p>
                                             Datahouse gehört zu den führenden Anbietern von Daten und Analysen. Wir
-                                            erheben, vernetzen und analysieren Daten für Ihr Unternehmen und entwickeln innovative
+                                            erheben, vernetzen und analysieren Daten für Ihr Unternehmen und entwickeln
+                                            innovative
                                             Web-Applikationen.
                                             Datahouse wurde 2005 als Spin-off-Unternehmen der ETH Zürich gegründet und
                                             ist seit 2014 eine Tochtergesellschaft der Wüest Partner AG.
@@ -97,17 +98,45 @@
                                 </div>
                                 <div class="col-sm-12 col-md-8">
                                     <img src="gui/image/hsr.png" class="img-fluid mb-3"
-                                         alt="Panoramafoto des Schulhaus der Hochschule für Technik Rapperswil"/>
-                                    <p>
-                                        Datahouse gehört zu den führenden Anbietern von Daten und Analysen. Wir erheben,
-                                        vernetzen
-                                        und analysieren Daten für Ihr Unternehmen und entwickeln innovative
-                                        Web-Applikationen.
-                                        Datahouse wurde 2005 als Spin-off-Unternehmen der ETH Zürich gegründet und ist
-                                        seit
-                                        2014
-                                        eine Tochtergesellschaft der Wüest Partner AG.
-                                    </p>
+                                         alt="Panoramafoto Schulhaus der Hochschule für Technik Rapperswil"/>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Inhalt & Schwerpunkte</h4>
+                                        </header>
+                                        <p>
+                                            An der HSR unterrichten kompetente Dozentinnen und Dozenten, die gesuchte
+                                            Fachspezialistinnen und Fachspezialisten auf ihren Gebieten sind. Sie sind
+                                            in international führenden Fachnetzwerken eingebunden und arbeiten an
+                                            zukunftweisenden Informatik-Lösungen. Dabei ist die Studienstruktur
+                                            vielseitig und richtet sich nach individuellen Interessen.
+                                        </p>
+                                        <p>
+                                            Das Informatikstudium bietet eine Modulauswahl aus folgenden 4 Studienschwerpunkten.
+                                            Application Design, Data Engineering & Machine Intelligence, Networks & Security und
+                                            Software Engineering.
+                                        </p>
+                                        <p>
+                                            Ich konzentriere mich weitestgehend auf Module aus den Spezialisierungen
+                                            Application Design und Software Engineering. 
+                                        </p>
+                                    </section>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Praxisnähe</h4>
+                                        </header>
+                                        <p>
+                                            Das Studium an der HSR hat einen starken Praxisbezug. Die Brücke zur
+                                            Berufswelt wird während des Studiums durch Übungen, Projekt- und
+                                            Bachelor-Arbeiten sowie durch Vorträge von Fach- und Führungskräften zu
+                                            Trendthemen der Informatik geschlagen. Wie ein roter Faden zieht sich der
+                                            Anwendungsbezug durch die Vorlesungen, wo Problemstellungen und Lösungen
+                                            aus Unternehmen diskutiert werden.
+                                        </p>
+                                        <p>
+                                            Gerade für Teilzeitstudenten die bereits aus der Praxis kommen wie ich eine
+                                            ideale, fachliche Ergänzung!
+                                        </p>
+                                    </section>
                                 </div>
                             </div>
                         </section>
