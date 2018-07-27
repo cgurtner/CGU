@@ -111,13 +111,19 @@
                                             vielseitig und richtet sich nach individuellen Interessen.
                                         </p>
                                         <p>
-                                            Das Informatikstudium bietet eine Modulauswahl aus folgenden 4 Studienschwerpunkten.
-                                            Application Design, Data Engineering & Machine Intelligence, Networks & Security und
+                                            Das Informatikstudium bietet eine Modulauswahl aus folgenden vier
+                                            Studienschwerpunkten.
+                                            Application Design, Data Engineering & Machine Intelligence, Networks &
+                                            Security und
                                             Software Engineering.
                                         </p>
                                         <p>
                                             Ich konzentriere mich weitestgehend auf Module aus den Spezialisierungen
-                                            Application Design und Software Engineering. 
+                                            Application Design und Software Engineering.
+                                        </p>
+                                        <p>
+                                            Haben Sie Fragen zu meinem Studium und Fähigkeiten in den einzelnen Fachbereichen?
+                                            Nehmen Sie <a href="kontakt">Kontakt</a> mit mir auf!
                                         </p>
                                     </section>
                                     <section>
@@ -133,7 +139,8 @@
                                             aus Unternehmen diskutiert werden.
                                         </p>
                                         <p>
-                                            Gerade für Teilzeitstudenten die bereits aus der Praxis kommen wie ich eine
+                                            Gerade für Teilzeitstudenten die bereits in die Berufswelt integriert sind
+                                            wie ich, eine
                                             ideale, fachliche Ergänzung!
                                         </p>
                                     </section>
