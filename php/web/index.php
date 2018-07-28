@@ -28,9 +28,9 @@ $pageTitle = 'Cyrill Gurtner';
 if ($page['url'] === 'home') {
     $pageTitle = $pageTitle . ' | Software Developer';
 } else if ($page['url'] !== 'home' && $page['type'] === 'page') {
-    $pageTitle = $page['title'] . ' | ' . $pageTitle;
+    $pageTitle = $page['meta']['title'] . ' | ' . $pageTitle;
 } else if ($page['type'] === 'blog') {
-    $pageTitle = $page['title'] . ' | Blog | ' . $pageTitle;
+    $pageTitle = $page['meta']['title'] . ' | Blog | ' . $pageTitle;
 }
 
 ?>
@@ -39,11 +39,12 @@ if ($page['url'] === 'home') {
     <html lang="de">
     <head>
         <base href="<?php echo CONFIG['baseURL']; ?>">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <link rel="icon" href="gui/image/favicon.png" />
-        <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="gui/css/fontawesome-all.min.css"/>
-        <link rel="stylesheet" href="gui/css/cgu-1.0.0.css"/>
+        <meta charset="utf-8">
+        <meta name="description" content="<?php echo $page['meta']['description']; ?>">
+        <link rel="icon" href="gui/image/favicon.png">
+        <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="gui/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="gui/css/cgu-1.0.0.css">
         <title><?php echo $pageTitle; ?></title>
     </head>
     <body>

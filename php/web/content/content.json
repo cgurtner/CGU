@@ -1,6 +1,9 @@
 [
   {
-    "title": "Home",
+    "meta": {
+      "title": "Home",
+      "description": ""
+    },
     "url": "home",
     "path": "content/page/home.php",
     "type": "page",
@@ -8,7 +11,11 @@
     "disabled": false
   },
   {
-    "title": "Werdegang",
+    "meta": {
+      "title": "Werdegang",
+      "description": ""
+    },
+    "description": "",
     "url": "werdegang",
     "path": "content/page/werdegang.php",
     "type": "page",
@@ -16,7 +23,11 @@
     "disabled": false
   },
   {
-    "title": "Projekte",
+    "meta": {
+      "title": "Projekte",
+      "description": ""
+    },
+    "description": "",
     "url": "projekte",
     "path": "content/page/projekte.php",
     "type": "page",
@@ -24,7 +35,11 @@
     "disabled": false
   },
   {
-    "title": "Gallerie",
+    "meta": {
+      "title": "Gallerie",
+      "description": ""
+    },
+    "description": "",
     "url": "gallerie",
     "path": "content/page/gallerie.php",
     "type": "page",
@@ -32,7 +47,11 @@
     "disabled": false
   },
   {
-    "title": "Blog",
+    "meta": {
+      "title": "Blog",
+      "description": ""
+    },
+    "description": "",
     "url": "blog",
     "path": "content/page/blog.php",
     "type": "page",
@@ -40,7 +59,11 @@
     "disabled": true
   },
   {
-    "title": "Test Blog 1",
+    "meta": {
+      "title": "Test Blog 1",
+      "description": ""
+    },
+    "description": "",
     "url": "blog/test-1",
     "path": "content/page/blog/test-1.php",
     "type": "blog",
@@ -53,7 +76,11 @@
     }
   },
   {
-    "title": "Kontakt",
+    "meta": {
+      "title": "Kontakt",
+      "description": ""
+    },
+    "description": "",
     "url": "kontakt",
     "path": "content/page/kontakt.php",
     "type": "page",

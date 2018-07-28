@@ -12,14 +12,14 @@ if ($page['type'] === 'blog') {
 
     $breadLinks .= '<li class="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">';
     $breadLinks .= '<a href="' . $page['url'] . '" property="item" typeof="WebPage">';
-    $breadLinks .= $page['title'];
+    $breadLinks .= $page['meta']['title'];
     $breadLinks .= '</a>';
     $breadLinks .= '<meta property="position" content="3">';
     $breadLinks .= '</li>';
 } else {
     $breadLinks .= '<li class="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">';
     $breadLinks .= '<a href="' . $page['url'] . '" property="item" typeof="WebPage">';
-    $breadLinks .= $page['title'];
+    $breadLinks .= $page['meta']['title'];
     $breadLinks .= '</a>';
     $breadLinks .= '<meta property="position" content="2">';
     $breadLinks .= '</li>';
@@ -29,7 +29,7 @@ if ($page['type'] === 'blog') {
 <header>
     <div class="row">
         <div class="col pt-5 h1-box">
-            <h1><?php echo $page['title']; ?></h1>
+            <h1><?php echo $page['meta']['title']; ?></h1>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
                     <?php echo $breadLinks; ?>

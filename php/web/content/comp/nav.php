@@ -13,7 +13,7 @@
                         continue;
                     }
                     $active = getActive($p, $page['url']);
-                    echo '<a href="' . $p['url'] . '" hreflang="de" class="nav-item nav-link ' . $active . '">' . $p['title'] . '</a>';
+                    echo '<a href="' . $p['url'] . '" hreflang="de" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
                 }
                 ?>
             </div>

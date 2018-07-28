@@ -12,7 +12,7 @@
                             <div class="row">
                                 <div class="col-sm-12 col-md-4">
                                     <header>
-                                        <h3>Datahouse AG</h3>
+                                        <h3>Datahouse AG</h3>p
                                         <p>
                                             September 2011 - heute<br>
                                             Software Developer<br>
