@@ -2,7 +2,7 @@
   {
     "meta": {
       "title": "Home",
-      "description": ""
+      "description": "Ich, Cyrill Gurtner, bin ein Programmierer aus der Schweiz. Selbstständig tätig sowie angestellt als Software Developer realisiere ich Applikationen mit modernsten Technologien."
     },
     "url": "home",
     "path": "content/page/home.php",
@@ -13,9 +13,8 @@
   {
     "meta": {
       "title": "Werdegang",
-      "description": ""
+      "description": "Von der Lehrstelle zum Applikationsentwickler zum Studium der Informatik und währenddessen angestellt als Software Developer. Lesen Sie hier meinen vollständigen Werdegang."
     },
-    "description": "",
     "url": "werdegang",
     "path": "content/page/werdegang.php",
     "type": "page",
@@ -25,9 +24,8 @@
   {
     "meta": {
       "title": "Projekte",
-      "description": ""
+      "description": "Web-Applikationen, Software-Architekturen, Datenbanken, Trendthemen und vieles mehr. Machen Sie sich anhand meiner Beispielprojekte ein Bild von meinen Fähigkeiten."
     },
-    "description": "",
     "url": "projekte",
     "path": "content/page/projekte.php",
     "type": "page",
@@ -37,9 +35,8 @@
   {
     "meta": {
       "title": "Gallerie",
-      "description": ""
+      "description": "Die Öffentliche Instagram Gallerie von mir."
     },
-    "description": "",
     "url": "gallerie",
     "path": "content/page/gallerie.php",
     "type": "page",
@@ -51,11 +48,10 @@
       "title": "Blog",
       "description": ""
     },
-    "description": "",
     "url": "blog",
     "path": "content/page/blog.php",
     "type": "page",
-    "display": true,
+    "display": false,
     "disabled": true
   },
   {
@@ -63,7 +59,6 @@
       "title": "Test Blog 1",
       "description": ""
     },
-    "description": "",
     "url": "blog/test-1",
     "path": "content/page/blog/test-1.php",
     "type": "blog",
@@ -78,7 +73,7 @@
   {
     "meta": {
       "title": "Kontakt",
-      "description": ""
+      "description": "Web-Applikationen, Software-Architekturen, Datenbanken. Ich bin ein Ansprechpartner für viele technische Themen. Nehmen Sie Kontakt mit mir auf!"
     },
     "description": "",
     "url": "kontakt",
