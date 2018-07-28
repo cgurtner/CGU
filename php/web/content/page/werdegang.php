@@ -140,8 +140,7 @@
                                         </p>
                                         <p>
                                             Gerade für Teilzeitstudenten die bereits in die Berufswelt integriert sind
-                                            wie ich, eine
-                                            ideale, fachliche Ergänzung!
+                                            wie ich, eine ideale, fachliche Ergänzung!
                                         </p>
                                     </section>
                                 </div>
