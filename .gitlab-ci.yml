@@ -13,8 +13,9 @@ before_script:
 - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
 - mkdir ~/.ssh
 - eval $(ssh-agent -s)
-- echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
-- scp -P 2121 php/web/sitemap.php cygu.ch:httpdocs/
+- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+- mkdir -p ~/.ssh
+- chmod 700 ~/.ssh
 
 deploy:
   script:
