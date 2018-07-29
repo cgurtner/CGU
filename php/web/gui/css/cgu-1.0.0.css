@@ -76,7 +76,6 @@ h3 {
 }
 
 h4.inline {
-    display: inline;
     font-size: inherit;
     font-weight: bold;
 }
@@ -91,6 +90,14 @@ img.avatar {
     border-radius: 50%;
     border: 2px solid #343a40;
     width: 225px;
+}
+
+p {
+    margin-bottom: .5rem;
+}
+
+section p:last-of-type {
+    margin-bottom: 1rem;
 }
 
 img.insta-thumb {

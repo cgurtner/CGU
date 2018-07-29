@@ -112,7 +112,7 @@ function checkContactForm()
         $ret['data'][$field] = readPostParam($field);
         $ret['err'][$field . '-empty'] = checkIfNotEmpty($ret['data'][$field]);
         if ($field == 'email') {
-            $ret['err'][$field . '-invalid'] = checkEmail($ret['data'][$field]);
+            $recgt['err'][$field . '-invalid'] = checkEmail($ret['data'][$field]);
         }
     }
     return $ret;
