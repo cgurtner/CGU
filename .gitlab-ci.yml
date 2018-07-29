@@ -1,6 +1,7 @@
 image: php:7.2
 
 before_script:
+- apt-get update && apt-get install -y git zip unzip
 - cd php/web
 - curl -sS https://getcomposer.org/installer | php
 - php composer.phar install
