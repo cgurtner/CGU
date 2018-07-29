@@ -19,4 +19,4 @@ before_script:
 
 deploy:
   script:
-    - cat /root/.ssh/id_rsa && cat /root/.ssh/id_rsa.pub
+    - scp -P 2121 php/web/sitemap.php cygu.ch:httpdocs:/
