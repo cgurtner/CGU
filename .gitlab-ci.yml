@@ -6,6 +6,10 @@ before_script:
 - curl -sS https://getcomposer.org/installer | php
 - php composer.phar install
 - cd ../../ && pwd
+- 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+- eval $(ssh-agent -s)
+- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+- scp -P 2121 php/web/sitemap.php cygu.ch:httpdocs/
 
 deploy:
   script:
