@@ -3,3 +3,5 @@ before_script:
 - php composer.phar install
 
 deploy:
+  script:
+    - ./cd-cleanup
