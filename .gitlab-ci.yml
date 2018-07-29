@@ -10,16 +10,16 @@ before_script:
 #
 # SSH
 #
+
 - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
 - mkdir ~/.ssh
 - eval $(ssh-agent -s)
 - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
 - mkdir -p ~/.ssh
 - chmod 700 ~/.ssh
-
 - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
 - chmod 644 ~/.ssh/known_hosts
 
 deploy:
   script:
-    - ssh -p2121 cygu@cygu.ch
+    - scp -P 2121 php/web/sitemap.php cygu@cygu.ch:httpdocs/
