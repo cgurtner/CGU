@@ -1,13 +1,13 @@
 stages:
   - deploy
 
-production:
+prod:
   stage: deploy
   image: php:7.2
   only:
     - master
   script:
-    - ./.prod.gitlab.sh
+    - ./.gitlab-deploy-prod
     - ssh -p2121 cygu@cygu.ch 'rm -rf httpdocs;'
     - scp -P 2121 -r php/web cygu@cygu.ch:httpdocs
   before_script:
