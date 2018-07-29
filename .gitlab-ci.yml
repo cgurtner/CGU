@@ -22,4 +22,5 @@ before_script:
 
 deploy:
   script:
-    - scp -P 2121 php/web/sitemap.php cygu@cygu.ch:httpdocs/
+    - ssh -p2121 cygu@cygu.ch 'rm -rf httpdocs; mkdir httpdocs;'
+    - scp -P 2121 php/web/* cygu@cygu.ch:httpdocs/
