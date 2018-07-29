@@ -1,26 +1,25 @@
-image: php:7.2
+stages:
+  - deploy
 
-before_script:
-- apt-get update && apt-get install -y git zip unzip
-- cd php/web
-- curl -sS https://getcomposer.org/installer | php
-- php composer.phar install
-- cd ../../ && pwd
-
-#
-# SSH
-#
-
-- 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-- mkdir ~/.ssh
-- eval $(ssh-agent -s)
-- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
-- mkdir -p ~/.ssh
-- chmod 700 ~/.ssh
-- echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-- chmod 644 ~/.ssh/known_hosts
-
-deploy:
+deploy_production:
+  stage: deploy
+  image: php:7.2
+  only: master
   script:
+    - ./.prod.gitlab.sh
     - ssh -p2121 cygu@cygu.ch 'rm -rf httpdocs; mkdir httpdocs;'
     - scp -P 2121 -r php/web/* cygu@cygu.ch:httpdocs/
+  before_script:
+    - apt-get update && apt-get install -y git zip unzip
+    - cd php/web
+    - curl -sS https://getcomposer.org/installer | php
+    - php composer.phar install
+    - cd ../../ && pwd
+    - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+    - mkdir ~/.ssh
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts

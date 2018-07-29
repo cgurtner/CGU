@@ -1,5 +1,10 @@
 RewriteEngine on
 
+<Files "config.json">
+Order Allow,Deny
+Deny from all
+</Files>
+
 RewriteRule ^gui/.* - [L]
 RewriteRule ^files/.* - [L]
 RewriteRule ^vendor/.* - [L]
