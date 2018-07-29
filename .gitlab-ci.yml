@@ -6,12 +6,16 @@ before_script:
 - curl -sS https://getcomposer.org/installer | php
 - php composer.phar install
 - cd ../../ && pwd
+
+#
+# SSH
+#
 - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
 - eval $(ssh-agent -s)
-- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | /root/.ssh/id_rsa
+- cat /root/.ssh/id_rsa
 - scp -P 2121 php/web/sitemap.php cygu.ch:httpdocs/
 
 deploy:
   script:
-    - ssh-keygen -t rsa -f /root/.ssh/id_rsa -C "GitLab" -b 4096
     - cat /root/.ssh/id_rsa && cat /root/.ssh/id_rsa.pub
