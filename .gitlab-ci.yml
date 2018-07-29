@@ -23,4 +23,4 @@ before_script:
 deploy:
   script:
     - ssh -p2121 cygu@cygu.ch 'rm -rf httpdocs; mkdir httpdocs;'
-    - scp -P 2121 php/web/* cygu@cygu.ch:httpdocs/
+    - scp -P 2121 -r php/web/* cygu@cygu.ch:httpdocs/
