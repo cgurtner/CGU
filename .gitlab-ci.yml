@@ -9,4 +9,4 @@ before_script:
 
 deploy:
   script:
-    - ./cd-cleanup
+    - ./.prod.gitlab.sh

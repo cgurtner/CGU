@@ -1,0 +1,24 @@
+{
+  "baseURL": "https://cygu.ch/",
+  "rsa-fingerprint": "59:01:f2:63:42:19:5b:59:1e:13:35:f1:96:ca:f2:e5",
+  "rsa-link": "files/id_rsa.pub.txt",
+  "email": {
+    "to": {
+      "address": "biz@cygu.ch"
+    },
+    "from": {
+      "address": "no-reply@cygu.ch",
+      "name": "Cyrill Gurtner"
+    },
+    "smtp": {
+      "host": "antiqua.sui-inter.net",
+      "user": "no-reply@cygu.ch",
+      "password": "cAcHAc&A3#4AmcAHsCAKa"
+    }
+  },
+  "facebook": "https://www.facebook.com/cygu.ch",
+  "instagram": "https://www.instagram.com/cygu.ch",
+  "instagram-token": "7650242573.7951fc1.54d866b4abf645fda3bdbc8af590d0a9",
+  "gitlab": "https://gitlab.com/cygu.ch",
+  "paypal": "https://paypal.me/cygu"
+}
