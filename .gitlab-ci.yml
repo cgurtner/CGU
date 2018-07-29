@@ -4,7 +4,8 @@ stages:
 deploy_production:
   stage: deploy
   image: php:7.2
-  only: master
+  only:
+    - master
   script:
     - ./.prod.gitlab.sh
     - ssh -p2121 cygu@cygu.ch 'rm -rf httpdocs; mkdir httpdocs;'
