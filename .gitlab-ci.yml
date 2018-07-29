@@ -12,7 +12,7 @@ before_script:
 #
 - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
 - eval $(ssh-agent -s)
-- echo "$SSH_PRIVATE_KEY" | tr -d '\r' | /root/.ssh/id_rsa
+- echo "$SSH_PRIVATE_KEY" | tr -d '\r' > /root/.ssh/id_rsa
 - cat /root/.ssh/id_rsa
 - scp -P 2121 php/web/sitemap.php cygu.ch:httpdocs/
 
