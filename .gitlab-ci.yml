@@ -2,7 +2,7 @@ image: php:7.2
 
 before_script:
 - curl -sS https://getcomposer.org/installer | php
-- php composer.phar install
+- cd php/web && php composer.phar install && cd
 
 deploy:
   script:
