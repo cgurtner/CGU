@@ -1,5 +1,10 @@
 RewriteEngine on
 
+AuthType Basic
+AuthName "Protected Area"
+AuthUserFile /home/httpd/vhosts/cygu.ch/httpdocs/.htpasswd
+Require valid-user
+
 <Files "config.json">
 Order Allow,Deny
 Deny from all
