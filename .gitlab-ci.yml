@@ -1,8 +1,8 @@
 image: php:7.2
 
 before_script:
-- curl -sS https://getcomposer.org/installer | php
-- cd php/web && php composer.phar install && cd
+- cd php/web && curl -sS https://getcomposer.org/installer | php && ls && pwd
+- cd php/web && php composer.phar install
 
 deploy:
   script:
