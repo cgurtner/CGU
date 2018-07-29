@@ -93,6 +93,12 @@ img.avatar {
     width: 225px;
 }
 
+img.insta-thumb {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 .pt-5 {
     padding-top: 6rem !important;
 }

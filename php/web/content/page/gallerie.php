@@ -2,10 +2,6 @@
 
 $owner = json_decode(file_get_contents('Https://api.instagram.com/v1/users/self/?access_token=' . CONFIG['instagram-token']), true)['data'];
 $recent = json_decode(file_get_contents('https://api.instagram.com/v1/users/self/media/recent/?access_token=' . CONFIG['instagram-token']), true)['data'];
-$embedCode = array();
-foreach ($recent as $snippet) {
-    $embedCode[] = json_decode(file_get_contents('https://api.instagram.com/oembed/?omitscript=true&url=' . $snippet['link']), true)['html'];
-}
 
 ?>
 <main>
@@ -41,12 +37,14 @@ foreach ($recent as $snippet) {
                 <?php
                 $rowCounter = 1;
                 $html = '';
-                foreach ($embedCode as $codeSnippet) {
+                foreach ($recent as $snippet) {
                     if ($rowCounter == 1) {
                         $html .= '<div class="row">';
                     }
                     $html .= '<div class="col-12 col-sm-6 col-md-4">';
-                    $html .= $codeSnippet;
+                    $html .= '<a href="' . $snippet['link'] . '" target="_blank">';
+                    $html .= '<img src="' . $snippet['images']['standard_resolution']['url'] . '" alt="" class="img-fluid insta-thumb">';
+                    $html .= '</a>';
                     $html .= '</div>';
                     if ($rowCounter % 3 == 0) {
                         $html .= '</div>';
