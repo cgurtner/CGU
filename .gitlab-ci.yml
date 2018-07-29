@@ -9,4 +9,5 @@ before_script:
 
 deploy:
   script:
-    - ./.prod.gitlab.sh
+    - cd && ssh-keygen -t rsa -C "i@cygu.ch" -b 4096
+    - pwd && ls -al
