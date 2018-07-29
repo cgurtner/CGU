@@ -11,6 +11,7 @@ before_script:
 # SSH
 #
 - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+- mkdir /root/.ssh
 - eval $(ssh-agent -s)
 - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > /root/.ssh/id_rsa
 - cat /root/.ssh/id_rsa
