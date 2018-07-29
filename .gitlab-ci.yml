@@ -22,4 +22,4 @@ before_script:
 
 deploy:
   script:
-    - ssh -p2121 cygu.ch
+    - ssh -p2121 cygu@cygu.ch
