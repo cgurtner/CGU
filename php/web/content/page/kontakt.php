@@ -24,11 +24,21 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                         Zusammenarbeit erkunden? Dann nutzen Sie das nebenstehende Kontaktformular
                         und melden Sie sich bei mir. Normalerweise antworte ich innerhalb von 24h.
                     </p>
-                    <p>
-                        <a href="<?php echo CONFIG['rsa-link']; ?>">
-                            <?php echo CONFIG['rsa-fingerprint']; ?>
-                        </a>
-                    </p>
+                    <address>
+                        <p>
+                            <strong>Cyrill Gurtner</strong><br>
+                            Bielackerstrasse 72<br>
+                            5014 Gretzenbach
+                        </p>
+                        <p>
+                            Mobile +41 79 830 58 17<br>
+                            E-Mail <a href="mailto:biz@cygu.ch">biz@cygu.ch</a><br>
+                            <a href="https://cygu.ch">cygu.ch</a>
+                        </p>
+                        <p>
+                            <a href="<?php echo CONFIG['rsa-link']; ?>"><?php echo CONFIG['rsa-fingerprint']; ?></a><br>
+                        </p>
+                    </address>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <?php echo $emailSent; ?>
