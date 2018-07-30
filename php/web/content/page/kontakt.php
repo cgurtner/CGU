@@ -19,37 +19,16 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
             <?php include_once("content/comp/header.php"); ?>
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                    et
-                    ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                    ipsum
-                    dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                    dolore
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                    Stet
-                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                    et
-                    ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                    ipsum
-                    dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                    dolore
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                    Stet
-                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                    et
-                    ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                    ipsum
-                    dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-                    dolore
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                    Stet
-                    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
+                    <p>
+                        Sie haben fachliche Fragen oder möchten sich über eine mögliche
+                        Zusammenarbeit erkunden? Dann nutzen Sie das nebenstehende Kontaktformular
+                        und melden Sie sich bei mir. Normalerweise antworte ich innerhalb von 24h.
+                    </p>
+                    <p>
+                        <a href="<?php echo CONFIG['rsa-link']; ?>">
+                            <?php echo CONFIG['rsa-fingerprint']; ?>
+                        </a>
+                    </p>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <?php echo $emailSent; ?>

@@ -55,7 +55,7 @@
                                         </p>
                                         <p>
                                             In der serverseitigen Implementation kommen keine Libraries oder Frameworks
-                                            von Drittpersonen vor. Der Code ist zu 100% eine Eigenentwicklung und wird
+                                            von Drittpersonen zum Einsatz. Der Code ist zu 100% eine Eigenentwicklung und wird
                                             dies auch in weiteren Versionen bleiben.
                                         </p>
                                     </section>
