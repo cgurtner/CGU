@@ -35,9 +35,6 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                             E-Mail <a href="mailto:biz@cygu.ch">biz@cygu.ch</a><br>
                             <a href="https://cygu.ch">cygu.ch</a>
                         </p>
-                        <p>
-                            <a href="<?php echo CONFIG['rsa-link']; ?>"><?php echo CONFIG['rsa-fingerprint']; ?></a><br>
-                        </p>
                     </address>
                 </div>
                 <div class="col-sm-12 col-md-6">
