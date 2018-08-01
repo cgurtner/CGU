@@ -9,7 +9,7 @@ prod:
   script:
     - ./.gitlab-deploy-prod
     - scp -P 2121 -rv php/web cygu@cygu.ch:.httpdocs
-    - ssh -p2121 cygu@cygu.ch 'rm -rfv httpdocs && mv -v .httpdocs httpdocs && rm -rfv .httpdocs;'
+    - ssh -p2121 cygu@cygu.ch 'rm -rfv httpdocs && mv -v .httpdocs httpdocs;'
 
   before_script:
     - apt-get update && apt-get install -y git zip unzip
