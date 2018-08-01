@@ -8,7 +8,7 @@ prod:
     - master
   script:
     - ./.gitlab-deploy-prod
-    - scp -P 2121 -r php/web cygu@cygu.ch:tmp/web
+    - scp -P 2121 -rv php/web cygu@cygu.ch:tmp/web
     - ssh -p2121 cygu@cygu.ch 'rm -rfv httpdocs;'
     - ssh -p2121 cygu@cygu.ch 'cp -rv tmp/web httpdocs;'
     - ssh -p2121 cygu@cygu.ch 'rm -rfv tmp/*;'
