@@ -19,13 +19,12 @@ prod:
     # install composer
     - curl -sS https://getcomposer.org/installer | php
     - php composer.phar install
-    - cd ../../
+    - cd ~
 
     # install openssh-client
     # create .ssh directory
     # add SSH_PRIVATE_KEY and SSH_KNOWN_HOSTS from gitlab.com variable
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
-    - mkdir ~/.ssh
     - eval $(ssh-agent -s)
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
     - mkdir -p ~/.ssh
