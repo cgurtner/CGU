@@ -6,6 +6,7 @@ prod:
   image: php:7.2
   only:
     - master
+
   script:
     - ./.gitlab-deploy-prod
     - scp -P 2121 -rv php/web cygu@cygu.ch:.httpdocs
@@ -14,9 +15,15 @@ prod:
   before_script:
     - apt-get update && apt-get install -y git zip unzip
     - cd php/web
+
+    # install composer
     - curl -sS https://getcomposer.org/installer | php
     - php composer.phar install
-    - cd ../../ && pwd
+    - cd ../../
+
+    # install openssh-client
+    # create .ssh directory
+    # add SSH_PRIVATE_KEY and SSH_KNOWN_HOSTS from gitlab.com variable
     - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
     - mkdir ~/.ssh
     - eval $(ssh-agent -s)
