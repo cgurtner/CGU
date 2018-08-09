@@ -19,7 +19,7 @@ prod:
     # install composer
     - curl -sS https://getcomposer.org/installer | php
     - php composer.phar install
-    - cd ~
+    - cd ../../
 
     # install openssh-client
     # create .ssh directory
