@@ -1,8 +1,21 @@
 <?php
 
+session_start();
+
 define("CONFIG", json_decode(file_get_contents("config.json"), true));
 define("PAGES", json_decode(file_get_contents("content/content.json"), true));
 define("LANG", "de");
+
+if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {
+    session_unset();
+    session_destroy();
+}
+
+if (!isset($_SESSION['instagram_owner'])) {
+    $_SESSION['instagram_owner'] = json_decode(file_get_contents('Https://api.instagram.com/v1/users/self/?access_token=' . CONFIG['instagram-token']), true)['data'];
+}
+
+$_SESSION['LAST_ACTIVITY'] = time();
 
 $pageURL = null;
 if (isset($_GET['page']) && trim($_GET['page']) != "") {
@@ -42,7 +55,7 @@ if ($page['url'] === 'home') {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="<?php echo $page['meta']['description']; ?>">
-        <link rel="icon" href="gui/image/favicon.png">
+        <link rel="icon" href="<?php echo $_SESSION['instagram_owner']['profile_picture']; ?>">
         <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="gui/css/fontawesome-all.min.css">
         <link rel="stylesheet" href="gui/css/cgu-1.0.0.css">
