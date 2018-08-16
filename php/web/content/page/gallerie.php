@@ -17,7 +17,7 @@ $recent = json_decode(file_get_contents('https://api.instagram.com/v1/users/self
                         </div>
                         <div class="col-12 col-sm-10">
                             <h2><a href="<?php echo CONFIG['instagram']; ?>"
-                                   target="_blank"><?php echo $owner['username']; ?></a></h2>
+                                   target="_blank"><?php echo $_SESSION['instagram_owner']['username']; ?></a></h2>
                             <p>
                                 <span><strong><?php echo $_SESSION['instagram_owner']['counts']['media']; ?></strong> post</span>
                                 <span><strong><?php echo $_SESSION['instagram_owner']['counts']['followed_by']; ?></strong> follower</span>

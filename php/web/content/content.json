@@ -51,8 +51,8 @@
     "url": "blog",
     "path": "content/page/blog.php",
     "type": "page",
-    "display": false,
-    "disabled": true
+    "display": true,
+    "disabled": false
   },
   {
     "meta": {
@@ -63,7 +63,7 @@
     "path": "content/page/blog/test-1.php",
     "type": "blog",
     "display": false,
-    "disabled": true,
+    "disabled": false,
     "info": {
       "date": "2018-08-25 20:05:00",
       "title": "asdaksjdalskdj alskdj alskdj",
