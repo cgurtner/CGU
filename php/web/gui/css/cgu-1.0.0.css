@@ -24,6 +24,10 @@ a:hover, button.collapse-button:hover {
     text-decoration: unset;
 }
 
+a.last-nav-item {
+    padding-right: unset !important;
+}
+
 button[type="submit"] {
     background-color: #be1622;
     border: unset;
