@@ -34,17 +34,6 @@
   },
   {
     "meta": {
-      "title": "Gallerie",
-      "description": "Die Öffentliche Instagram Gallerie von mir."
-    },
-    "url": "gallerie",
-    "path": "content/page/gallerie.php",
-    "type": "page",
-    "display": false,
-    "disabled": true
-  },
-  {
-    "meta": {
       "title": "Blog",
       "description": ""
     },
