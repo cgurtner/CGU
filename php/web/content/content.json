@@ -40,8 +40,8 @@
     "url": "gallerie",
     "path": "content/page/gallerie.php",
     "type": "page",
-    "display": true,
-    "disabled": false
+    "display": false,
+    "disabled": true
   },
   {
     "meta": {

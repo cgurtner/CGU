@@ -13,7 +13,7 @@ $recent = json_decode(file_get_contents('https://api.instagram.com/v1/users/self
                         <div class="col-sm-2 d-none d-sm-block">
                             <img src="<?php echo $_SESSION['instagram_owner']['profile_picture']; ?>"
                                  alt="Cyrill Gurtner Instagram Profilbild"
-                                 class="instagram-profile-picture img-fluid mb-3 .d-sm-none">
+                                 class="instagram-profile-picture img-fluid mb-3">
                         </div>
                         <div class="col-12 col-sm-10">
                             <h2><a href="<?php echo CONFIG['instagram']; ?>"

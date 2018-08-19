@@ -6,7 +6,7 @@
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <?php
                     $pageCount = countPossiblePages();
@@ -25,6 +25,20 @@
                     }
                     ?>
                 </div>
+                <ul class="navbar-nav ml-md-auto d-none d-lg-inline-flex">
+                    <li class="nav-item">
+                        <a href="<?php echo CONFIG['gitlab']; ?>" class="nav-link" target="_blank"><i class="fab fa-gitlab"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link last-nav-item" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-md-auto d-lg-none">
+                    <li class="nav-item">
+                        <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link" style="display: unset;"><i class="fab fa-gitlab"></i></a>
+                        <a href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link" style="display: unset;"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
