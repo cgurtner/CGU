@@ -35,8 +35,8 @@
                 </ul>
                 <ul class="navbar-nav ml-md-auto d-lg-none">
                     <li class="nav-item">
-                        <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link" style="display: unset;"><i class="fab fa-gitlab"></i></a>
-                        <a href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link" style="display: unset;"><i class="fab fa-instagram"></i></a>
+                        <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link" style="display: inline-block;"><i class="fab fa-gitlab"></i></a>
+                        <a href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link" style="display: inline-block; margin-left: 5px;"><i class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
