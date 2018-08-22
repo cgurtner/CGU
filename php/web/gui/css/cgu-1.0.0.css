@@ -1,10 +1,22 @@
 html, body {
     font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
-    color: #343a40;
+    color: #323232 !important;
     font-size: 15px;
     letter-spacing: .12em;
     background-color: #fafafa;
     height: 100%;
+}
+
+.navbar-dark {
+    background-color: #323232 !important;
+}
+
+.nav-link:hover {
+    color: #fafafa !important;
+}
+
+.nav-link.active {
+    color: #fafafa !important;
 }
 
 main.fs-bg {
