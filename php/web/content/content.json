@@ -45,13 +45,25 @@
   },
   {
     "meta": {
+      "title": "Kontakt",
+      "description": "Web-Applikationen, Software-Architekturen, Datenbanken. Ich bin ein Ansprechpartner für viele technische Themen. Nehmen Sie Kontakt mit mir auf!"
+    },
+    "description": "",
+    "url": "kontakt",
+    "path": "content/page/kontakt.php",
+    "type": "page",
+    "display": true,
+    "disabled": false
+  },
+  {
+    "meta": {
       "title": "Blog",
       "description": ""
     },
     "url": "blog",
     "path": "content/page/blog.php",
     "type": "page",
-    "display": true,
+    "display": false,
     "disabled": false
   },
   {
@@ -64,18 +76,6 @@
     "path": "content/page/blog/test-1.php",
     "type": "blog",
     "display": false,
-    "disabled": false
-  },
-  {
-    "meta": {
-      "title": "Kontakt",
-      "description": "Web-Applikationen, Software-Architekturen, Datenbanken. Ich bin ein Ansprechpartner für viele technische Themen. Nehmen Sie Kontakt mit mir auf!"
-    },
-    "description": "",
-    "url": "kontakt",
-    "path": "content/page/kontakt.php",
-    "type": "page",
-    "display": true,
     "disabled": false
   }
 ]
