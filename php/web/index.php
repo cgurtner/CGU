@@ -44,6 +44,8 @@ if ($page['url'] === 'home') {
     $pageTitle = $page['meta']['title'] . ' | ' . $pageTitle;
 } else if ($page['type'] === 'blog') {
     $pageTitle = $page['meta']['title'] . ' | Blog | ' . $pageTitle;
+} else if ($page['type'] == 'project') {
+    $pageTitle = $page['meta']['title'] . ' | Projekte | ' . $pageTitle;
 }
 
 ?>
