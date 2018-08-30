@@ -16,6 +16,18 @@ if ($page['type'] === 'blog') {
     $breadLinks .= '</a>';
     $breadLinks .= '<meta property="position" content="3">';
     $breadLinks .= '</li>';
+} else if ($page['type'] == 'project') {
+    $breadLinks .= '<li class="breadcrumb-item" property="itemListElement" typeof="ListItem">';
+    $breadLinks .= '<a property="item" typeof="WebPage" href="projekte">Projekte</a>';
+    $breadLinks .= '<meta property="position" content="2">';
+    $breadLinks .= '</li>';
+
+    $breadLinks .= '<li class="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">';
+    $breadLinks .= '<a href="' . $page['url'] . '" property="item" typeof="WebPage">';
+    $breadLinks .= $page['meta']['title'];
+    $breadLinks .= '</a>';
+    $breadLinks .= '<meta property="position" content="3">';
+    $breadLinks .= '</li>';
 } else {
     $breadLinks .= '<li class="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">';
     $breadLinks .= '<a href="' . $page['url'] . '" property="item" typeof="WebPage">';

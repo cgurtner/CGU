@@ -47,7 +47,8 @@ function getActive($page, $url)
     $ret = '';
     if (
         $page['url'] == $url ||
-        $page['url'] === 'blog' && strpos($url, 'blog') === 0
+        $page['url'] === 'blog' && strpos($url, 'blog') === 0 ||
+        $page['url'] === 'projekte' && strpos($url, 'projekte') === 0
     ) {
         $ret = 'active';
     }
