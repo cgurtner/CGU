@@ -54,28 +54,5 @@
     "type": "page",
     "display": true,
     "disabled": false
-  },
-  {
-    "meta": {
-      "title": "Blog",
-      "description": ""
-    },
-    "url": "blog",
-    "path": "content/page/blog.php",
-    "type": "page",
-    "display": false,
-    "disabled": false
-  },
-  {
-    "meta": {
-      "title": "GitLab CD via SSH",
-      "date": "2018-08-25 20:05:00",
-      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-    },
-    "url": "blog/gitlab-cd-via-ssh",
-    "path": "content/page/blog/test-1.php",
-    "type": "blog",
-    "display": false,
-    "disabled": false
   }
 ]
