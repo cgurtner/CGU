@@ -20,13 +20,13 @@
                 </div>
                 <ul class="navbar-nav ml-md-auto d-none d-lg-inline-flex">
                     <li class="nav-item">
-                        <a href="blog" class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Mein Blog"
-                           itemprop="sameAs"><i class="fas fa-rss-square"></i></a>
-                    </li>
-                    <li class="nav-item">
                         <a href="<?php echo CONFIG['gitlab']; ?>" class="nav-link" target="_blank" data-toggle="tooltip"
                            data-placement="bottom" title="Mein GitLab"><i
                                     class="fab fa-gitlab"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog" class="nav-link" data-toggle="tooltip" data-placement="bottom" title="Mein Blog"
+                           itemprop="sameAs"><i class="fas fa-rss-square"></i></a>
                     </li>
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link last-nav-item" target="_blank"
@@ -36,9 +36,11 @@
                 </ul>
                 <ul class="navbar-nav ml-md-auto d-lg-none">
                     <li class="nav-item">
-                        <a href="blog" class="nav-link" style="display: inline-block;"><i class="fas fa-rss-square"></i></a>
+
                         <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link"
-                           style="display: inline-block; margin-left: 3px;"><i class="fab fa-gitlab"></i></a>
+                           style="display: inline-block;"><i class="fab fa-gitlab"></i></a>
+                        <a href="blog" class="nav-link" style="display: inline-block; margin-left: 3px;"><i
+                                    class="fas fa-rss-square"></i></a>
                         <a href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link"
                            style="display: inline-block; margin-left: 3px;"><i class="fab fa-instagram"></i></a>
                     </li>
