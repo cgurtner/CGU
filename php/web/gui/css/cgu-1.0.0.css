@@ -66,25 +66,18 @@ span.badge {
 h1 {
     font-size: 40px;
     font-weight: 700;
-    letter-spacing: 9px;
+    letter-spacing: .12em;
     text-transform: uppercase;
 }
 
 h3 {
     font-weight: normal;
     font-size: 20px;
-    letter-spacing: .12em;
 }
 
 h4.inline {
     font-size: inherit;
     font-weight: bold;
-}
-
-h5 {
-    font-weight: normal;
-    font-size: 15px;
-    letter-spacing: .12em;
 }
 
 div.thumbBg {
