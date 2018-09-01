@@ -9,8 +9,8 @@ prod:
 
   script:
     - ./.gitlab-deploy-prod
-    - scp -P 2121 -rv php/web cgu@cygu.ch:subdomain/.test.cygu.ch
-    - ssh -p2121 cgu@cygu.ch 'rm -rfv subdomain/test.cygu.ch && mv -v subdomain/.test.cygu.ch subdomain/test.cygu.ch'
+    - scp -P 2121 -rv php/web cgu@cgurtner.ch:subdomain/.test.cgurtner.ch
+    - ssh -p2121 cgu@cgurtner.ch 'rm -rfv subdomain/test.cgurtner.ch && mv -v subdomain/.test.cgurtner.ch subdomain/test.cgurtner.ch'
 
   before_script:
     - apt-get update && apt-get install -y git zip unzip
