@@ -24,7 +24,7 @@
   {
     "meta": {
       "title": "Projekte",
-      "description": "Web-Applikationen, Software-Architekturen, Datenbanken, Trendthemen und vieles mehr. Machen Sie sich anhand meiner Beispielprojekte ein Bild von meinen Fähigkeiten."
+      "description": "Web-Applikationen,g Software-Architekturen, Datenbanken, Trendthemen und vieles mehr. Machen Sie sich anhand meiner Beispielprojekte ein Bild von meinen Fähigkeiten."
     },
     "url": "projekte",
     "path": "content/page/projekte.php",
@@ -41,6 +41,17 @@
     "path": "content/page/projekte/marjeta-gurtner.php",
     "type": "project",
     "display": false,
+    "disabled": false
+  },
+  {
+    "meta": {
+      "title": "Gallerie",
+      "description": ""
+    },
+    "url": "gallerie",
+    "path": "content/page/gallerie.php",
+    "type": "page",
+    "display": true,
     "disabled": false
   },
   {

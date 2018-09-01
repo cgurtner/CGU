@@ -144,12 +144,23 @@ section p:last-of-type {
     margin-bottom: 1rem;
 }
 
+h2.insta-title {
+    font-weight: unset;
+}
+
+img.insta-profile-picture {
+	border-radius: 100px;
+	border: solid 1px #efefef;
+	display: block;
+	margin: 10px auto;
+}
+
 img.insta-thumb {
     width: 400px;
     height: 400px;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: solid 1px #efefef;
 }
 
 .pt-5 {
