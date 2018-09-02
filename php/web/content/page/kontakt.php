@@ -32,8 +32,9 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                         </p>
                         <p>
                             Mobile +41 79 830 58 17<br>
-                            E-Mail <a href="mailto:biz@cygu.ch">biz@cygu.ch</a><br>
-                            <a href="https://cygu.ch">cygu.ch</a>
+                            E-Mail <a
+                                    href="mailto:<?php echo CONFIG['email']['to']['address']; ?>"><?php echo CONFIG['email']['to']['address']; ?></a><br>
+                            <a href="<?php echo CONFIG['baseUrl']; ?>"><?php echo CONFIG['baseUrlAsShown']; ?></a>
                         </p>
                     </address>
                 </div>

@@ -16,8 +16,8 @@
                                         <p>
                                             Kontinuierlich<br>
                                             Software Developer<br>
-                                            <a href="<?php echo CONFIG['base_url']; ?>" hreflang="de"
-                                               target="_blank">cygu.ch</a>
+                                            <a href="<?php echo CONFIG['baseUrl']; ?>" hreflang="de"
+                                               target="_blank"><?php echo CONFIG['baseUrlAsShown']; ?></a>
                                         </p>
                                     </header>
                                 </div>

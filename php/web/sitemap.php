@@ -12,7 +12,7 @@ foreach (PAGES as $p) {
     if ($p['disabled']) {
         continue;
     }
-    $url = CONFIG['baseURL'] . $p['url'];
+    $url = CONFIG['baseUrl'] . $p['url'];
     $output .= '<url>' . "\n";
     $output .= '<loc>' . $url . '</loc>' . "\n";
     $output .= '</url>' . "\n";

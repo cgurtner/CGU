@@ -53,7 +53,7 @@ if ($page['url'] === 'home') {
 
     <html lang="de">
     <head>
-        <base href="<?php echo CONFIG['baseURL']; ?>">
+        <base href="<?php echo CONFIG['baseUrl']; ?>">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="<?php echo $page['meta']['description']; ?>">
