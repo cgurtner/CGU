@@ -98,14 +98,16 @@ function sendEmail($input)
         $mail->isHTML(false);
 
         $now = new DateTime();
-        $mail->Subject = 'Kontaktaufnahme vom ' . $now->format('d.m.Y H:i:s');
-        $mail->Body = 'Kontaktaufnahme vom ' . $now->format('d.m.Y H:i:s') . "\n\n";
+        $mail->Subject = 'CGU / Kontaktaufnahme ' . $now->format('d.m.Y H:i:s');
+        $mail->Body = 'CGU / Kontaktaufnahme ' . $now->format('d.m.Y H:i:s') . "\n\n";
         foreach ($input['data'] as $contactKey => $contactData) {
             $nBreak = '';
+            $bBreak = '';
             if ($contactKey == 'message') {
+                $bBreak .= "\n";
                 $nBreak .= "\n";
             }
-            $mail->Body .= $contactKey . ': ' . $nBreak . $contactData . "\n";
+            $mail->Body .= $bBreak . $contactKey . ': ' . $nBreak . $contactData . "\n";
         }
         if ($mail->send()) {
             return true;
