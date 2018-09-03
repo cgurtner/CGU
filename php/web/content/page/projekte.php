@@ -7,7 +7,7 @@
                     <div class="col-sm-6">
                         <div class="thumbBg">
                             <img src="gui/image/projekte/marjeta-gurtner.png" class="img-fluid img-project"/>
-                            <div class="overlay">
+                            <div class="overlay" style="background-color: #392690;">
                                 <header>
                                     <div class="text">
                                         <h2>Marjeta Gurtner</h2>
