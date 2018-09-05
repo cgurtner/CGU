@@ -182,16 +182,6 @@ div.container {
     max-width: 1000px;
 }
 
-.blink {
-    animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
 ol.breadcrumb {
     padding: unset;
     background-color: unset;
