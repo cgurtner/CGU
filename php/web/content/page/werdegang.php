@@ -12,40 +12,6 @@
                             <div class="row">
                                 <div class="col-sm-12 col-md-4">
                                     <header>
-                                        <h3>Selbstständigkeit</h3>
-                                        <p>
-                                            Kontinuierlich<br>
-                                            Software Developer<br>
-                                            <a href="<?php echo CONFIG['baseUrl']; ?>" hreflang="de"
-                                               target="_blank"><?php echo CONFIG['baseUrlAsShown']; ?></a>
-                                        </p>
-                                    </header>
-                                </div>
-                                <div class="col-sm-12 col-md-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Selbstständigkeit als Full-Stack Software Developer</h4>
-                                        </header>
-                                        <p>
-                                            Datahouse gehört zu den führenden Anbietern von Daten und Analysen. Wir
-                                            erheben, vernetzen und analysieren Daten für Ihr Unternehmen und entwickeln
-                                            innovative
-                                            Web-Applikationen.
-                                            Datahouse wurde 2005 als Spin-off-Unternehmen der ETH Zürich gegründet und
-                                            ist seit 2014 eine Tochtergesellschaft der Wüest Partner AG.
-                                        </p>
-                                        <p>
-                                            Meine Tätigkeits- und Aufgabenbereiche umfassen als Software Developer unter
-                                            anderem die folgenden.
-                                        </p>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-sm-12 col-md-4">
-                                    <header>
                                         <h3>Datahouse AG</h3>
                                         <p>
                                             September 2011 - heute<br>
