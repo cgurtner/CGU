@@ -14,7 +14,7 @@
                                     class="fab fa-gitlab"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link last-nav-item" target="_blank"
+                        <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link" target="_blank"
                            data-toggle="tooltip" data-placement="bottom" title="Mein Instagram"><i
                                     class="fab fa-instagram"></i></a>
                     </li>

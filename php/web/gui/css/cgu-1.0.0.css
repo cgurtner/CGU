@@ -36,7 +36,7 @@ a:hover, button.collapse-button:hover {
     text-decoration: unset;
 }
 
-a.last-nav-item {
+div.navbar-nav a:last-of-type {
     padding-right: unset !important;
 }
 
