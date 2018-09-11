@@ -6,7 +6,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
     if (sendEmail($contactForm)) {
         $contactForm = null;
         $emailSent = '<div class="alert alert-success">';
-        $emailSent .= 'Danke für Deine Nachricht! Normalerweise melde ich mich innerhalb von 48h bei Dir.';
+        $emailSent .= 'Danke für Ihre Nachricht! Normalerweise melde ich mich innerhalb von 48 Stunden.';
         $emailSent .= '</div>';
     }
 }
@@ -22,7 +22,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                     <p>
                         Sie haben fachliche Fragen oder möchten sich über eine mögliche
                         Zusammenarbeit erkunden? Dann nutzen Sie das nebenstehende Kontaktformular
-                        und melden Sie sich bei mir. Normalerweise antworte ich innerhalb von 24h.
+                        und melden Sie sich bei mir. Normalerweise antworte ich innerhalb von 48 Stunden.
                     </p>
                     <address>
                         <p>
