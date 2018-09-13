@@ -14,7 +14,7 @@
                                     <header>
                                         <h3>Datahouse AG</h3>
                                         <p>
-                                            September 2011 - heute<br>
+                                            Sept. 2011 - heute<br>
                                             Software Developer<br>
                                             <a href="https://www.datahouse.ch/" hreflang="de"
                                                target="_blank">datahouse.ch</a>
@@ -90,7 +90,7 @@
                                     <header>
                                         <h3>Hochschule für Technik Rapperswil</h3>
                                         <p>
-                                            September 2016 - heute<br>
+                                            Sept. 2016 - Sept. 2018<br>
                                             BSc FHO in Informatik<br>
                                             <a href="https://www.hsr.ch/" hreflang="de" target="_blank">hsr.ch</a>
                                         </p>
@@ -152,7 +152,7 @@
                                     <header>
                                         <h3>AKAD College</h3>
                                         <p>
-                                            August 2013 - Februar 2015<br>
+                                            Aug. 2013 - Feb. 2015<br>
                                             Eidg. Tech. Berufsmaturität<br>
                                             <a href="https://www.akad.ch/de-CH" hreflang="de"
                                                target="_blank">akad.ch</a>
@@ -187,7 +187,7 @@
                                     <header>
                                         <h3>Informatikschule Olten</h3>
                                         <p>
-                                            Juli 2009 - Juli 2013<br>
+                                            Jul. 2009 - Jul. 2013<br>
                                             Applikationsentwickler EFZ<br>
                                             <a href="https://www.informatikschuleolten.ch/" hreflang="de"
                                                target="_blank">informatikschuleolten.ch</a>
