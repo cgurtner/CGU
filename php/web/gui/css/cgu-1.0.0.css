@@ -139,6 +139,10 @@ p {
     margin-bottom: .5rem;
 }
 
+p.underline {
+    text-decoration: underline;
+}
+
 section p:last-of-type {
     margin-bottom: 1rem;
 }

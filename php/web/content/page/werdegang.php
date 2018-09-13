@@ -128,19 +128,11 @@
                                     </section>
                                     <section>
                                         <header>
-                                            <h4 class="inline">Praxisnähe</h4>
+                                            <h4 class="inline">Abbruch</h4>
                                         </header>
-                                        <p>
-                                            Das Studium an der HSR hat einen starken Praxisbezug. Die Brücke zur
-                                            Berufswelt wird während des Studiums durch Übungen, Projekt- und
-                                            Bachelor-Arbeiten sowie durch Vorträge von Fach- und Führungskräften zu
-                                            Trendthemen der Informatik geschlagen. Wie ein roter Faden zieht sich der
-                                            Anwendungsbezug durch die Vorlesungen, wo Problemstellungen und Lösungen
-                                            aus Unternehmen diskutiert werden.
-                                        </p>
-                                        <p>
-                                            Gerade für Teilzeitstudenten die bereits in die Berufswelt integriert sind
-                                            wie ich, eine ideale, fachliche Ergänzung!
+                                        <p class="underline">
+                                            Im September 2018 entschied ich mich, eigenen fachlichen-, und Projektinterressen
+                                            zu folgen und brach das Studium ab.
                                         </p>
                                     </section>
                                 </div>
