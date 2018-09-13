@@ -128,11 +128,12 @@
                                     </section>
                                     <section>
                                         <header>
-                                            <h4 class="inline">Abbruch</h4>
+                                            <h4 class="inline">Austritt ohne Abschluss</h4>
                                         </header>
                                         <p class="underline">
-                                            Im September 2018 entschied ich mich, eigenen fachlichen-, und Projektinterressen
-                                            zu folgen und brach das Studium ab.
+                                            Im September 2018 entschied ich mich, meinen Fokus auf eigene Projekte und
+                                            fachliche Themengebiete zu richten und trat deshalb ohne Abschluss aus der
+                                            HSR aus.
                                         </p>
                                     </section>
                                 </div>
