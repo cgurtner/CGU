@@ -121,19 +121,19 @@
                                             Ich konzentriere mich weitestgehend auf Module aus den Spezialisierungen
                                             Application Design und Software Engineering.
                                         </p>
-                                        <p>
-                                            Haben Sie Fragen zu meinem Studium und Fähigkeiten in den einzelnen Fachbereichen?
-                                            Nehmen Sie <a href="kontakt">Kontakt</a> mit mir auf!
-                                        </p>
                                     </section>
                                     <section>
                                         <header>
-                                            <h4 class="inline">Austritt ohne Abschluss</h4>
+                                            <h4 class="inline">Austritt</h4>
                                         </header>
-                                        <p class="underline">
-                                            Im September 2018 entschied ich mich, meinen Fokus auf eigene Projekte und
-                                            fachliche Themengebiete zu richten und trat deshalb ohne Abschluss aus der
-                                            HSR aus.
+                                        <p>
+                                            Im September 2018 entschied ich mich, meinen Fokus auf eigene Projekte
+                                            und Kundenbeziehungen zu richten und trat deshalb ohne Abschluss
+                                            aus der HSR aus.
+                                        </p>
+                                        <p>
+                                            Haben Sie Fragen zu meinem Studium und Fähigkeiten in den einzelnen Fachbereichen?
+                                            Nehmen Sie <a href="kontakt">Kontakt</a> mit mir auf!
                                         </p>
                                     </section>
                                 </div>
