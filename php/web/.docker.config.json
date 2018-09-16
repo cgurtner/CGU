@@ -3,7 +3,7 @@
   "baseUrlAsShown": "localhost:8000",
   "email": {
     "to": {
-      "address": "biz@cgurtner.ch"
+      "address": "me@cgurtner.ch"
     },
     "from": {
       "address": "no-reply@cgurtner.ch",
