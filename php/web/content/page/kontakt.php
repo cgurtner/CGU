@@ -28,12 +28,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                         <p>
                             <strong>Cyrill Gurtner</strong><br>
                             Bielackerstrasse 72<br>
-                            5014 Gretzenbach
-                        </p>
-                        <p>
-                            Mobile +41 79 830 58 17<br>
-                            E-Mail <a
-                                    href="mailto:<?php echo CONFIG['email']['to']['address']; ?>"><?php echo CONFIG['email']['to']['address']; ?></a><br>
+                            5014 Gretzenbach<br>
                             <a href="<?php echo CONFIG['baseUrl']; ?>"><?php echo CONFIG['baseUrlAsShown']; ?></a>
                         </p>
                     </address>
