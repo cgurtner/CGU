@@ -1,6 +1,6 @@
 html, body {
     font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
-    color: #232323 !important;
+    color: #323232 !important;
     font-size: 15px;
     letter-spacing: .12em;
     background-color: #fafafa;
@@ -8,7 +8,7 @@ html, body {
 }
 
 .navbar-dark {
-    background-color: #232323 !important;
+    background-color: #323232 !important;
 }
 
 .nav-link:hover {
