@@ -19,7 +19,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
             <?php include_once("content/comp/header.php"); ?>
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <p>
+                    <p class="mb-3">
                         Sie haben fachliche Fragen oder möchten sich über eine mögliche
                         Zusammenarbeit erkunden? Dann nutzen Sie das nebenstehende Kontaktformular
                         und melden Sie sich bei mir. Normalerweise antworte ich innerhalb von 48 Stunden.
