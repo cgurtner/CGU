@@ -137,6 +137,7 @@ div.thumbBg .text .subtext a:hover {
 
 p {
     margin-bottom: .5rem;
+    text-align: justify;
 }
 
 p.underline {
