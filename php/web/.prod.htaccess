@@ -2,7 +2,7 @@ RewriteEngine on
 
 AuthType Basic
 AuthName "Protected Area"
-AuthUserFile /home/httpd/vhosts/cgurtner.ch/subdomain/test.cgurtner.ch/.htpasswd
+AuthUserFile /home/httpd/vhosts/cgurtner.ch/httpdocs/subdomain/test.cgurtner.ch/.htpasswd
 Require valid-user
 
 <Files "config.json">
