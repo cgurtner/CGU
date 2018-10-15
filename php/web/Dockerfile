@@ -9,5 +9,10 @@ php -r "if (hash_file('SHA384', 'composer-setup.php') === '93b54496392c062774670
 php composer-setup.php && \
 php -r "unlink('composer-setup.php');"
 
+RUN cd /tmp && curl -L https://github.com/sass/dart-sass/releases/download/1.14.1/dart-sass-1.14.1-linux-x64.tar.gz --output sass.tar.gz && \
+tar xvf sass.tar.gz && \
+ln -s /tmp/dart-sass/sass /bin/sass && \
+rm -f sass.tar.gz
+
 RUN ln -s /tmp/composer.phar /bin/composer
 RUN cd /var/www/html/
