@@ -29,8 +29,9 @@ prod:
     - ln -s /tmp/dart-sass/sass /bin/sass
     - rm -f sass.tar.gz
 
-    - cd ~/
+    - cd
     - pwd
+    - ls -lh
 
     # install openssh-client
     # create .ssh directory
