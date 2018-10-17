@@ -29,6 +29,9 @@ prod:
     - ln -s /tmp/dart-sass/sass /bin/sass
     - rm -f sass.tar.gz
 
+    - cd ~/
+    - pwd
+
     # install openssh-client
     # create .ssh directory
     # add SSH_PRIVATE_KEY and SSH_KNOWN_HOSTS from gitlab.com variable
