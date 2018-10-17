@@ -62,7 +62,7 @@ span.badge {
 
 .form-control {
   color: $dark !important;
-  border-color: $light-dark !important;
+  border-color: $light-dark;
 }
 
 .form-control:focus {
@@ -72,6 +72,10 @@ span.badge {
 
 .form-control.is-invalid {
     border-color: $highlight;
+}
+
+.form-control.is-invalid:focus {
+  box-shadow: 0px 0px 0px $highlight inset, 0px 0px 5px $highlight-dark;
 }
 
 h1 {
