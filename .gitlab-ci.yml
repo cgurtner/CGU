@@ -24,14 +24,15 @@ prod:
     - ln -s /tmp/composer.phar /bin/composer
 
     # install sass
-    - cd /tmp
     - curl -L https://github.com/sass/dart-sass/releases/download/1.14.1/dart-sass-1.14.1-linux-x64.tar.gz --output sass.tar.gz
     - tar xvf sass.tar.gz
     - rm -f sass.tar.gz
     - ln -s /tmp/dart-sass/sass /bin/sass
 
-    - cd /builds/cgurtner.ch/CGU
-    - pwd
+    - cd /builds/cgurtner.ch/CGU/php/web
+    - composer install
+    - sass gui/scss/web.scss:gui/css/web.css
+    - cd /builds/cgurtner.ch/CGU/
 
     # install openssh-client
     # create .ssh directory
@@ -43,5 +44,3 @@ prod:
     - chmod 700 ~/.ssh
     - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
-    - cd ~/
-    - ls -la
