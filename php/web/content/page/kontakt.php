@@ -27,6 +27,9 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                     <address>
                         <p>
                             <strong>Cyrill Gurtner</strong><br>
+                            Software Developer
+                        </p>
+                        <p>
                             Bielackerstrasse 72<br>
                             5014 Gretzenbach<br>
                             <a href="<?php echo CONFIG['baseUrl']; ?>"><?php echo CONFIG['baseUrlAsShown']; ?></a>
