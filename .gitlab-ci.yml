@@ -14,13 +14,11 @@ prod:
 
   before_script:
     - apt-get update && apt-get install -y git zip unzip
-    - cd php/web
-    - pwd
+    - cd /tmp
 
     # install composer
     - curl -sS https://getcomposer.org/installer | php
     - php composer.phar install
-    - cd ../../
 
     # install sass
     - cd /tmp
@@ -29,9 +27,8 @@ prod:
     - ln -s /tmp/dart-sass/sass /bin/sass
     - rm -f sass.tar.gz
 
-    - cd
+    - cd /builds/cgurtner.ch/CGU
     - pwd
-    - ls -lh
 
     # install openssh-client
     # create .ssh directory
@@ -43,3 +40,5 @@ prod:
     - chmod 700 ~/.ssh
     - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
+    - cd ~/
+    - ls -la
