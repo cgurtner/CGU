@@ -166,6 +166,19 @@ h2.insta-title {
     font-weight: unset;
 }
 
+div.insta-row div:first-of-type {
+  padding-right: 0px;
+}
+
+div.insta-row div:nth-of-type(2) {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+div.insta-row div:last-of-type {
+  padding-left: 0px;
+}
+
 img.insta-profile-picture {
 	border-radius: 100px;
 	border: solid 1px $light-dark;
@@ -176,7 +189,7 @@ img.insta-profile-picture {
 img.insta-thumb {
     width: 100%;
     object-fit: cover;
-    margin-bottom: 1rem;
+    margin-bottom: 7.5px;
     border: solid 1px $light-dark;
 }
 
