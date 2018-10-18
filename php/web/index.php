@@ -4,7 +4,6 @@ session_start();
 
 define("CONFIG", json_decode(file_get_contents("config.json"), true));
 define("PAGES", json_decode(file_get_contents("content/content.json"), true));
-define("LANG", "de");
 
 if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {
     session_unset();
