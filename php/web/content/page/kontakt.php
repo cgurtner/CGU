@@ -37,7 +37,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                     </address>
                     <p>
                         <strong>Cryptographic Data</strong><br>
-                        <a href="gui/file/id_rsa.pub">SSH-RSA</a>
+                        <a href="file/id_rsa.pub">SSH-RSA</a>
                     </p>
                 </div>
                 <div class="col-sm-12 col-md-6">
