@@ -32,7 +32,7 @@ foreach (PAGES as $p) {
 
 if ($page == null || $page['disabled'] || !file_exists($page['path'])) {
     header("HTTP/1.0 404 Not Found");
-    include("gui/not-found-404.html");
+    include("gui/template/not-found-404.html");
     die();
 }
 
