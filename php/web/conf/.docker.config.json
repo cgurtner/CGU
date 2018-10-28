@@ -1,4 +1,5 @@
 {
+  "system": "dev",
   "baseUrl": "http://localhost:8000/",
   "baseUrlAsShown": "localhost:8000",
   "email": {

@@ -5,6 +5,12 @@ session_start();
 define("CONFIG", json_decode(file_get_contents("config.json"), true));
 define("PAGES", json_decode(file_get_contents("content/content.json"), true));
 
+// enable error reporting for dev system
+if (CONFIG['system'] == 'dev') {
+    error_reporting(-1);
+    ini_set('display_errors', 1);
+}
+
 if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {
     session_unset();
     session_destroy();
@@ -14,7 +20,7 @@ if (!isset($_SESSION['instagram_owner'])) {
     $_SESSION['instagram_owner'] = json_decode(file_get_contents('https://api.instagram.com/v1/users/self/?access_token=' . CONFIG['instagram-token']), true)['data'];
 }
 
-$_SESSION['LAST_coACTIVITY'] = time();
+$_SESSION['LAST_ACTIVITY'] = time();
 
 $pageURL = null;
 if (isset($_GET['page']) && trim($_GET['page']) != "") {
