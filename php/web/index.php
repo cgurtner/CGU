@@ -14,7 +14,7 @@ if (!isset($_SESSION['instagram_owner'])) {
     $_SESSION['instagram_owner'] = json_decode(file_get_contents('https://api.instagram.com/v1/users/self/?access_token=' . CONFIG['instagram-token']), true)['data'];
 }
 
-$_SESSION['LAST_ACTIVITY'] = time();
+$_SESSION['LAST_coACTIVITY'] = time();
 
 $pageURL = null;
 if (isset($_GET['page']) && trim($_GET['page']) != "") {
@@ -155,4 +155,3 @@ function checkEmail($email)
     }
     return true;
 }
-
