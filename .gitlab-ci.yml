@@ -31,7 +31,7 @@ prod:
 
     - cd /builds/cgurtner.ch/CGU/php/web
     - composer install
-    - sass gui/scss/web.scss:gui/css/web.css
+    - sass gui/scss:gui/css
     - cd /builds/cgurtner.ch/CGU/
 
     # install openssh-client
