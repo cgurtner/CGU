@@ -1,5 +1,6 @@
 <?php
 
+$owner = json_decode(file_get_contents('https://api.instagram.com/v1/users/self/?access_token=' . CONFIG['instagram-token']), true)['data'];
 $recent = json_decode(file_get_contents('https://api.instagram.com/v1/users/self/media/recent/?access_token=' . CONFIG['instagram-token']), true)['data'];
 
 ?>
@@ -11,22 +12,24 @@ $recent = json_decode(file_get_contents('https://api.instagram.com/v1/users/self
                 <header>
                     <div class="row">
                         <div class="col-sm-2 d-none d-sm-block">
-                            <img src="<?php echo $_SESSION['instagram_owner']['profile_picture']; ?>"
+                            <img src="<?php echo $owner['profile_picture']; ?>"
                                  alt="Cyrill Gurtner Instagram Profilbild"
                                  class="insta-profile-picture img-fluid">
                         </div>
                         <div class="col-12 col-sm-10">
                             <h2 class="insta-title"><a href="<?php echo CONFIG['instagram']; ?>"
-                                   target="_blank"><?php echo $_SESSION['instagram_owner']['username']; ?></a></h2>
+                                                       target="_blank"><?php echo $owner['username']; ?></a></h2>
                             <p>
-                                <span><strong><?php echo $_SESSION['instagram_owner']['counts']['media']; ?></strong> post</span>
-                                <span><strong><?php echo $_SESSION['instagram_owner']['counts']['followed_by']; ?></strong> follower</span>
-                                <span><strong><?php echo $_SESSION['instagram_owner']['counts']['follows']; ?></strong> following</span>
+                                <span><strong><?php echo $owner['counts']['media']; ?></strong> post</span>
+                                <span><strong><?php echo $owner['counts']['followed_by']; ?></strong> follower</span>
+                                <span><strong><?php echo $owner['counts']['follows']; ?></strong> following</span>
                             </p>
                             <p>
-                                <span><strong><?php echo $_SESSION['instagram_owner']['full_name']; ?></strong></span><br/>
+                                <span><strong><?php echo $owner['full_name']; ?></strong></span><br/>
                                 <?php
-                                echo str_replace(CONFIG['email']['to']['address'], '<a href="mailto:' . CONFIG['email']['to']['address'] . '">' . CONFIG['email']['to']['address'] . '</a>', nl2br($_SESSION['instagram_owner']['bio']));
+                                echo str_replace(CONFIG['email']['to']['address'], '<a href="mailto:' . CONFIG['email']['to']['address'] . '">'
+                                    . CONFIG['email']['to']['address']
+                                    . '</a>', nl2br($owner['bio']));
                                 ?>
                             </p>
                         </div>
