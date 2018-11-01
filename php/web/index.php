@@ -49,7 +49,7 @@ if ($page['url'] === 'home') {
         <link rel="icon" href="">
         <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="gui/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="gui/css/web.css?i=<?php echo uniqid(); ?>">
+        <link rel="stylesheet" href="gui/css/web.css">
         <title><?php echo $pageTitle; ?></title>
     </head>
     <body>
@@ -57,7 +57,7 @@ if ($page['url'] === 'home') {
     <?php include_once($page['path']); ?>
     <script src="gui/js/jquery.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="gui/js/web.js?i=<?php echo uniqid(); ?>"></script>
+    <script src="gui/js/web.js"></script>
     </body>
     </html>
 <?php

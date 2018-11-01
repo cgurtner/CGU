@@ -1,8 +1,11 @@
+/* main colors */
 $dark: #232323;
 $light: #fafafa;
-$light-dark: #e5e5e5;
 $highlight: #be1622;
 $highlight-dark: #990000;
+
+/* colors for light borders in form inputs and image thumbnails */
+$light-dark: #e5e5e5;
 
 html, body {
     font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
@@ -184,6 +187,10 @@ img.insta-profile-picture {
 	border: solid 1px $light-dark;
 	display: block;
 	margin: 10px auto;
+}
+
+div.insta-profile-picture-container {
+    padding-right: unset;
 }
 
 img.insta-thumb {

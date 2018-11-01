@@ -11,7 +11,7 @@ $recent = json_decode(file_get_contents('https://api.instagram.com/v1/users/self
             <section>
                 <header>
                     <div class="row">
-                        <div class="col-sm-2 d-none d-sm-block">
+                        <div class="col-sm-2 d-none d-sm-block insta-profile-picture-container">
                             <img src="<?php echo $owner['profile_picture']; ?>"
                                  alt="Cyrill Gurtner Instagram Profilbild"
                                  class="insta-profile-picture img-fluid">
