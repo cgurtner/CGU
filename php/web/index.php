@@ -1,5 +1,7 @@
 <?php
-
+/*
+ * REMOVE CSS UNIQID HACK!!!!!
+ */
 session_start();
 
 define("CONFIG", json_decode(file_get_contents("config.json"), true));
@@ -49,7 +51,7 @@ if ($page['url'] === 'home') {
         <link rel="icon" href="">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="gui/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="gui/css/web-1.0.0.css">
+        <link rel="stylesheet" href="gui/css/web-1.0.0.css?<?php echo uniqid(); ?>">
         <title><?php echo $pageTitle; ?></title>
     </head>
     <body>
