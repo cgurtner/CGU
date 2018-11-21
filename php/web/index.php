@@ -59,7 +59,7 @@ if ($page['url'] === 'home') {
     <?php include_once($page['path']); ?>
     <script src="gui/js/jquery-3.3.1.js"></script>
     <script src="vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="gui/js/web-1.0.0.js"></script>
+    <script src="gui/js/web-1.0.0.js<?php echo uniqid(); ?>"></script>
     </body>
     </html>
 <?php
