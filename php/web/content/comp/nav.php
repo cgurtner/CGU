@@ -14,6 +14,11 @@
                                     class="fab fa-gitlab"></i></a>
                     </li>
                     <li class="nav-item">
+                        <a href="<?php echo CONFIG['spotify']; ?>" class="nav-link" target="_blank"
+                           data-toggle="tooltip" data-placement="bottom" title="Mein Spotify"><i
+                                    class="fab fa-spotify"></i></a>
+                    </li>
+                    <li class="nav-item">
                         <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link" target="_blank"
                            data-toggle="tooltip" data-placement="bottom" title="Mein Instagram"><i
                                     class="fab fa-instagram"></i></a>
@@ -34,6 +39,8 @@
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link"
                            style="display: inline-block;"><i class="fab fa-gitlab"></i></a>
+                        <a href="<?php echo CONFIG['spotify']; ?>" target="_blank" class="nav-link"
+                           style="display: inline-block; margin-left: 3px;"><i class="fab fa-spotify"></i></a>
                         <a href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link"
                            style="display: inline-block; margin-left: 3px;"><i class="fab fa-instagram"></i></a>
                     </li>
