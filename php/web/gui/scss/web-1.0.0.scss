@@ -104,6 +104,11 @@ h4.inline {
     font-weight: bold;
 }
 
+div.dark-card {
+    background-color: $dark;
+    color: $light;
+}
+
 div.thumbBg {
     position: relative;
 }
@@ -195,6 +200,10 @@ img.insta-profile-picture {
 	margin: 10px auto;
 }
 
+img.rounded-circle {
+    border: solid 1px $dark;
+}
+
 div.insta-profile-picture-container {
     padding-right: unset;
 }
@@ -208,6 +217,10 @@ img.insta-thumb {
 
 .pt-5 {
     padding-top: 6rem !important;
+}
+
+.pb-6 {
+    padding-bottom: 6rem !important;
 }
 
 button.collapse-button {

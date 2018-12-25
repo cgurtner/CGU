@@ -49,7 +49,7 @@ if ($page['url'] === 'home') {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="<?php echo $page['meta']['description']; ?>">
         <link rel="icon" href="">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="gui/css/fontawesome-all.min.css">
         <link rel="stylesheet" href="gui/css/web-1.0.0.css?<?php echo uniqid(); ?>">
         <title><?php echo $pageTitle; ?></title>
