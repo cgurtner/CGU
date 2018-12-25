@@ -5,13 +5,12 @@ find . -name 'docker-compose.yml' -delete
 find . -name 'README.md' -delete
 find . -name '.htaccess' -delete
 find . -name 'config.json' -delete
-find . -name '.docker.*' -delete
+find . -name '*.docker.*' -delete
 find . -name 'composer.*' -delete
 find . -name 'Dockerfile' -delete
 
-mv php/web/conf/.prod.config.json php/web/config.json
-mv php/web/conf/.prod.htaccess php/web/.htaccess
-mv php/web/conf/.prod.htpasswd php/web/.htpasswd
+mv php/web/config/.prod.config.json php/web/config/config.json
+mv php/web/config/.prod.htaccess php/web/.htaccess
+mv php/web/config/.prod.htpasswd php/web/.htpasswd
 
 rm -rf php/web/gui/scss
-rm -rf php/web/conf

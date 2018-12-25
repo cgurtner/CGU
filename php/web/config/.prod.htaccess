@@ -5,15 +5,9 @@ AuthName "Protected Area"
 AuthUserFile /home/httpd/vhosts/cgurtner.ch/httpdocs/subdomain/test.cgurtner.ch/.htpasswd
 Require valid-user
 
-<Files "config.json">
-Order Allow,Deny
-Deny from all
-</Files>
-
 RewriteRule ^gui/.* - [L]
 RewriteRule ^file/.* - [L]
 RewriteRule ^vendor/.* - [L]
-RewriteRule ^robots.txt$ - [L]
 
 RewriteRule ^sitemap.xml$ sitemap.php [L]
 RewriteRule ^sitemap.php$ - [L]

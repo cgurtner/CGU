@@ -4,7 +4,7 @@
  */
 session_start();
 
-define("CONFIG", json_decode(file_get_contents("config.json"), true));
+define("CONFIG", json_decode(file_get_contents("config/config.json"), true));
 define("PAGES", json_decode(file_get_contents("content/content.json"), true));
 
 // enable error reporting for dev system
