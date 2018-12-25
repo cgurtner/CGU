@@ -200,8 +200,8 @@ img.insta-profile-picture {
 	margin: 10px auto;
 }
 
-img.rounded-circle {
-    border: solid 1px $dark;
+img.rounded-circle:hover {
+    cursor: pointer;
 }
 
 div.insta-profile-picture-container {
