@@ -1,8 +1,13 @@
 <?php
 
-define("CONFIG", json_decode(file_get_contents("config.json"), true));
+define("CONFIG", json_decode(file_get_contents("config/config.json"), true));
 define("PAGES", json_decode(file_get_contents("content/content.json"), true));
-define("LANG", "de");
+
+// enable error reporting for dev system
+if (CONFIG['system'] == 'dev') {
+    error_reporting(-1);
+    ini_set('display_errors', 1);
+}
 
 $output = '';
 $output .= '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
