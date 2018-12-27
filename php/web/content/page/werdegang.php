@@ -10,7 +10,7 @@
                         </header>
                         <section>
                             <div class="row">
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-12 col-sm-4">
                                     <header>
                                         <h3>Datahouse AG</h3>
                                         <p>
@@ -21,7 +21,7 @@
                                         </p>
                                     </header>
                                 </div>
-                                <div class="col-sm-12 col-md-8">
+                                <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
                                             <h4 class="inline">Aus Daten werden Informationen</h4>
@@ -86,7 +86,7 @@
                         </header>
                         <section>
                             <div class="row">
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-12 col-sm-4">
                                     <header>
                                         <h3>Hochschule für Technik Rapperswil</h3>
                                         <p>
@@ -96,7 +96,7 @@
                                         </p>
                                     </header>
                                 </div>
-                                <div class="col-sm-12 col-md-8">
+                                <div class="col-12 col-sm-8">
                                     <img src="gui/image/hsr.png" class="img-fluid mb-3"
                                          alt="Panoramafoto Schulhaus der Hochschule für Technik Rapperswil"/>
                                     <section>
@@ -141,7 +141,7 @@
                         </section>
                         <section>
                             <div class="row">
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-12 col-sm-4">
                                     <header>
                                         <h3>AKAD College</h3>
                                         <p>
@@ -152,7 +152,7 @@
                                         </p>
                                     </header>
                                 </div>
-                                <div class="col-sm-12 col-md-8">
+                                <div class="col-12 col-sm-8">
                                     <p>
                                         Um mir den Zugang zu den Fachhochschulen zu ermöglichen absolvierte ich vom
                                         August 2013 bis Februar 2015 die technische Berufsmaturität berufsbegleitend bei
@@ -176,7 +176,7 @@
                         </section>
                         <section>
                             <div class="row">
-                                <div class="col-sm-12 col-md-4">
+                                <div class="col-12 col-sm-4">
                                     <header>
                                         <h3>Informatikschule Olten</h3>
                                         <p>
@@ -187,7 +187,7 @@
                                         </p>
                                     </header>
                                 </div>
-                                <div class="col-sm-12 col-md-8">
+                                <div class="col-12 col-sm-8">
                                     <p>
                                         Im Juli 2009 startete ich meine Ausbildung zum Applikationsentwicker EFZ bei der
                                         <a href="https://www.informatikschuleolten.ch" hreflang="de" target="_blank">Informatikschule

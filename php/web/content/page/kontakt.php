@@ -18,7 +18,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
         <section>
             <?php include_once("content/comp/header.php"); ?>
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-12 col-sm-6">
                     <p class="mb-3">
                         Sie haben fachliche Fragen oder möchten sich über eine mögliche
                         Zusammenarbeit erkunden? Dann nutzen Sie das nebenstehende Kontaktformular
@@ -40,7 +40,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                         <a href="file/id_rsa.pub">SSH-RSA</a>
                     </p>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-12 col-sm-6">
                     <?php echo $emailSent; ?>
                     <form method="post" action="<?php echo $page['url']; ?>">
                         <div class="row">
