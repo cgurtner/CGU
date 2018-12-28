@@ -4,7 +4,7 @@
             <div class="row pt-5">
                 <div class="col-sm-12 col-lg-4">
                     <header>
-                        <img src="../../gui/image/logo-no-name.png">
+                        <img src="../../gui/image/logo-no-name.png" class="img-fluid" alt="Logo von Cyrill Gurtner">
                         <h1 style="letter-spacing: unset; font-size: 37px;"><span
                                     style="font-weight: 300;">Cyrill</span>&nbsp;<span
                                     style="font-weight: 600;">Gurtner</span></h1>
