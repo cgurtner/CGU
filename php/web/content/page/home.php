@@ -2,7 +2,7 @@
     <div class="container">
         <section>
             <div class="row pt-5">
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-12 col-sm-6 col-md-5 text-center">
                     <header>
                         <img src="../../gui/image/logo-no-name.png" class="img-fluid" alt="Logo von Cyrill Gurtner">
                         <h1 style="letter-spacing: unset; font-size: 37px;"><span
@@ -10,8 +10,8 @@
                                     style="font-weight: 600;">Gurtner</span></h1>
                     </header>
                 </div>
-                <div class="col-sm-12 col-lg-8">
-                    <h2>Hi, I'm Cyrill</h2>
+                <div class="col-12 col-sm-6 col-md-7">
+                    <h2 class="text-center text-sm-left">Hi,</h2>
                     <p class="mb-0">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam augue sit amet
                         nulla consequat tempus. Vivamus eu posuere felis, eget imperdiet libero. Mauris interdum
