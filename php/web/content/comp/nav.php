@@ -7,17 +7,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav navbar-nav-social d-none d-lg-inline-flex">
-                    <li class="nav-item">
-                        <a href="<?php echo CONFIG['gitlab']; ?>" class="nav-link" target="_blank" data-toggle="tooltip"
-                           data-placement="bottom" title="Mein GitLab"><i class="fab fa-gitlab"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link" target="_blank"
-                           data-toggle="tooltip" data-placement="bottom" title="Mein Instagram"><i
-                                    class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
                 <div class="navbar-nav ml-md-auto">
                     <?php
                     foreach (PAGES as $p) {
@@ -29,14 +18,6 @@
                     }
                     ?>
                 </div>
-                <ul class="navbar-nav navbar-nav-social ml-md-auto d-lg-none">
-                    <li class="nav-item">
-                        <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link"
-                           style="display: inline-block;"><i class="fab fa-gitlab"></i></a><a
-                                href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link"
-                                style="display: inline-block;"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
             </div>
         </div>
     </nav>

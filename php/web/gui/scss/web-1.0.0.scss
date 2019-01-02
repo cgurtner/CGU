@@ -30,19 +30,6 @@ html, body {
     color: $light !important;
 }
 
-.navbar-expand-lg .navbar-nav-social .nav-link {
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
-}
-
-main.fs-bg {
-    height: 100%;
-    background-image: url("../image/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 a, button.collapse-button {
     color: $highlight;
 }
@@ -114,110 +101,16 @@ div.dark-card {
     color: $light;
 }
 
-div.thumbBg {
-    position: relative;
-}
-
-div.thumbBg img.img-project {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-div.thumbBg .overlay {
-    position: absolute;
-    bottom: 100%;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-}
-
-div.thumbBg:hover .overlay {
-    height: 100%;
-    bottom: 0;
-}
-
-div.thumbBg .text {
-    color: $light;
-    font-size: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    text-align: center;
-}
-
-div.thumbBg .text .title {
-    font-size: 30px;
-}
-
-div.thumbBg .text .subtext {
-    color: rgba(255,255,255,.5);
-}
-
-div.thumbBg .text .subtext a {
-    color: unset;
-}
-
-div.thumbBg .text .subtext a:hover {
-    color: $light;
-}
-
 p {
     margin-bottom: .5rem;
-}
-
-p.underline {
-    text-decoration: underline;
 }
 
 section p:last-of-type {
     margin-bottom: 1rem;
 }
 
-h2.insta-title {
-    font-weight: unset;
-}
-
-div.insta-row div:first-of-type {
-  padding-right: 0px;
-}
-
-div.insta-row div:nth-of-type(2) {
-  padding-left: 7.5px;
-  padding-right: 7.5px;
-}
-
-div.insta-row div:last-of-type {
-  padding-left: 0px;
-}
-
-img.insta-profile-picture {
-	border-radius: 100px;
-	border: solid 1px $light-dark;
-	display: block;
-	margin: 10px auto;
-}
-
 img.rounded-circle:hover {
     cursor: pointer;
-}
-
-div.insta-profile-picture-container {
-    padding-right: unset;
-}
-
-img.insta-thumb {
-    width: 100%;
-    object-fit: cover;
-    margin-bottom: 7.5px;
-    border: solid 1px $light-dark;
 }
 
 .pt-5 {
