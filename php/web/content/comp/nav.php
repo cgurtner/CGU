@@ -7,7 +7,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav d-none d-lg-inline-flex">
+                <ul class="navbar-nav navbar-nav-social d-none d-lg-inline-flex">
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['gitlab']; ?>" class="nav-link" target="_blank" data-toggle="tooltip"
                            data-placement="bottom" title="Mein GitLab"><i class="fab fa-gitlab"></i></a>
@@ -29,7 +29,7 @@
                     }
                     ?>
                 </div>
-                <ul class="navbar-nav ml-md-auto d-lg-none">
+                <ul class="navbar-nav navbar-nav-social ml-md-auto d-lg-none">
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link"
                            style="display: inline-block;"><i class="fab fa-gitlab"></i></a><a
