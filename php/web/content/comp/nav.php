@@ -13,6 +13,11 @@
                            data-placement="bottom" title="Mein GitLab"><i class="fab fa-gitlab"></i></a>
                     </li>
                     <li class="nav-item">
+                        <a href="<?php echo CONFIG['facebook']; ?>" class="nav-link" target="_blank"
+                           data-toggle="tooltip" data-placement="bottom" title="Mein Facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
                         <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link" target="_blank"
                            data-toggle="tooltip" data-placement="bottom" title="Mein Instagram"><i
                                     class="fab fa-instagram"></i></a>
@@ -33,6 +38,8 @@
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link"
                            style="display: inline-block;"><i class="fab fa-gitlab"></i></a><a
+                                href="<?php echo CONFIG['facebook']; ?>" target="_blank" class="nav-link"
+                                style="display: inline-block;"><i class="fab fa-facebook-f"></i></a><a
                                 href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link"
                                 style="display: inline-block;"><i class="fab fa-instagram"></i></a>
                     </li>
