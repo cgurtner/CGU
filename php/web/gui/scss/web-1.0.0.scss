@@ -30,6 +30,11 @@ html, body {
     color: $light !important;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
 main.fs-bg {
     height: 100%;
     background-image: url("../image/bg.jpg");

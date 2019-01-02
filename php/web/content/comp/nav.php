@@ -10,12 +10,11 @@
                 <ul class="navbar-nav d-none d-lg-inline-flex">
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['gitlab']; ?>" class="nav-link" target="_blank" data-toggle="tooltip"
-                           data-placement="bottom" title="Mein GitLab" style="padding-top: 8px;"><i
-                                    class="fab fa-gitlab"></i></a>
+                           data-placement="bottom" title="Mein GitLab"><i class="fab fa-gitlab"></i></a>
                     </li>
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['instagram']; ?>" class="nav-link" target="_blank"
-                           data-toggle="tooltip" data-placement="bottom" title="Mein Instagram" style="padding-top: 8px;"><i
+                           data-toggle="tooltip" data-placement="bottom" title="Mein Instagram"><i
                                     class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
@@ -33,9 +32,9 @@
                 <ul class="navbar-nav ml-md-auto d-lg-none">
                     <li class="nav-item">
                         <a href="<?php echo CONFIG['gitlab']; ?>" target="_blank" class="nav-link"
-                           style="display: inline-block;"><i class="fab fa-gitlab"></i></a>
-                        <a href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link"
-                           style="display: inline-block; margin-left: 3px;"><i class="fab fa-instagram"></i></a>
+                           style="display: inline-block;"><i class="fab fa-gitlab"></i></a><a
+                                href="<?php echo CONFIG['instagram']; ?>" target="_blank" class="nav-link"
+                                style="display: inline-block;"><i class="fab fa-instagram"></i></a>
                     </li>
                 </ul>
             </div>
