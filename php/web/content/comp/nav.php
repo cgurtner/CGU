@@ -7,8 +7,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav navbar-nav-social d-none d-lg-inline-flex">
-                    <?php
+                <ul class="navbar-nav navbar-nav-social d-none d-lg-inline-flex"><?php
                     $socials = '';
                     foreach (CONFIG['socials'] as $social) {
                         $socials .= '<li class="nav-item">';
@@ -18,10 +17,8 @@
                         $socials .= '</li>';
                     }
                     echo $socials;
-                    ?>
-                </ul>
-                <div class="navbar-nav ml-md-auto">
-                    <?php
+                    ?></ul>
+                <div class="navbar-nav ml-md-auto"><?php
                     foreach (PAGES as $p) {
                         if ($p['disabled'] || !$p['display']) {
                             continue;
@@ -29,11 +26,9 @@
                         $active = getActive($p, $page['url']);
                         echo '<a href="' . $p['url'] . '" hreflang="de" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
                     }
-                    ?>
-                </div>
+                    ?></div>
                 <ul class="navbar-nav navbar-nav-social ml-md-auto d-lg-none">
-                    <li class="nav-item">
-                        <?php
+                    <li class="nav-item"><?php
                         $socials = '';
                         foreach (CONFIG['socials'] as $social) {
                             $socials .= '<a href="' . $social['url'] . '" target="_blank" class="nav-link" style="display: inline-block;">';
@@ -41,8 +36,7 @@
                             $socials .= '</a>';
                         }
                         echo $socials;
-                        ?>
-                    </li>
+                        ?></li>
                 </ul>
             </div>
         </div>
