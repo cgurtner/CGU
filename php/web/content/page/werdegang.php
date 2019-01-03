@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <header>
-                            <h2>Arbeit</h2>
+                            <h2>Karriere</h2>
                         </header>
                         <section>
                             <div class="row">
