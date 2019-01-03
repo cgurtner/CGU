@@ -17,8 +17,8 @@
     }
   },
   "socials": [
-    {"name": "gitlab", "url": "https://gitlab.com/cgurtner.ch", "icon": "fa-gitlab", "title": "Mein GitLab"},
-    {"name": "facebook", "url": "https://www.facebook.com/CyrillGurtner", "icon": "fa-facebook-square", "title": "Mein Facebook"},
-    {"name": "instagram", "url": "https://www.instagram.com/cgurtner.ch", "icon": "fa-instagram", "title": "Mein Instagram"}
+    {"name": "gitlab", "url": "https://gitlab.com/cgurtner.ch", "icon": "fa-gitlab", "title": "GitLab"},
+    {"name": "facebook", "url": "https://www.facebook.com/CyrillGurtner", "icon": "fa-facebook-square", "title": "Facebook"},
+    {"name": "instagram", "url": "https://www.instagram.com/cgurtner.ch", "icon": "fa-instagram", "title": "Instagram"}
   ]
 }
