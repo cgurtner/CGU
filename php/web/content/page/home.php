@@ -12,7 +12,7 @@
                     </header>
                 </div>
                 <div class="col-12 col-sm-6 col-md-7">
-                    <h2 class="text-center text-sm-left">Hi,</h2>
+                    <h2 class="text-center text-sm-left mb-0">Hi,</h2>
                     <p class="mb-0">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam augue sit amet
                         nulla consequat tempus. Vivamus eu posuere felis, eget imperdiet libero. Mauris interdum
