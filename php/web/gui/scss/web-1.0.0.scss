@@ -30,6 +30,11 @@ html, body {
     color: $light !important;
 }
 
+.navbar-expand-lg .navbar-nav-social .nav-link {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
 a, button.collapse-button {
     color: $highlight;
 }
