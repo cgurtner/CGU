@@ -11,9 +11,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
     }
 }
 
-?>
-
-<main>
+?><main>
     <div class="container">
         <section>
             <?php include_once("content/comp/header.php"); ?>
