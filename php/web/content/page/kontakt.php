@@ -48,7 +48,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                                     <input type="text" name="vname"
                                            value="<?php echo (isset($contactForm['data']['vname'])) ? $contactForm['data']['vname'] : ''; ?>"
                                            class="form-control <?php echo (isset($contactForm['err']['vname-empty']) && $contactForm['err']['vname-empty'] == false) ? 'is-invalid' : ''; ?>"
-                                           id="vname">
+                                           id="vname" required>
                                 </div>
                             </div>
                             <div class="col">
@@ -57,7 +57,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                                     <input type="text"
                                            value="<?php echo (isset($contactForm['data']['name'])) ? $contactForm['data']['name'] : ''; ?>"
                                            class="form-control <?php echo (isset($contactForm['err']['name-empty']) && $contactForm['err']['name-empty'] == false) ? 'is-invalid' : ''; ?>"
-                                           id="name" name="name">
+                                           id="name" name="name" required>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                                     <input type="email"
                                            value="<?php echo (isset($contactForm['data']['email'])) ? $contactForm['data']['email'] : ''; ?>"
                                            class="form-control <?php echo (isset($contactForm['err']['email-empty']) && ($contactForm['err']['email-empty'] == false || $contactForm['err']['email-invalid'] == false)) ? 'is-invalid' : ''; ?>"
-                                           id="email" name="email">
+                                           id="email" name="email" required>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                                     <textarea
                                             class="form-control <?php echo (isset($contactForm['err']['message-empty']) && $contactForm['err']['message-empty'] == false) ? 'is-invalid' : ''; ?>"
                                             id="message" name="message"
-                                            rows="10"><?php echo (isset($contactForm['data']['message'])) ? $contactForm['data']['message'] : ''; ?></textarea>
+                                            rows="10" required><?php echo (isset($contactForm['data']['message'])) ? $contactForm['data']['message'] : ''; ?></textarea>
                                 </div>
                             </div>
                         </div>
