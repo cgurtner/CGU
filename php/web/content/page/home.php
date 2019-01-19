@@ -1,16 +1,14 @@
 <main class="fade-in">
     <header>
         <div class="bg">
-            <div class="row fixed-bottom">
-                <div class="col-1 ml-4 pb-2">
-                    <a href="">
-                        <i class="fas fa-arrow-down" style="font-size: 3rem"></i>
-                    </a>
-                </div>
+            <div style="position: absolute; bottom: 1rem; left: 0; width: 100%; text-align: center; color: #fafafa;">
+                <a href="#" id="scroll-to-content">
+                    <i class="fas fa-angle-down" style="font-size: 3em;"></i>
+                </a>
             </div>
         </div>
     </header>
-    <div class="container">
+    <div class="container" id="content">
         <section>
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-5 text-center">
