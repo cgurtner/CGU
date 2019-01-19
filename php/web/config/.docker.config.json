@@ -15,5 +15,19 @@
       "user": "no-reply@cgurtner.ch",
       "password": "cBac%a2.A?cJAHcYATC23@cAB"
     }
-  }
+  },
+  "socials": [
+    {
+      "name": "gitlab",
+      "url": "https://gitlab.com/cgurtner.ch",
+      "icon": "fa-gitlab",
+      "title": "GitLab"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/cgurtner.ch",
+      "icon": "fa-instagram",
+      "title": "Instagram"
+    }
+  ]
 }
