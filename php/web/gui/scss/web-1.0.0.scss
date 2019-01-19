@@ -28,6 +28,15 @@ main.fade-in {
   display: none;
 }
 
+div.bg {
+  height: 100vh;
+  background: url("../image/bg.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navbar-dark {
   background-color: $dark !important;
 }

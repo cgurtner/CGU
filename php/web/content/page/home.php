@@ -1,7 +1,18 @@
 <main class="fade-in">
+    <header>
+        <div class="bg">
+            <div class="row fixed-bottom">
+                <div class="col-1 ml-4 pb-2">
+                    <a href="">
+                        <i class="fas fa-arrow-down" style="font-size: 3rem"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
     <div class="container">
         <section>
-            <div class="row pt-5">
+            <div class="row">
                 <div class="col-12 col-sm-6 col-md-5 text-center">
                     <header>
                         <img src="../../gui/image/logo-no-name.png" style="width: 85%" class="img-fluid"
