@@ -15,11 +15,17 @@ html, body {
     font-size: 15px;
     letter-spacing: .0883em;
     background-color: $light;
+    scrollbar-width: none;
     height: 100%;
 }
 
 hr {
     margin: 0.5rem 0;
+    background-color: $light;
+}
+
+main.fade-in {
+    display: none;
 }
 
 .navbar-dark {

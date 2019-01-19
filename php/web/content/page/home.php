@@ -1,4 +1,4 @@
-<main>
+<main class="fade-in">
     <div class="container">
         <section>
             <div class="row pt-5">
