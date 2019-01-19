@@ -10,66 +10,66 @@ $highlight-dark: #990000;
 $light-dark: #e5e5e5;
 
 html, body {
-    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    color: $dark;
-    font-size: 15px;
-    letter-spacing: .0883em;
-    background-color: $light;
-    scrollbar-width: none;
-    height: 100%;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  color: $dark;
+  font-size: 15px;
+  letter-spacing: .0883em;
+  background-color: $light;
+  scrollbar-width: none;
+  height: 100%;
 }
 
 hr {
-    margin: 0.5rem 0;
-    background-color: $light;
+  margin: 0.5rem 0;
+  background-color: $light;
 }
 
 main.fade-in {
-    display: none;
+  display: none;
 }
 
 .navbar-dark {
-    background-color: $dark !important;
+  background-color: $dark !important;
 }
 
 .nav-link:hover {
-    color: $light !important;
+  color: $light !important;
 }
 
 .nav-link.active {
-    color: $light !important;
+  color: $light !important;
 }
 
 .navbar-expand-lg .navbar-nav-social .nav-link {
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
 }
 
 a, button.collapse-button {
-    color: $highlight;
+  color: $highlight;
 }
 
 a:hover, button.collapse-button:hover {
-    color: $highlight-dark;
-    text-decoration: unset;
+  color: $highlight-dark;
+  text-decoration: unset;
 }
 
 div.navbar-nav a:last-of-type {
-    padding-right: unset !important;
+  padding-right: unset !important;
 }
 
 button[type="submit"] {
-    background-color: $highlight;
-    border: unset;
+  background-color: $highlight;
+  border: unset;
 }
 
 button[type="submit"]:hover,
 button[type="submit"]:active:focus {
-    background-color: $highlight-dark !important;
+  background-color: $highlight-dark !important;
 }
 
 span.badge {
-    background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .1);
 }
 
 .form-control {
@@ -78,94 +78,116 @@ span.badge {
 }
 
 .form-control:focus {
-    border-color: $light-dark !important;
-    box-shadow: 0px 0px 0px $light inset, 0px 0px 5px $light-dark;
+  border-color: $light-dark !important;
+  box-shadow: 0px 0px 0px $light inset, 0px 0px 5px $light-dark;
 }
 
 .form-control.is-invalid {
-    border-color: $highlight;
+  border-color: $highlight;
 }
 
 .form-control.is-invalid:focus {
   box-shadow: 0px 0px 0px $highlight inset, 0px 0px 5px $highlight-dark;
 }
 
+div.insta-row div:nth-of-type(2) {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+img.insta-thumb {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  margin-bottom: 7.5px;
+  border: solid 1px $light-dark;
+}
+
+div.insta-row div:last-of-type {
+  padding-left: 0px;
+}
+
+div.insta-row div:first-of-type {
+  padding-right: 0px;
+  padding-left: 15px;
+}
+
 h1 {
-    font-size: 40px;
-    font-weight: 900;
-    letter-spacing: .15em;
-    text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: .15em;
+  text-transform: uppercase;
 }
 
 h2 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 h3 {
-    font-weight: 500;
-    font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 h4.inline {
-    font-size: inherit;
-    font-weight: bold;
+  font-size: inherit;
+  font-weight: bold;
 }
 
 div.dark-card {
-    background-color: $dark;
-    color: $light;
+  background-color: $dark;
+  color: $light;
 }
 
 p {
-    margin-bottom: .5rem;
+  margin-bottom: .5rem;
 }
 
 section p:last-of-type {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 img.rounded-circle:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 img.header-thumb {
-    object-fit: cover;
-    border-radius: 50%;
-    border: 1px solid $dark;
-    width: 150px;
-    margin-bottom: .5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid $dark;
+  width: 150px;
+  margin-bottom: .5rem;
 }
 
 .pt-5 {
-    padding-top: 6rem !important;
+  padding-top: 6rem !important;
 }
 
 .pb-6 {
-    padding-bottom: 6rem !important;
+  padding-bottom: 6rem !important;
 }
 
 button.collapse-button {
-    font-size: 15px;
-    padding: unset;
-    border: unset;
-    background-color: unset;
-    cursor: pointer;
+  font-size: 15px;
+  padding: unset;
+  border: unset;
+  background-color: unset;
+  cursor: pointer;
 }
 
 div.h1-box {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 div.container {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 ol.breadcrumb {
-    padding: unset;
-    background-color: unset;
+  padding: unset;
+  background-color: unset;
 }
 
 ul.bullet {
-    list-style-type: square;
-    padding-left: 15px;
+  list-style-type: square;
+  padding-left: 15px;
 }

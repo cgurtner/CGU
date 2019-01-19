@@ -23,6 +23,17 @@
   },
   {
     "meta": {
+      "title": "Gallerie",
+      "description": ""
+    },
+    "url": "gallerie",
+    "path": "content/page/gallerie.php",
+    "type": "page",
+    "display": true,
+    "disabled": false
+  },
+  {
+    "meta": {
       "title": "Kontakt",
       "description": "Web-Applikationen, Software-Architekturen, Datenbanken. Ich bin ein Ansprechpartner für viele technische Themen. Nehmen Sie Kontakt mit mir auf!"
     },
