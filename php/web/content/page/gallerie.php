@@ -1,10 +1,8 @@
 <?php
 
-$owner = json_decode(file_get_contents('https://api.instagram.com/v1/users/self/?access_token=' . CONFIG['instagram-auth']), true)['data'];
 $recent = json_decode(file_get_contents('https://api.instagram.com/v1/users/self/media/recent/?access_token=' . CONFIG['instagram-auth']), true)['data'];
 
-?>
-<main class="fade-in">
+?><main class="fade-in">
     <div class="container">
         <section>
             <?php include_once("content/comp/header.php"); ?>
