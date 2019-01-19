@@ -18,6 +18,10 @@ html, body {
     height: 100%;
 }
 
+hr {
+    margin: 0.5rem 0;
+}
+
 .navbar-dark {
     background-color: $dark !important;
 }
@@ -116,6 +120,14 @@ section p:last-of-type {
 
 img.rounded-circle:hover {
     cursor: pointer;
+}
+
+img.header-thumb {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid $dark;
+    width: 150px;
+    margin-bottom: .5rem;
 }
 
 .pt-5 {

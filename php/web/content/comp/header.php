@@ -17,8 +17,10 @@ $breadLinks .= '</li>';
 ?>
 <header>
     <div class="row">
-        <div class="col pt-5 h1-box">
+        <div class="col pt-5 h1-box text-center">
+            <img src="../../gui/image/portrait.jpg" class="header-thumb" alt="Profilbild Cyrill Gurtner" />
             <h1><?php echo $page['meta']['title']; ?></h1>
+            <hr />
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
                     <?php echo $breadLinks; ?>
