@@ -63,6 +63,15 @@ a:hover, button.collapse-button:hover {
   text-decoration: unset;
 }
 
+#scroll-to-content {
+  color: $light;
+  opacity: .5;
+
+  &:hover, &:active {
+    opacity: unset;
+  }
+}
+
 div.navbar-nav a:last-of-type {
   padding-right: unset !important;
 }

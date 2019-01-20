@@ -8,14 +8,11 @@ $(document).ready(function () {
     const resizeInsta = () => {
         insta.outerHeight(insta.outerWidth() * 1);
     };
-
     resizeInsta();
     $(window).resize(resizeInsta);
 
-    $("#scroll-to-content").click(function (e) {
+    $("#scroll-to-content").click(function(e) {
         e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#content").offset().top - 55
-        }, 750);
+        $('html, body').animate({scrollTop: $('main div.bg').height() - $('nav').height() - 15}, 750);
     });
 });
