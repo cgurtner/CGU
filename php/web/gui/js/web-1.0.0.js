@@ -14,8 +14,8 @@ $(document).ready(function () {
 
     $("#scroll-to-content").click(function (e) {
         e.preventDefault();
-        $([document.documentElement, document.body]).animate({
-            scrollTop: $("#content").offset().top
+        $('html, body').animate({
+            scrollTop: $("#content").offset().top - 55
         }, 750);
     });
 });

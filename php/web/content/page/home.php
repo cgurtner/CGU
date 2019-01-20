@@ -1,7 +1,7 @@
 <main class="fade-in">
     <header>
         <div class="bg">
-            <div style="position: absolute; bottom: 1rem; left: 0; width: 100%; text-align: center; color: #fafafa;">
+            <div style="position: absolute; bottom: .5rem; left: 0; width: 100%; text-align: center; color: #fafafa;">
                 <a href="#" id="scroll-to-content">
                     <i class="fas fa-angle-down" style="font-size: 3em;"></i>
                 </a>
