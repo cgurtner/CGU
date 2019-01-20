@@ -4,6 +4,7 @@ $(document).ready(function () {
     });
 
     $('main.fade-in').fadeIn(750);
+
     const insta = $("img.insta-thumb");
     const resizeInsta = () => {
         insta.outerHeight(insta.outerWidth() * 1);
