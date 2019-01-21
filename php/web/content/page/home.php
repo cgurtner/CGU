@@ -9,19 +9,10 @@
             </div>
         </div>
     </header>
-    <div class="container" id="content">
+    <div class="container mt-5">
         <section>
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-5 text-center">
-                    <header>
-                        <img src="../../gui/image/logo-no-name.png" style="width: 85%" class="img-fluid"
-                             alt="Logo von Cyrill Gurtner">
-                        <h1 style="letter-spacing: unset; font-size: 37px;"><span
-                                    style="font-weight: 300;">Cyrill</span>&nbsp;<span
-                                    style="font-weight: 600;">Gurtner</span></h1>
-                    </header>
-                </div>
-                <div class="col-12 col-sm-6 col-md-7">
+                <div class="col-12">
                     <h2 class="text-center text-sm-left mb-0">Hi,</h2>
                     <p class="mb-0">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam augue sit amet
