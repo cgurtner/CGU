@@ -1,10 +1,11 @@
 <main class="fade-in">
     <header>
         <div class="bg">
-            <div style="position: absolute; bottom: .5rem; left: 0; width: 100%; text-align: center; color: #fafafa;">
-                <a href="#" id="scroll-to-content">
-                    <i class="fas fa-angle-down" style="font-size: 3em;"></i>
-                </a>
+            <div class="pt-3" style="position: absolute; bottom: 0rem; left: 0; width: 100%; text-align: center; background-color: #fafafa; height: 10rem; opacity: .5;">
+                <img src="../../gui/image/logo-no-name.png" class="img-fluid"  style="height: 65%; opacity: unset;"/>
+                <h1 style="letter-spacing: unset; font-size: 37px;"><span
+                            style="font-weight: 300;">Cyrill</span>&nbsp;<span
+                            style="font-weight: 600;">Gurtner</span></h1>
             </div>
         </div>
     </header>
