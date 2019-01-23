@@ -16,25 +16,16 @@ html, body {
   letter-spacing: .0883em;
   background-color: $light;
   scrollbar-width: none;
-  height: 100%;
 }
 
-body.bg {
+div.bg {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background: url("../image/bg.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  &:after {
-    content: "";
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    left: 0;
-    right: 0;
-    z-index: -1;
-  }
 }
 
 hr {
@@ -44,10 +35,6 @@ hr {
 
 main.fade-in {
   display: none;
-}
-
-div.bg {
-  height: 100vh;
 }
 
 .navbar-dark {
