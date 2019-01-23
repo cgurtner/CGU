@@ -27,7 +27,7 @@
                         echo '<a href="' . $p['url'] . '" hreflang="de" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
                     }
                     ?></div>
-                <ul class="navbar-nav navbar-nav-social ml-md-auto d-lg-none">
+                <ul class="navbar-nav navbar-nav-social navbar-nav-social-mobile ml-md-auto d-lg-none">
                     <li class="nav-item"><?php
                         $socials = '';
                         foreach (CONFIG['socials'] as $social) {
