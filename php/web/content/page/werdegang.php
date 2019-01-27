@@ -24,15 +24,13 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Aus Daten werden Informationen</h4>
+                                            <h4 class="inline">Data Analytics, Software und Business Intelligence</h4>
                                         </header>
                                         <p>
-                                            Datahouse gehört zu den führenden Anbietern von Daten und Analysen. Wir
-                                            erheben, vernetzen und analysieren Daten für Ihr Unternehmen und entwickeln
-                                            innovative
-                                            Web-Applikationen.
-                                            Datahouse wurde 2005 als Spin-off-Unternehmen der ETH Zürich gegründet und
-                                            ist seit 2014 eine Tochtergesellschaft der Wüest Partner AG.
+                                            Wir analysieren komplexe Datensätze und entwickeln innovative Softwarelösungen mit anspruchsvoller Applikationslogik
+                                        </p>
+                                        <p>
+                                            Als Spin-off der ETH Zürich im Jahr 2005 gegründet, ist Datahouse Big Data-Spezialist der ersten Stunde. Beschäftigt ist ein multi­dis­zi­plinäres Experten-Team aus den Bereichen Daten­analysen, Statistik, Program­mierung, Daten­banken und Projekt­ma­nagement. Heute ist Datahouse eine 100-prozentige Tochter­ge­sell­schaft der Wüest Partner AG.
                                         </p>
                                         <p>
                                             Meine Tätigkeits- und Aufgabenbereiche umfassen als Software Developer unter

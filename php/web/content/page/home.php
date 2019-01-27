@@ -1,4 +1,9 @@
-<main class="fade-in">
+<?php
+
+$dateNow = new DateTime();
+$birthday = new DateTime('1992-07-20');
+
+?><main class="fade-in">
     <header>
         <div class="bg">
             <div class="pt-3" style="position: absolute; bottom: 0rem; left: 0; width: 100%; text-align: center; background-color: rgba(250, 250, 250, .5); height: 10rem;">
@@ -14,8 +19,13 @@
             <div class="row">
                 <div class="col-sm-12 col-md-10">
                     <h2 class="text-center text-sm-left">Hi,</h2>
-                    <p class="mb-0">
-                        Ich, Cyrill Gurtner, bin ein $age jähriger Softwareentwickler aus der Schweiz.
+                    <p>
+                        Vielen Dank, dass Du meine Webseite besuchst und Dich für meine Arbeit interessierst!
+                    </p>
+                    <p>
+                        Ich, Cyrill Gurtner, bin ein <?php echo $dateNow->diff($birthday)->y; ?> jähriger Softwareentwickler aus der Schweiz. Bereits
+                        früh entdeckte ich meine Affinität gegenüber der Softwareentwicklung. So kaufte ich mir mit 15 Jahren das ein Buch über die
+                        C++ Programmierung, mit speziellem Fokus auf die Spieleprogrammierung.
                     </p>
                 </div>
             </div>
