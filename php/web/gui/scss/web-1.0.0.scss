@@ -5,6 +5,7 @@ $dark: #232323;
 $light: #fafafa;
 $highlight: #be1622;
 $highlight-dark: #990000;
+$breadcrumb-active-color: #6c757d;
 
 /* colors for light borders in form inputs and image thumbnails */
 $light-dark: #e5e5e5;
@@ -60,6 +61,10 @@ main.fade-in {
 
 a, button.collapse-button {
   color: $highlight;
+}
+
+ol.breadcrumb li.active a {
+  color: $breadcrumb-active-color;
 }
 
 a:hover, button.collapse-button:hover {
@@ -202,6 +207,10 @@ button.collapse-button {
 
 div.h1-box {
   margin-bottom: 1rem;
+}
+
+.h2-home {
+  text-transform: uppercase;
 }
 
 div.container {
