@@ -39,22 +39,7 @@ $birthday = new DateTime('1992-07-20');
                 <div class="row">
                     <div class="col-sm-12 col-md-8">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et lorem consectetur,
-                            vehicula
-                            turpis et, egestas est. Nunc dignissim tortor quis nibh elementum, sed pretium tellus
-                            vulputate.
-                            Vivamus eget elementum lorem. Proin non ipsum imperdiet, porttitor erat ornare, hendrerit
-                            urna.
-                            Pellentesque fermentum eros vel turpis consequat, eu sollicitudin lorem egestas. Cras
-                            bibendum
-                            tortor ut semper molestie. Nulla et ipsum id sem gravida consequat. Morbi ac bibendum nibh.
-                            Vivamus
-                            sed tellus imperdiet, feugiat dui sed, blandit diam. Praesent ac nunc rutrum augue finibus
-                            vehicula.
-                            Maecenas eu molestie mi. Aenean a purus lectus. Phasellus enim diam, iaculis sit amet
-                            blandit
-                            non,
-                            luctus id urna.
+                            
                         </p>
                     </div>
                     <div class="col-sm-12 col-md-4 dark-column">
@@ -75,8 +60,9 @@ $birthday = new DateTime('1992-07-20');
                                 <dt>Sprachen</dt>
                                 <dd>Deutsch ▪ Englisch C1</dd>
                                 <dt>Spezialisierung in...</dt>
-                                <dd><small>Web-Basierten Frontend-, und Backend Softwarelösungen.</small></dd>
+                                <dd><small>Web-Basierten Frontend und Backend Softwarelösungen.</small></dd>
                                 <dd><small>Interaktive UI Oberflächen mit JavaScript/React und anderen modernen libraries & frameworks.</small></dd>
+                                <dd><small>Implementation von REST API Schnittstellen und Bereitstellung zur Frontend-Anbindung.</small></dd>
                                 <dd><small>Anwenden und Entwerfen von relationalen Datenmodellen.</small></dd>
                             </dl>
                         </div>

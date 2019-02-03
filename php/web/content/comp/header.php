@@ -14,8 +14,7 @@ $breadLinks .= '</a>';
 $breadLinks .= '<meta property="position" content="2">';
 $breadLinks .= '</li>';
 
-?>
-<header>
+?><header>
     <div class="row">
         <div class="col pt-5 h1-box text-center">
             <img src="../../gui/image/portrait.jpg" class="header-thumb" alt="Profilbild Cyrill Gurtner" />
