@@ -17,7 +17,7 @@ $birthday = new DateTime('1992-07-20');
                 </div>
             </div>
         </header>
-        <div class="container mt-5">
+        <div class="container mt-3">
             <section>
                 <header>
                     <div class="row">
@@ -38,32 +38,48 @@ $birthday = new DateTime('1992-07-20');
                 </header>
                 <div class="row">
                     <div class="col-sm-12 col-md-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et lorem consectetur,
-                        vehicula
-                        turpis et, egestas est. Nunc dignissim tortor quis nibh elementum, sed pretium tellus vulputate.
-                        Vivamus eget elementum lorem. Proin non ipsum imperdiet, porttitor erat ornare, hendrerit urna.
-                        Pellentesque fermentum eros vel turpis consequat, eu sollicitudin lorem egestas. Cras bibendum
-                        tortor ut semper molestie. Nulla et ipsum id sem gravida consequat. Morbi ac bibendum nibh.
-                        Vivamus
-                        sed tellus imperdiet, feugiat dui sed, blandit diam. Praesent ac nunc rutrum augue finibus
-                        vehicula.
-                        Maecenas eu molestie mi. Aenean a purus lectus. Phasellus enim diam, iaculis sit amet blandit
-                        non,
-                        luctus id urna.
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et lorem consectetur,
+                            vehicula
+                            turpis et, egestas est. Nunc dignissim tortor quis nibh elementum, sed pretium tellus
+                            vulputate.
+                            Vivamus eget elementum lorem. Proin non ipsum imperdiet, porttitor erat ornare, hendrerit
+                            urna.
+                            Pellentesque fermentum eros vel turpis consequat, eu sollicitudin lorem egestas. Cras
+                            bibendum
+                            tortor ut semper molestie. Nulla et ipsum id sem gravida consequat. Morbi ac bibendum nibh.
+                            Vivamus
+                            sed tellus imperdiet, feugiat dui sed, blandit diam. Praesent ac nunc rutrum augue finibus
+                            vehicula.
+                            Maecenas eu molestie mi. Aenean a purus lectus. Phasellus enim diam, iaculis sit amet
+                            blandit
+                            non,
+                            luctus id urna.
+                        </p>
                     </div>
-                    <div class="col-sm-12 col-md-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et lorem consectetur,
-                        vehicula
-                        turpis et, egestas est. Nunc dignissim tortor quis nibh elementum, sed pretium tellus vulputate.
-                        Vivamus eget elementum lorem. Proin non ipsum imperdiet, porttitor erat ornare, hendrerit urna.
-                        Pellentesque fermentum eros vel turpis consequat, eu sollicitudin lorem egestas. Cras bibendum
-                        tortor ut semper molestie. Nulla et ipsum id sem gravida consequat. Morbi ac bibendum nibh.
-                        Vivamus
-                        sed tellus imperdiet, feugiat dui sed, blandit diam. Praesent ac nunc rutrum augue finibus
-                        vehicula.
-                        Maecenas eu molestie mi. Aenean a purus lectus. Phasellus enim diam, iaculis sit amet blandit
-                        non,
-                        luctus id urna.
+                    <div class="col-sm-12 col-md-4 dark-column">
+                        <div style="padding: 1.5rem 3rem;" class="character">
+                            <header>
+                                <div style="text-align: center">
+                                    <img src="../../gui/image/portrait.jpg" class="header-thumb"
+                                         alt="Profilbild Cyrill Gurtner"/>
+                                    <h2>Steckbrief</h2>
+                                </div>
+                                <hr/>
+                            </header>
+                            <dl>
+                                <dt>Name</dt>
+                                <dd>Cyrill Gurtner</dd>
+                                <dt>Alter</dt>
+                                <dd>26</dd>
+                                <dt>Sprachen</dt>
+                                <dd>Deutsch ▪ Englisch C1</dd>
+                                <dt>Spezialisierung in...</dt>
+                                <dd><small>Web-Basierten Frontend-, und Backend Softwarelösungen.</small></dd>
+                                <dd><small>Interaktive UI Oberflächen mit JavaScript/React und anderen modernen libraries & frameworks.</small></dd>
+                                <dd><small>Anwenden und Entwerfen von relationalen Datenmodellen.</small></dd>
+                            </dl>
+                        </div>
                     </div>
                 </div>
             </section>

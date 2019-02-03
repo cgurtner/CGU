@@ -122,6 +122,28 @@ div.insta-row div:nth-of-type(2) {
   padding-right: 7.5px;
 }
 
+div.dark-column {
+  background-color: $dark;
+  color: $light;
+  background-clip: content-box;
+}
+
+div.character {
+  h2 {
+    margin-bottom: 0rem;
+  }
+  h3 {
+    text-align: center;
+  }
+  hr {
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+  }
+  dt, dd {
+    text-align: center;
+  }
+}
+
 div.insta-row:first-of-type {
   margin-top: 6px;
 }
