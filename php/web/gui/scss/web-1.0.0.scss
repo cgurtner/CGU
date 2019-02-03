@@ -125,7 +125,8 @@ div.insta-row div:nth-of-type(2) {
 div.dark-column {
   background-color: $dark;
   color: $light;
-  background-clip: content-box;
+  padding: 1rem;
+  background-clip: padding-box;
 }
 
 div.character {
@@ -142,6 +143,12 @@ div.character {
   dt, dd {
     text-align: center;
   }
+}
+
+div.col-box-content {
+  height: 25rem;
+  background-color: $light-dark;
+  background-clip: content-box;
 }
 
 div.insta-row:first-of-type {
