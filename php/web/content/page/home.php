@@ -22,7 +22,7 @@ $birthday = new DateTime('1992-07-20');
                 <header>
                     <div class="row">
                         <div class="col pt-5">
-                            <h2 class="h2-home text-center">Willkommen</h2>
+                            <h2 class="h2-home text-center">hi</h2>
                             <hr/>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
@@ -50,18 +50,18 @@ $birthday = new DateTime('1992-07-20');
                             vel efficitur lacus. Praesent rutrum lacus.
                         </p>
                         <div class="row">
-                            <div class="col-sm-6 col-box-content mb-3">
+                            <div class="col-6 col-box-content mb-3">
 
                             </div>
-                            <div class="col-sm-6 col-box-content mb-3">
+                            <div class="col-6 col-box-content mb-3">
 
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6 col-box-content mb-3">
+                            <div class="col-6 col-box-content mb-3">
 
                             </div>
-                            <div class="col-sm-6 col-box-content mb-3">
+                            <div class="col-6 col-box-content mb-3">
 
                             </div>
                         </div>
