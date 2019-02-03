@@ -17,11 +17,11 @@ $birthday = new DateTime('1992-07-20');
                 </div>
             </div>
         </header>
-        <div class="container mt-3">
+        <div class="container">
             <section>
                 <header>
-                    <div class="row">
-                        <div class="col pt-5">
+                    <div class="row pt-5">
+                        <div class="col">
                             <h2 class="h2-home text-center">hi</h2>
                             <hr/>
                             <nav aria-label="breadcrumb">
@@ -50,18 +50,18 @@ $birthday = new DateTime('1992-07-20');
                             vel efficitur lacus. Praesent rutrum lacus.
                         </p>
                         <div class="row">
-                            <div class="col-6 col-box-content mb-3">
+                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
 
                             </div>
-                            <div class="col-6 col-box-content mb-3">
+                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
 
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-box-content mb-3">
+                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
 
                             </div>
-                            <div class="col-6 col-box-content mb-3">
+                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
 
                             </div>
                         </div>
