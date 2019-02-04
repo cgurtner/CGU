@@ -147,6 +147,8 @@ div.character {
 
 div.col-box-content {
   height: 25rem;
+  background: url('../../gui/image/symbole/symbol.png') center top no-repeat;
+  background-size: 75%;
   background-color: $light-dark;
   background-clip: content-box;
 }
