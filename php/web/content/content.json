@@ -12,17 +12,6 @@
   },
   {
     "meta": {
-      "title": "Technologie",
-      "description": "Von der Lehrstelle zum Applikationsentwickler zum Studium der Informatik und währenddessen angestellt als Software Developer. Lesen Sie hier meinen vollständigen Werdegang."
-    },
-    "url": "technologie",
-    "path": "content/page/technologie.php",
-    "type": "page",
-    "display": true,
-    "disabled": false
-  },
-  {
-    "meta": {
       "title": "Werdegang",
       "description": "Von der Lehrstelle zum Applikationsentwickler zum Studium der Informatik und währenddessen angestellt als Software Developer. Lesen Sie hier meinen vollständigen Werdegang."
     },

@@ -22,11 +22,11 @@ html, body {
 div.bg {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-  background: url("../image/bg.jpg") no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: black url("../image/bg2.jpg") no-repeat center right scroll;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 hr {
@@ -40,6 +40,10 @@ main.fade-in {
 
 .navbar-dark {
   background-color: $dark !important;
+}
+
+.navbar-home {
+  background-color: transparent !important;
 }
 
 .nav-link:hover {
