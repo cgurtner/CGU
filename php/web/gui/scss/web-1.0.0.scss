@@ -22,11 +22,11 @@ html, body {
 div.bg {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-  background: black url("../image/bg2.jpg") no-repeat center right scroll;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  background: black url("../image/bg2.jpg") no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 hr {
