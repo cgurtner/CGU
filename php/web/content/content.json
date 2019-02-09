@@ -23,11 +23,11 @@
   },
   {
     "meta": {
-      "title": "Gallerie",
+      "title": "Galerie",
       "description": "Instagram Story von mir, Cyrill Gurtner."
     },
-    "url": "gallerie",
-    "path": "content/page/gallerie.php",
+    "url": "galerie",
+    "path": "content/page/galerie.php",
     "type": "page",
     "display": true,
     "disabled": false
