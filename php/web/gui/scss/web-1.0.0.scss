@@ -22,11 +22,23 @@ html, body {
 div.bg {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
-  background: black url("../image/bg2.jpg") no-repeat center center scroll;
+  background: black url("/gui/image/bg-mobile.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media only screen and (min-width: 1224px) {
+  div.bg {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    background: black url("/gui/image/bg-fullscreen.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 hr {
@@ -141,13 +153,16 @@ div.character {
   h2 {
     margin-bottom: 0rem;
   }
+
   h3 {
     text-align: center;
   }
+
   hr {
     margin-top: 0rem;
     margin-bottom: 1rem;
   }
+
   dt, dd {
     text-align: center;
   }
