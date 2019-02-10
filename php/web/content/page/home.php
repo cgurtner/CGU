@@ -4,13 +4,13 @@ $dateNow = new DateTime();
 $birthday = new DateTime('1992-07-20');
 
 ?><main class="fade-in">
-    <div class="bg-fullscreen"></div>
+    <div class="bg-fullscreen mb-4"></div>
     <section>
         <div class="container">
             <section>
                 <header>
-                    <div class="row pt-5">
-                        <div class="col pt-4 h1-box">
+                    <div class="row pt-4">
+                        <div class="col h1-box">
                             <h1 class="text-center">Cyrill Gurtner</h1>
                             <hr/>
                             <nav aria-label="breadcrumb">
