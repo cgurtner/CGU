@@ -10,7 +10,7 @@ $birthday = new DateTime('1992-07-20');
             <section>
                 <header>
                     <div class="row pt-5">
-                        <div class="col">
+                        <div class="col pt-4 h1-box">
                             <h1 class="text-center">Cyrill Gurtner</h1>
                             <hr/>
                             <nav aria-label="breadcrumb">
