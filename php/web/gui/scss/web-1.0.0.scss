@@ -272,14 +272,14 @@ div.container {
 }
 
 ol.breadcrumb {
-  padding: unset;
-  background-color: unset;
+  padding: 0;
+  background-color: $light;
 }
 
 ul {
   &.overview {
     list-style: none;
-    padding: unset;
+    padding: 0;
     li {
       a {
         padding: 1rem;
