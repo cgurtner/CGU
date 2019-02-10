@@ -167,14 +167,6 @@ div.character {
   }
 }
 
-div.col-box-content {
-  height: 25rem;
-  background: url('../../gui/image/symbole/symbol.png') center top no-repeat;
-  background-size: 75%;
-  background-color: $light-dark;
-  background-clip: content-box;
-}
-
 div.insta-row:first-of-type {
   margin-top: 6px;
 }
@@ -278,7 +270,22 @@ ol.breadcrumb {
   background-color: unset;
 }
 
-ul.bullet {
-  list-style-type: square;
-  padding-left: 15px;
+ul {
+  &.overview {
+    list-style: none;
+    padding: unset;
+    li {
+      a {
+        padding: 1rem;
+        margin-bottom: .5rem;
+        background-color: $light-dark;
+        display: block;
+      }
+    }
+  }
+
+  &.bullet {
+    list-style-type: square;
+    padding-left: 15px;
+  }
 }

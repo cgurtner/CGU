@@ -40,22 +40,11 @@ $birthday = new DateTime('1992-07-20');
                             consequat. In posuere finibus malesuada. Aenean accumsan non tellus quis viverra. Aliquam
                             vel efficitur lacus. Praesent rutrum lacus.
                         </p>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
-
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
-
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
-
-                            </div>
-                            <div class="col-sm-12 col-md-6 col-box-content mb-3">
-
-                            </div>
-                        </div>
+                        <ul class="overview">
+                            <li><a href="werdegang" hreflang="de">Zu meinem Werdegang</a></li>
+                            <li><a href="galerie" hreflang="de">Zu meiner Galerie</a></li>
+                            <li><a href="kontakt" hreflang="de">Kontakt mit mir aufnehmen</a></li>
+                        </ul>
                     </div>
                     <div class="col-sm-12 col-md-4">
                         <div class="character dark-column">
