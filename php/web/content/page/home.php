@@ -3,8 +3,7 @@
 $dateNow = new DateTime();
 $birthday = new DateTime('1992-07-20');
 
-?>
-<main class="fade-in">
+?><main class="fade-in">
     <section>
         <header>
             <div class="bg"></div>

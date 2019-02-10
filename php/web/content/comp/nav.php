@@ -43,8 +43,7 @@
             </div>
         </div>
     </nav>
-</header>
-<?php
+</header><?php
 
 function getActive($page, $url)
 {

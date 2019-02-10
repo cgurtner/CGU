@@ -11,6 +11,5 @@ find . -name 'Dockerfile' -delete
 
 mv php/web/config/.prod.config.json php/web/config/config.json
 mv php/web/config/.prod.htaccess php/web/.htaccess
-mv php/web/config/.prod.htpasswd php/web/.htpasswd
 
 rm -rf php/web/gui/scss
