@@ -287,6 +287,9 @@ ul {
         background-color: $light-dark;
         display: block;
       }
+      &:last-of-type {
+        margin-bottom: 1rem;
+      }
     }
   }
 
