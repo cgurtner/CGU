@@ -19,7 +19,7 @@ html, body {
   scrollbar-width: none;
 }
 
-div.bg {
+body.bg-fullscreen {
   height: 100vh;
   background: black url("/gui/image/bg-mobile.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -29,7 +29,7 @@ div.bg {
 }
 
 @media only screen and (min-width: 1224px) {
-  div.bg {
+  body.bg-fullscreen {
     height: 100vh;
     background: black url("/gui/image/bg-fullscreen.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -37,6 +37,10 @@ div.bg {
     -o-background-size: cover;
     background-size: cover;
   }
+}
+
+div.bg-fullscreen {
+  height: 100vh;
 }
 
 hr {

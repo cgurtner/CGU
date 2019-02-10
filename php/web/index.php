@@ -53,7 +53,7 @@ if ($page['url'] === 'home') {
     <link rel="stylesheet" href="/gui/css/web-1.0.0.css?<?php echo uniqid(); ?>">
     <title><?php echo $pageTitle; ?></title>
 </head>
-<body>
+<body <?php if($page['url'] == 'home') { echo 'class="bg-fullscreen"'; } ?>>
 <?php include_once("content/comp/nav.php"); ?>
 <?php include_once($page['path']); ?>
 <script src="/gui/js/jquery-3.3.1.js"></script>
