@@ -11,7 +11,7 @@ $birthday = new DateTime('1992-07-20');
                 <header>
                     <div class="row pt-5">
                         <div class="col">
-                            <h2 class="h2-home text-center">Cyrill Gurtner</h2>
+                            <h1 class="text-center">Cyrill Gurtner</h1>
                             <hr/>
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">

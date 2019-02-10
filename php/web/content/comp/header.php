@@ -16,7 +16,7 @@ $breadLinks .= '</li>';
 
 ?><header>
     <div class="row">
-        <div class="col pt-5 h1-box text-center">
+        <div class="col pt-4 h1-box text-center">
             <img src="/gui/image/portrait.jpg" class="header-thumb" alt="Profilbild Cyrill Gurtner" />
             <h1><?php echo $page['meta']['title']; ?></h1>
             <hr />
