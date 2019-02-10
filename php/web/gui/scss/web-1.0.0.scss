@@ -21,6 +21,7 @@ html, body {
 
 body.bg-fullscreen {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   background: black url("/gui/image/bg-mobile.jpg") no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,6 +32,7 @@ body.bg-fullscreen {
 @media only screen and (min-width: 1224px) {
   body.bg-fullscreen {
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     background: black url("/gui/image/bg-fullscreen.jpg") no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,6 +43,7 @@ body.bg-fullscreen {
 
 div.bg-fullscreen {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 hr {
