@@ -338,12 +338,36 @@ div.tech-percent {
       background: linear-gradient(left, $light 95%, $dark 5%);
     }
 
-    &.perc-85 {
-      background: -webkit-linear-gradient(left, $light 85%, $dark 15%);
-      background: -o-linear-gradient(left, $light 85%, $dark 15%);
-      background: -ms-linear-gradient(left, $light 85%, $dark 15%);
-      background: -moz-linear-gradient(left, $light 85%, $dark 15%);
-      background: linear-gradient(left, $light 85%, $dark 15%);
+    &.perc-90 {
+      background: -webkit-linear-gradient(left, $light 90%, $dark 10%);
+      background: -o-linear-gradient(left, $light 90%, $dark 10%);
+      background: -ms-linear-gradient(left, $light 90%, $dark 10%);
+      background: -moz-linear-gradient(left, $light 90%, $dark 10%);
+      background: linear-gradient(left, $light 90%, $dark 10%);
+    }
+
+    &.perc-80 {
+      background: -webkit-linear-gradient(left, $light 80%, $dark 20%);
+      background: -o-linear-gradient(left, $light 80%, $dark 20%);
+      background: -ms-linear-gradient(left, $light 80%, $dark 20%);
+      background: -moz-linear-gradient(left, $light 80%, $dark 20%);
+      background: linear-gradient(left, $light 80%, $dark 20%);
+    }
+
+    &.perc-70 {
+      background: -webkit-linear-gradient(left, $light 70%, $dark 30%);
+      background: -o-linear-gradient(left, $light 70%, $dark 30%);
+      background: -ms-linear-gradient(left, $light 70%, $dark 30%);
+      background: -moz-linear-gradient(left, $light 70%, $dark 30%);
+      background: linear-gradient(left, $light 70%, $dark 30%);
+    }
+
+    &.perc-50 {
+      background: -webkit-linear-gradient(left, $light 50%, $dark 50%);
+      background: -o-linear-gradient(left, $light 50%, $dark 50%);
+      background: -ms-linear-gradient(left, $light 50%, $dark 50%);
+      background: -moz-linear-gradient(left, $light 50%, $dark 50%);
+      background: linear-gradient(left, $light 50%, $dark 50%);
     }
   }
 }

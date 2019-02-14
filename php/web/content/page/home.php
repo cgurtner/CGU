@@ -152,40 +152,45 @@ $birthday = new DateTime('1992-07-20');
                         <header>
                             <h2>Technologie</h2>
                         </header>
-                        <div class="tech-percent mt-2">
-                            <span>HTML5 / CSS3</span>
+                        <div class="tech-percent mt-3">
+                            <span>PHP / OO PHP / Composer</span>
                             <small class="float-right">95%</small>
                             <div class="tech-perc-bar perc-95"></div>
+                        </div>
+                        <div class="tech-percent mt-2">
+                            <span>HTML5 / CSS3 / SASS</span>
+                            <small class="float-right">90%</small>
+                            <div class="tech-perc-bar perc-90"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>JavaScript / JQuery</span>
-                            <small class="float-right">95%</small>
-                            <div class="tech-perc-bar perc-95"></div>
+                            <small class="float-right">90%</small>
+                            <div class="tech-perc-bar perc-90"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>React</span>
-                            <small class="float-right">95%</small>
-                            <div class="tech-perc-bar perc-85"></div>
+                            <small class="float-right">80%</small>
+                            <div class="tech-perc-bar perc-80"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>Node / NPM</span>
-                            <small class="float-right">95%</small>
-                            <div class="tech-perc-bar perc-85"></div>
-                        </div>
-                        <div class="tech-percent mt-3">
-                            <span>PHP / Composer</span>
-                            <small class="float-right">95%</small>
-                            <div class="tech-perc-bar perc-95"></div>
-                        </div>
-                        <div class="tech-percent mt-3">
-                            <span>Docker</span>
-                            <small class="float-right">95%</small>
+                            <span>React Native</span>
+                            <small class="float-right">in progress...</small>
                             <div class="tech-perc-bar"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>Java</span>
+                            <small class="float-right">70%</small>
+                            <div class="tech-perc-bar perc-70"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>SQL / MySQL / PostgreSQL</span>
-                            <small class="float-right">95%</small>
-                            <div class="tech-perc-bar"></div>
+                            <small class="float-right">70%</small>
+                            <div class="tech-perc-bar perc-70"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>Docker / Linux / Server</span>
+                            <small class="float-right">50%</small>
+                            <div class="tech-perc-bar perc-50"></div>
                         </div>
                     </div>
                 </div>
