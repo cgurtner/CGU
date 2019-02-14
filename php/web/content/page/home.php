@@ -3,86 +3,193 @@
 $dateNow = new DateTime();
 $birthday = new DateTime('1992-07-20');
 
-?><main class="fade-in">
+?>
+<main class="fade-in">
     <div class="bg-fullscreen"></div>
-    <section>
-        <div class="container">
-            <section>
-                <header>
-                    <div class="row pt-5">
-                        <div class="col h1-box">
-                            <h1 class="text-center">Cyrill Gurtner</h1>
-                            <hr/>
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
-                                    <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
-                                        <a property="item" typeof="WebPage" href="home"><span
-                                                    property="name">Home</span></a>
-                                        <meta property="position" content="1">
-                                    </li>
-                                </ol>
-                            </nav>
+    <div class="container">
+        <section>
+            <header>
+                <div class="row pt-5">
+                    <div class="col h1-box">
+                        <h1 class="text-center">Cyrill Gurtner</h1>
+                        <hr/>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+                                <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
+                                    <a property="item" typeof="WebPage" href="home"><span
+                                                property="name">Home</span></a>
+                                    <meta property="position" content="1">
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <section>
+                        <div class="row mb-3">
+                            <div class="col-sm-12 col-box">
+                                <header>
+                                    <h2>Ich</h2>
+                                </header>
+                                <p>
+                                    Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                    euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
+                                    ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum. Donec
+                                    dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus, finibus
+                                    arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis. Curabitur
+                                    vitae lobortis purus. Fusce bibendum bibendum sagittis.
+                                </p>
+                                <p>
+                                    Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                    euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
+                                    ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum. Donec
+                                    dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus, finibus
+                                    arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis. Curabitur
+                                    vitae lobortis purus. Fusce bibendum bibendum sagittis.
+                                </p>
+                            </div>
                         </div>
+                    </section>
+                    <section>
+                        <div class="row mb-5">
+                            <div class="col-sm-12 col-box">
+                                <header>
+                                    <h2>Werdegang</h2>
+                                </header>
+                                <section>
+                                    <header>
+                                        <h3>Karriere</h3>
+                                    </header>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Datahouse AG</h4>
+                                        </header>
+                                        <p>
+                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
+                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
+                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
+                                            bibendum sagittis.
+                                        </p>
+                                    </section>
+                                </section>
+                                <section>
+                                    <header>
+                                        <h3>Ausbildung</h3>
+                                    </header>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Hochschule für Technik Rapperswil</h4>
+                                        </header>
+                                        <p>
+                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
+                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
+                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
+                                            bibendum sagittis.
+                                        </p>
+                                    </section>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">AKAD College</h4>
+                                        </header>
+                                        <p>
+                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
+                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
+                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
+                                            bibendum sagittis.
+                                        </p>
+                                    </section>
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Informatikschule Olten</h4>
+                                        </header>
+                                        <p>
+                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
+                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
+                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
+                                            bibendum sagittis.
+                                        </p>
+                                    </section>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="character dark-column mb-3">
+                        <header>
+                            <h2>Kontakt</h2>
+                        </header>
+                        <address class="home mt-2">
+                            <p>
+                                <strong>Cyrill Gurtner</strong><br>
+                                Software Developer
+                            </p>
+                            <p>
+                                Bielackerstrasse 72<br>
+                                5014 Gretzenbach<br>
+                                <a href="<?php echo CONFIG['baseUrl']; ?>"><?php echo CONFIG['baseUrlAsShown']; ?></a>
+                            </p>
+                            <p>
+                                <a href="kontakt">Kontaktformular</a>
+                            </p>
+                        </address>
                     </div>
-                </header>
-                <div class="row">
-                    <div class="col-sm-12 col-md-8">
-                        <p>
-                            Suspendisse potenti. Duis libero erat, ultricies sed neque sed, suscipit gravida magna.
-                            Morbi ullamcorper lorem et rhoncus imperdiet. Sed eget sem porta, tempus leo eget, tincidunt
-                            velit. Morbi nec sollicitudin libero, ac tempor massa. Sed fringilla, odio pretium cursus
-                            sagittis, massa ante iaculis quam, sit amet sodales mi nunc malesuada lectus. Donec egestas
-                            lectus a sapien consectetur, ac maximus neque pharetra. Nullam in libero eu urna
-                            sollicitudin tempus vel eget sem. Sed vulputate, eros commodo volutpat maximus, nisi massa
-                            rutrum est, eu scelerisque augue lacus a ipsum. Nam venenatis nibh ac dui sagittis
-                            consequat. In posuere finibus malesuada. Aenean accumsan non tellus quis viverra. Aliquam
-                            vel efficitur lacus. Praesent rutrum lacus.
-                        </p>
-                        <ul class="overview">
-                            <li><a href="werdegang" hreflang="de">Zu meinem Werdegang</a></li>
-                            <li><a href="galerie" hreflang="de">Zu meiner Galerie</a></li>
-                            <li><a href="kontakt" hreflang="de">Kontakt mit mir aufnehmen</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="character dark-column">
-                            <header>
-                                <div style="text-align: center">
-                                    <img src="../../gui/image/portrait.jpg" class="header-thumb"
-                                         alt="Profilbild Cyrill Gurtner"/>
-                                    <h2>Steckbrief</h2>
-                                </div>
-                                <hr/>
-                            </header>
-                            <dl>
-                                <dt>Name</dt>
-                                <dd>Cyrill Gurtner</dd>
-                                <dt>Alter</dt>
-                                <dd>26</dd>
-                                <dt>Sprachen</dt>
-                                <dd>Deutsch ▪ Englisch C1</dd>
-                                <dt>Spezialisierung in...</dt>
-                                <dd>
-                                    <small>Web-Basierten Frontend und Backend Softwarelösungen.</small>
-                                </dd>
-                                <dd>
-                                    <small>Interaktive UI Oberflächen mit JavaScript/React und anderen modernen
-                                        libraries & frameworks.
-                                    </small>
-                                </dd>
-                                <dd>
-                                    <small>Implementation von REST API Schnittstellen und Bereitstellung zur
-                                        Frontend-Anbindung.
-                                    </small>
-                                </dd>
-                                <dd>
-                                    <small>Anwenden und Entwerfen von relationalen Datenmodellen.</small>
-                                </dd>
-                            </dl>
+                    <div class="character dark-column">
+                        <header>
+                            <h2>Technologie</h2>
+                        </header>
+                        <div class="tech-percent mt-2">
+                            <span>HTML5 / CSS3</span>
+                            <small class="float-right">95%</small>
+                            <div class="tech-perc-bar perc-95"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>JavaScript / JQuery</span>
+                            <small class="float-right">95%</small>
+                            <div class="tech-perc-bar perc-95"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>React</span>
+                            <small class="float-right">95%</small>
+                            <div class="tech-perc-bar perc-85"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>Node / NPM</span>
+                            <small class="float-right">95%</small>
+                            <div class="tech-perc-bar perc-85"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>PHP / Composer</span>
+                            <small class="float-right">95%</small>
+                            <div class="tech-perc-bar perc-95"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>Docker</span>
+                            <small class="float-right">95%</small>
+                            <div class="tech-perc-bar"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>SQL / MySQL / PostgreSQL</span>
+                            <small class="float-right">95%</small>
+                            <div class="tech-perc-bar"></div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-    </section>
+            </div>
+        </section>
+    </div>
 </main>

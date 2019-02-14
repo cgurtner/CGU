@@ -310,3 +310,41 @@ ul {
     padding-left: 15px;
   }
 }
+
+div.col-box {
+  padding: 1rem;
+  background-origin: padding-box;
+  background-color: $light-dark;
+}
+
+address.home a {
+  color: rgba(255,255,255,.5);
+
+  &:active, &:hover {
+    color: $light;
+  }
+}
+
+div.tech-percent {
+  div.tech-perc-bar {
+    height: 10px;
+    width: 100%;
+    border: 1px solid $light;
+
+    &.perc-95 {
+      background: -webkit-linear-gradient(left, $light 95%, $dark 5%);
+      background: -o-linear-gradient(left, $light 95%, $dark 5%);
+      background: -ms-linear-gradient(left, $light 95%, $dark 5%);
+      background: -moz-linear-gradient(left, $light 95%, $dark 5%);
+      background: linear-gradient(left, $light 95%, $dark 5%);
+    }
+
+    &.perc-85 {
+      background: -webkit-linear-gradient(left, $light 85%, $dark 15%);
+      background: -o-linear-gradient(left, $light 85%, $dark 15%);
+      background: -ms-linear-gradient(left, $light 85%, $dark 15%);
+      background: -moz-linear-gradient(left, $light 85%, $dark 15%);
+      background: linear-gradient(left, $light 85%, $dark 15%);
+    }
+  }
+}
