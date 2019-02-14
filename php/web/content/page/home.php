@@ -26,7 +26,7 @@ $birthday = new DateTime('1992-07-20');
                 </div>
             </header>
             <div class="row">
-                <div class="col-sm-12 col-md-8">
+                <div class="col-sm-12 col-md-8 mb-3 mb-md-5">
                     <section>
                         <div class="row mb-3">
                             <div class="col-sm-12 col-box">
@@ -53,7 +53,7 @@ $birthday = new DateTime('1992-07-20');
                         </div>
                     </section>
                     <section>
-                        <div class="row mb-5">
+                        <div class="row">
                             <div class="col-sm-12 col-box">
                                 <header>
                                     <h2>Werdegang</h2>
@@ -128,7 +128,7 @@ $birthday = new DateTime('1992-07-20');
                         </div>
                     </section>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 mb-5 mb-md-0">
                     <div class="character dark-column mb-3">
                         <header>
                             <h2>Kontakt</h2>
@@ -171,11 +171,6 @@ $birthday = new DateTime('1992-07-20');
                             <span>React</span>
                             <small class="float-right">80%</small>
                             <div class="tech-perc-bar perc-80"></div>
-                        </div>
-                        <div class="tech-percent mt-3">
-                            <span>React Native</span>
-                            <small class="float-right">in progress...</small>
-                            <div class="tech-perc-bar"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>Java</span>
