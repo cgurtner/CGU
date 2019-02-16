@@ -152,35 +152,35 @@ $birthday = new DateTime('1992-07-20');
                         <header>
                             <h2>Technologie</h2>
                         </header>
-                        <div class="tech-percent mt-3">
-                            <span>PHP / OO PHP / Composer</span>
-                            <small class="float-right">95%</small>
-                            <div class="tech-perc-bar perc-95"></div>
-                        </div>
                         <div class="tech-percent mt-2">
+                            <span>PHP / OO PHP / Composer</span>
+                            <small class="float-right">100%</small>
+                            <div class="tech-perc-bar perc-100"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
                             <span>HTML5 / CSS3 / SASS</span>
-                            <small class="float-right">90%</small>
-                            <div class="tech-perc-bar perc-90"></div>
+                            <small class="float-right">100%</small>
+                            <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>JavaScript / JQuery</span>
-                            <small class="float-right">90%</small>
-                            <div class="tech-perc-bar perc-90"></div>
+                            <small class="float-right">75%</small>
+                            <div class="tech-perc-bar perc-75"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>React</span>
-                            <small class="float-right">80%</small>
-                            <div class="tech-perc-bar perc-80"></div>
-                        </div>
-                        <div class="tech-percent mt-3">
-                            <span>Java</span>
-                            <small class="float-right">70%</small>
-                            <div class="tech-perc-bar perc-70"></div>
+                            <small class="float-right">75%</small>
+                            <div class="tech-perc-bar perc-75"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>SQL / MySQL / PostgreSQL</span>
-                            <small class="float-right">70%</small>
-                            <div class="tech-perc-bar perc-70"></div>
+                            <small class="float-right">75%</small>
+                            <div class="tech-perc-bar perc-75"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>Java</span>
+                            <small class="float-right">75%</small>
+                            <div class="tech-perc-bar perc-75"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>Docker / Linux / Server</span>

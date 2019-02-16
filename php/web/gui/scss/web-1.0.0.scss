@@ -330,36 +330,20 @@ div.tech-percent {
     width: 100%;
     border: 1px solid $light;
 
-    &.perc-95 {
-      background: -webkit-linear-gradient(left, $light 95%, $dark 5%);
-      background: -o-linear-gradient(left, $light 95%, $dark 5%);
-      background: -ms-linear-gradient(left, $light 95%, $dark 5%);
-      background: -moz-linear-gradient(left, $light 95%, $dark 5%);
-      background: linear-gradient(left, $light 95%, $dark 5%);
+    &.perc-100 {
+      background: -webkit-linear-gradient(left, $light 100%, $dark 0%);
+      background: -o-linear-gradient(left, $light 100%, $dark 0%);
+      background: -ms-linear-gradient(left, $light 100%, $dark 0%);
+      background: -moz-linear-gradient(left, $light 100%, $dark 0%);
+      background: linear-gradient(left, $light 100%, $dark 0%);
     }
 
-    &.perc-90 {
-      background: -webkit-linear-gradient(left, $light 90%, $dark 10%);
-      background: -o-linear-gradient(left, $light 90%, $dark 10%);
-      background: -ms-linear-gradient(left, $light 90%, $dark 10%);
-      background: -moz-linear-gradient(left, $light 90%, $dark 10%);
-      background: linear-gradient(left, $light 90%, $dark 10%);
-    }
-
-    &.perc-80 {
-      background: -webkit-linear-gradient(left, $light 80%, $dark 20%);
-      background: -o-linear-gradient(left, $light 80%, $dark 20%);
-      background: -ms-linear-gradient(left, $light 80%, $dark 20%);
-      background: -moz-linear-gradient(left, $light 80%, $dark 20%);
-      background: linear-gradient(left, $light 80%, $dark 20%);
-    }
-
-    &.perc-70 {
-      background: -webkit-linear-gradient(left, $light 70%, $dark 30%);
-      background: -o-linear-gradient(left, $light 70%, $dark 30%);
-      background: -ms-linear-gradient(left, $light 70%, $dark 30%);
-      background: -moz-linear-gradient(left, $light 70%, $dark 30%);
-      background: linear-gradient(left, $light 70%, $dark 30%);
+    &.perc-75 {
+      background: -webkit-linear-gradient(left, $light 75%, $dark 25%);
+      background: -o-linear-gradient(left, $light 75%, $dark 25%);
+      background: -ms-linear-gradient(left, $light 75%, $dark 25%);
+      background: -moz-linear-gradient(left, $light 75%, $dark 25%);
+      background: linear-gradient(left, $light 75%, $dark 25%);
     }
 
     &.perc-50 {
