@@ -153,17 +153,17 @@ $birthday = new DateTime('1992-07-20');
                             <h2>Technologie</h2>
                         </header>
                         <div class="tech-percent mt-2">
-                            <span>PHP / OO PHP / Composer</span>
+                            <span>PHP | OO PHP | Composer</span>
                             <small class="float-right">100%</small>
                             <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>HTML5 / CSS3 / SASS</span>
+                            <span>HTML5 | CSS3 | SASS</span>
                             <small class="float-right">100%</small>
                             <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>JavaScript / JQuery</span>
+                            <span>JavaScript | JQuery</span>
                             <small class="float-right">75%</small>
                             <div class="tech-perc-bar perc-75"></div>
                         </div>
@@ -173,7 +173,7 @@ $birthday = new DateTime('1992-07-20');
                             <div class="tech-perc-bar perc-75"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>SQL / MySQL / PostgreSQL</span>
+                            <span>MySQL | PostgreSQL</span>
                             <small class="float-right">75%</small>
                             <div class="tech-perc-bar perc-75"></div>
                         </div>
@@ -183,7 +183,7 @@ $birthday = new DateTime('1992-07-20');
                             <div class="tech-perc-bar perc-75"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>Docker / Linux / Server</span>
+                            <span>Docker | Linux | Server</span>
                             <small class="float-right">50%</small>
                             <div class="tech-perc-bar perc-50"></div>
                         </div>
