@@ -2,7 +2,7 @@
   {
     "meta": {
       "title": "Home",
-      "description": "Ich, Cyrill Gurtner, bin ein Programmierer aus der Schweiz. Selbstständig tätig sowie angestellt als Software Developer realisiere ich Applikationen mit modernsten Technologien."
+      "description": "Ich, Cyrill Gurtner, bin ein Softwareentickler aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
     },
     "url": "home",
     "path": "content/page/home.php",
@@ -13,7 +13,7 @@
   {
     "meta": {
       "title": "Werdegang",
-      "description": "Von der Lehrstelle zum Applikationsentwickler zum Studium der Informatik und währenddessen angestellt als Software Developer. Lesen Sie hier meinen vollständigen Werdegang."
+      "description": "Informatiker EFZ mit Fachrichtung Applikationsentwicklung mit anschliessender technischen Berufsmatur und Studium an der technischen Hochschule Rapperswil."
     },
     "url": "werdegang",
     "path": "content/page/werdegang.php",
@@ -24,7 +24,7 @@
   {
     "meta": {
       "title": "Galerie",
-      "description": "Instagram Story von mir, Cyrill Gurtner."
+      "description": "Meine Galerie umfasst einen Live-Feed von meinem Instagram Profil."
     },
     "url": "galerie",
     "path": "content/page/galerie.php",
@@ -35,7 +35,7 @@
   {
     "meta": {
       "title": "Kontakt",
-      "description": "Web-Applikationen, Software-Architekturen, Datenbanken. Ich bin ein Ansprechpartner für viele technische Themen. Nehmen Sie Kontakt mit mir auf!"
+      "description": "Webapplikationen, komplexe Softwarelösungen und Datenbankmodelle. Nehmen Sie mit mir Kontakt auf und besprechen Sie mit mir Ihre Ideen!"
     },
     "description": "",
     "url": "kontakt",
