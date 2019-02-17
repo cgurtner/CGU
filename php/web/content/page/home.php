@@ -125,57 +125,74 @@ $age = $dateNow->diff($birthday)->y;
                                         </header>
                                         <section>
                                             <header>
-                                                <h4 class="inline">Hochschule für Technik Rapperswil</h4>
+                                                <h4 class="inline">
+                                                    Hochschule für Technik Rapperswil ▪
+                                                    <a href="https://www.hsr.ch/" hreflang="de" target="_blank">hsr.ch</a>
+                                                </h4>
                                             </header>
-                                            <p>
-                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
-                                                blandit
-                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
-                                                ac
-                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
-                                                Nunc
-                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
-                                                bibendum
-                                                bibendum sagittis.
-                                            </p>
+                                            <dl class="row">
+                                            <dt class="col-sm-4">BSc FHO in Informatik</dt>
+                                            <dd class="col-sm-8">
+                                                Abschluss diverser Module in den Spezialisierungen
+                                                Application Design, Software Engineering und
+                                                Data Engineering.
+                                            </dd>
+                                            </dl>
                                         </section>
                                         <section>
                                             <header>
-                                                <h4 class="inline">AKAD College</h4>
+                                                <h4 class="inline">
+                                                    AKAD College ▪
+                                                    <a href="https://www.akad.ch/de-CH" hreflang="de" target="_blank">akad.ch</a>
+                                                </h4>
                                             </header>
-                                            <p>
-                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
-                                                blandit
-                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
-                                                ac
-                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
-                                                Nunc
-                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
-                                                bibendum
-                                                bibendum sagittis.
-                                            </p>
+                                            <dl class="row">
+                                            <dt class="col-sm-4">Eidg. Tech. Berufsmaturität</dt>
+                                            <dd class="col-sm-8">
+                                                Abschluss der technischen Berufsmaturität an der AKAD College
+                                                in Zürich, Oerlikon. Teilnahme im Teilzeitpensum und
+                                                parallele Weiteranstellung bei der Datahouse AG.
+                                            </dd>
+                                            </dl>
+                                            <dl class="row">
+                                                <dt class="col-sm-4">Schwerpunkt & Abschluss</dt>
+                                                <dd class="col-sm-8">
+                                                    Teilname an den Schwepunktfächern Mathematik sowie den
+                                                    Naturwissenschaften Chemie & Physik. Abgschlossen habe ich
+                                                    mit der interdisziplinären Projektarbeit (IDPA) im Fach
+                                                    Physik.
+                                                </dd>
+                                            </dl>
                                         </section>
                                         <section>
                                             <header>
-                                                <h4 class="inline">Informatikschule Olten</h4>
+                                                <h4 class="inline">
+                                                    Informatikschule Olten ▪
+                                                    <a href="https://www.informatikschuleolten.ch/" hreflang="de" target="_blank">informatikschuleolten.ch</a>
+                                                </h4>
                                             </header>
-                                            <p>
-                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
-                                                blandit
-                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
-                                                ac
-                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
-                                                Nunc
-                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
-                                                bibendum
-                                                bibendum sagittis.
-                                            </p>
+                                            <dl class="row">
+                                                <dt class="col-sm-4">Informatiker EFZ</dt>
+                                                <dd class="col-sm-8">
+                                                    Abschluss der vierjährigen Lehre zum Informatiker EFZ mit
+                                                    Fachrichtung Applikationsentwicklung.
+                                                </dd>
+                                            </dl>
+                                            <dl class="row">
+                                                <dt class="col-sm-4">Systemtechnik</dt>
+                                                <dd class="col-sm-8">
+                                                    Alle Module die im Rahmen der Fachrichtung Systemtechnik
+                                                    angeboten werden habe ich ebenfalls besucht und
+                                                    bestanden.
+                                                </dd>
+                                            </dl>
+                                            <dl class="row">
+                                                <dt class="col-sm-4">IPA</dt>
+                                                <dd class="col-sm-8">
+                                                    Abschluss der Lehre mit der IPA "Web-Tool zur Protokollführung" mit
+                                                    sehr guter Note und kantonaler Auszeichnung.
+                                                </dd>
+                                            </dl>
                                         </section>
                                     </section>
                                 </div>
