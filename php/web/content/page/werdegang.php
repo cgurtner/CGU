@@ -58,11 +58,11 @@
                                         </header>
                                         <p>
                                             Definition der Softwarearchitektur und Entwicklung von komplexer
-                                            Backend Funktionalität in OO PHP, Implementation von Datenwebservices in C++ sowie
+                                            Backend-Funktionalität in OO PHP, Implementation von Datenwebservices in C++ sowie
                                             Planung und Modellierung von komplexen, relationalen Datenbankmodellen in MySQL und PostgreSQL.
                                         </p>
                                         <p>
-                                            Verknüpfung von Backend Funktionalität und React Frontend über Schnittstellen (APIs) und damit
+                                            Verknüpfung von Backend-Funktionalität und React-Frontend über Schnittstellen (APIs) und damit
                                             verbundene Datenabfragen. Implementation von REST APIs in PHP oder Python.
                                         </p>
                                     </section>

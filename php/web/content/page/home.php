@@ -33,28 +33,28 @@ $age = $dateNow->diff($birthday)->y;
                             <div class="col-sm-12 col-box">
                                 <div>
                                     <header>
-                                        <h2>Ich</h2>
+                                        <h2>Herzlich willkommen</h2>
                                     </header>
                                     <p>
                                         Ich, Cyrill Gurtner, bin ein <?php echo $age; ?> jähriger Softwareentwickler aus
                                         der Schweiz. Sehr früh merkte ich, dass
                                         mich die Programmierung interessiert und startete damit, kleine
                                         Terminal-Applikationen in C++ zu schreiben. Als die Berufswahl in der Schule
-                                        ein Thema wurde, wusste ich schnell, dass ich Informatiker in Fachrichtung
+                                        ein Thema wurde, wusste ich schnell, dass ich Informatiker mit Fachrichtung
                                         Applikationensentwicklung lernen möchte.
                                     </p>
                                     <p>
-                                        Mit 16 jahren trat ich in die Informatischule Olten ein und absolvierte dort in
+                                        Mit 16 jahren trat ich in die Informatikschule Olten ein und absolvierte dort in
                                         2 Jahren alle Module zum
                                         Applikationsentwickler. Da ich die Möglichkeit hatte, zusätzlich alle Module aus
                                         der Fachrichtung Systemtechnik
                                         zu besuchen, schloss ich auch diese kantonal ab. Zum Abschluss meiner Lehre
                                         schrieb ich die individuelle praktische Arbeit (IPA) mit dem Titel "Web-Tool zur
                                         Protokollführung".
-                                        Mit den Technologien HTML/CSS, PHP, MySQL und LaTeX entwickelte ich ein
-                                        webbasiertes Tool um Meetings zu protokollieren,
-                                        Teilnehmer einzuladen und zu verwalten sowie das Protokoll automatisiert als PDF
-                                        zwischen allen Teilnehmer zu verteilen.
+                                        Mit den Technologien HTML/CSS, OO PHP, MySQL und LaTeX entwickelte ich ein
+                                        webbasiertes Tool um Meetings zu protokollieren und Teilnehmer einzuladen und
+                                        zu verwalten. Aus den Eingaben im Tool konnte anschliessend ein PDF generiert werden, welches
+                                        automatisch per E-Mail an alle Teilnehmer zur Einsicht freigegeben werden konnte.
                                     </p>
                                     <p>
                                         Im Sommer 2013 schloss ich meine Lehre mit kantonaler Auszeichung ab.
@@ -94,9 +94,9 @@ $age = $dateNow->diff($birthday)->y;
                                                 <dt class="col-sm-4">Benutzeroberflächen</dt>
                                                 <dd class="col-sm-8">
                                                     Techniche Konzipierung von Benutzeroberflächen mit modernen
-                                                    Technologien wie HTML5, CSS3, SASS sowie JavaScript und JQuery.<br />
-                                                    Implementation von modernen user interfaces in React in Verbindung
-                                                    mit diversen modernen libraries.
+                                                    Technologien wie HTML5/CSS3 inkl. SASS sowie JavaScript und JQuery.<br />
+                                                    Implementation von modernen User-Interfaces in React in Verbindung
+                                                    mit diversen modernen Libraries.
                                                 </dd>
                                                 <dt class="col-sm-4">Softwarearchitektur</dt>
                                                 <dd class="col-sm-8">
@@ -157,7 +157,7 @@ $age = $dateNow->diff($birthday)->y;
                                             <dl class="row">
                                                 <dt class="col-sm-4">Schwerpunkt & Abschluss</dt>
                                                 <dd class="col-sm-8">
-                                                    Schwerpunktfächer der technischen Berufsmaturität Mathematik und
+                                                    Schwerpunktfächer der technischen Berufsmaturität ist Mathematik und
                                                     die Naturwissenschaften Chemie & Physik. Abgschlossen habe ich
                                                     mit der interdisziplinären Projektarbeit (IDPA) im Fach
                                                     Physik.
@@ -183,7 +183,7 @@ $age = $dateNow->diff($birthday)->y;
                                                 <dt class="col-sm-4">Systemtechnik</dt>
                                                 <dd class="col-sm-8">
                                                     Alle Module die im Rahmen der Fachrichtung Systemtechnik
-                                                    angeboten werden habe ich ebenfalls besucht und
+                                                    angeboten werden, habe ich ebenfalls besucht und
                                                     bestanden.
                                                 </dd>
                                             </dl>
