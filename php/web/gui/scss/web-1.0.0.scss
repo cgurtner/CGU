@@ -324,9 +324,12 @@ ul {
 }
 
 div.col-box {
-  padding: 1rem;
-  background-origin: padding-box;
-  background-color: $light-dark;
+  padding-right: unset;
+  div:first-of-type {
+    padding: 1rem;
+    background-origin: padding-box;
+    background-color: $light-dark;
+  }
 }
 
 address.home a {

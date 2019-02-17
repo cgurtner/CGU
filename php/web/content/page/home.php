@@ -30,100 +30,126 @@ $birthday = new DateTime('1992-07-20');
                     <section>
                         <div class="row mb-3">
                             <div class="col-sm-12 col-box">
-                                <header>
-                                    <h2>Ich</h2>
-                                </header>
-                                <p>
-                                    Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                    euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
-                                    ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum. Donec
-                                    dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus, finibus
-                                    arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis. Curabitur
-                                    vitae lobortis purus. Fusce bibendum bibendum sagittis.
-                                </p>
-                                <p>
-                                    Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                    euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
-                                    ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum. Donec
-                                    dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus, finibus
-                                    arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis. Curabitur
-                                    vitae lobortis purus. Fusce bibendum bibendum sagittis.
-                                </p>
+                                <div>
+                                    <header>
+                                        <h2>Ich</h2>
+                                    </header>
+                                    <p>
+                                        Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                        euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
+                                        ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum.
+                                        Donec
+                                        dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus,
+                                        finibus
+                                        arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis.
+                                        Curabitur
+                                        vitae lobortis purus. Fusce bibendum bibendum sagittis.
+                                    </p>
+                                    <p>
+                                        Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
+                                        euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
+                                        ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum.
+                                        Donec
+                                        dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus,
+                                        finibus
+                                        arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis.
+                                        Curabitur
+                                        vitae lobortis purus. Fusce bibendum bibendum sagittis.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </section>
                     <section>
                         <div class="row">
                             <div class="col-sm-12 col-box">
-                                <header>
-                                    <h2>Werdegang</h2>
-                                </header>
-                                <section>
+                                <div>
                                     <header>
-                                        <h3>Karriere</h3>
+                                        <h2>Werdegang</h2>
                                     </header>
                                     <section>
                                         <header>
-                                            <h4 class="inline">Datahouse AG</h4>
+                                            <h3>Karriere</h3>
                                         </header>
-                                        <p>
-                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
-                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
-                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
-                                            bibendum sagittis.
-                                        </p>
-                                    </section>
-                                </section>
-                                <section>
-                                    <header>
-                                        <h3>Ausbildung</h3>
-                                    </header>
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Hochschule für Technik Rapperswil</h4>
-                                        </header>
-                                        <p>
-                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
-                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
-                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
-                                            bibendum sagittis.
-                                        </p>
+                                        <section>
+                                            <header>
+                                                <h4 class="inline">Datahouse AG</h4>
+                                            </header>
+                                            <p>
+                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
+                                                blandit
+                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
+                                                ac
+                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
+                                                Nunc
+                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
+                                                bibendum
+                                                bibendum sagittis.
+                                            </p>
+                                        </section>
                                     </section>
                                     <section>
                                         <header>
-                                            <h4 class="inline">AKAD College</h4>
+                                            <h3>Ausbildung</h3>
                                         </header>
-                                        <p>
-                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
-                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
-                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
-                                            bibendum sagittis.
-                                        </p>
+                                        <section>
+                                            <header>
+                                                <h4 class="inline">Hochschule für Technik Rapperswil</h4>
+                                            </header>
+                                            <p>
+                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
+                                                blandit
+                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
+                                                ac
+                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
+                                                Nunc
+                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
+                                                bibendum
+                                                bibendum sagittis.
+                                            </p>
+                                        </section>
+                                        <section>
+                                            <header>
+                                                <h4 class="inline">AKAD College</h4>
+                                            </header>
+                                            <p>
+                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
+                                                blandit
+                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
+                                                ac
+                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
+                                                Nunc
+                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
+                                                bibendum
+                                                bibendum sagittis.
+                                            </p>
+                                        </section>
+                                        <section>
+                                            <header>
+                                                <h4 class="inline">Informatikschule Olten</h4>
+                                            </header>
+                                            <p>
+                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
+                                                blandit
+                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
+                                                ac
+                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
+                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
+                                                Nunc
+                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
+                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
+                                                bibendum
+                                                bibendum sagittis.
+                                            </p>
+                                        </section>
                                     </section>
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Informatikschule Olten</h4>
-                                        </header>
-                                        <p>
-                                            Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                            euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac
-                                            urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                            bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et. Nunc
-                                            at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                            tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce bibendum
-                                            bibendum sagittis.
-                                        </p>
-                                    </section>
-                                </section>
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -181,6 +207,11 @@ $birthday = new DateTime('1992-07-20');
                             <span>Java</span>
                             <small class="float-right">75%</small>
                             <div class="tech-perc-bar perc-75"></div>
+                        </div>
+                        <div class="tech-percent mt-3">
+                            <span>Python</span>
+                            <small class="float-right">50%</small>
+                            <div class="tech-perc-bar perc-50"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>Docker | Linux | Server</span>
