@@ -65,6 +65,12 @@ body.bg-fullscreen {
   }
 }
 
+@media (max-width: 992px) {
+  .navbar-collapse div.navbar-nav a.nav-link:first-of-type {
+    padding-top: 1rem;
+  }
+}
+
 div.bg-fullscreen {
   height: 100vh;
   height: calc(var(--vh, 1vh) * 100);
@@ -106,10 +112,6 @@ main.fade-in {
 
 .navbar-expand-lg .navbar-nav-social-mobile .nav-link:first-of-type {
   padding-left: unset;
-}
-
-.navbar-collapse div.navbar-nav a.nav-link:first-of-type {
-  padding-top: 1rem;
 }
 
 a, button.collapse-button {
