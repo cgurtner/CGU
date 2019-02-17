@@ -108,6 +108,10 @@ main.fade-in {
   padding-left: unset;
 }
 
+.navbar-collapse div.navbar-nav a.nav-link:first-of-type {
+  padding-top: 1rem;
+}
+
 a, button.collapse-button {
   color: $highlight;
 }
