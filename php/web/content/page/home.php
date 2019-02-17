@@ -60,7 +60,7 @@ $age = $dateNow->diff($birthday)->y;
                                         Im Sommer 2013 schloss ich meine Lehre mit kantonaler Auszeichung ab.
                                     </p>
                                     <p>
-                                        In meinem zweiten Lehrjahr startete ich ein Praktikum bei der Datahouse AG im
+                                        In meinem dritten Lehrjahr startete ich ein Praktikum bei der Datahouse AG im
                                         Herzen von Zürich. Seither beschäftige ich mich dort mit der Konzipierung von
                                         Benutzeroberflächen, Softwarearchitekturen, Aufbau von komplexen Datenmodellen
                                         sowie der Unterhalt von bestehenden Webapplikationen. Auch nach meinem
@@ -84,7 +84,7 @@ $age = $dateNow->diff($birthday)->y;
                                         </header>
                                         <section>
                                             <header>
-                                                <h4 class="inline">Software Developer ▪
+                                                <h4 class="inline">Software Developer<br />
                                                     <a href="https://www.datahouse.ch/" hreflang="de" target="_blank">
                                                         Datahouse AG
                                                     </a>
@@ -101,7 +101,7 @@ $age = $dateNow->diff($birthday)->y;
                                                 <dt class="col-sm-4">Softwarearchitektur</dt>
                                                 <dd class="col-sm-8">
                                                     Implementation von komplexen Webapplikationen in PHP und Datenwebservices
-                                                    in C++. Planung und modellierung von passenden relationalen
+                                                    in C++. Planung und Modellierung von passenden relationalen
                                                     Datenbankmodellen.
                                                 </dd>
                                                 <dt class="col-sm-4">Schnittstellen</dt>
@@ -126,7 +126,7 @@ $age = $dateNow->diff($birthday)->y;
                                         <section>
                                             <header>
                                                 <h4 class="inline">
-                                                    Hochschule für Technik Rapperswil ▪
+                                                    Hochschule für Technik Rapperswil<br />
                                                     <a href="https://www.hsr.ch/" hreflang="de" target="_blank">hsr.ch</a>
                                                 </h4>
                                             </header>
@@ -142,7 +142,7 @@ $age = $dateNow->diff($birthday)->y;
                                         <section>
                                             <header>
                                                 <h4 class="inline">
-                                                    AKAD College ▪
+                                                    AKAD College<br />
                                                     <a href="https://www.akad.ch/de-CH" hreflang="de" target="_blank">akad.ch</a>
                                                 </h4>
                                             </header>
@@ -157,8 +157,8 @@ $age = $dateNow->diff($birthday)->y;
                                             <dl class="row">
                                                 <dt class="col-sm-4">Schwerpunkt & Abschluss</dt>
                                                 <dd class="col-sm-8">
-                                                    Teilname an den Schwepunktfächern Mathematik sowie den
-                                                    Naturwissenschaften Chemie & Physik. Abgschlossen habe ich
+                                                    Schwerpunktfächer der technischen Berufsmaturität Mathematik und
+                                                    die Naturwissenschaften Chemie & Physik. Abgschlossen habe ich
                                                     mit der interdisziplinären Projektarbeit (IDPA) im Fach
                                                     Physik.
                                                 </dd>
@@ -167,7 +167,7 @@ $age = $dateNow->diff($birthday)->y;
                                         <section>
                                             <header>
                                                 <h4 class="inline">
-                                                    Informatikschule Olten ▪
+                                                    Informatikschule Olten<br/>
                                                     <a href="https://www.informatikschuleolten.ch/" hreflang="de" target="_blank">informatikschuleolten.ch</a>
                                                 </h4>
                                             </header>
@@ -175,7 +175,8 @@ $age = $dateNow->diff($birthday)->y;
                                                 <dt class="col-sm-4">Informatiker EFZ</dt>
                                                 <dd class="col-sm-8">
                                                     Abschluss der vierjährigen Lehre zum Informatiker EFZ mit
-                                                    Fachrichtung Applikationsentwicklung.
+                                                    Fachrichtung Applikationsentwicklung. Ab dem dritten Lehrjahr
+                                                    Beginn meiner Anstellung bei der Datahouse AG.
                                                 </dd>
                                             </dl>
                                             <dl class="row">

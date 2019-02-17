@@ -34,7 +34,7 @@
                                         </p>
                                         <p>
                                             Meine Tätigkeits- und Aufgabenbereiche umfassen als Software Developer unter
-                                            anderem die folgenden.
+                                            anderem die Folgenden.
                                         </p>
                                     </section>
                                     <section>
@@ -43,21 +43,27 @@
                                                 Benutzeroberflächen</h4>
                                         </header>
                                         <p>
-                                            Erstellung von modernen Benutzeroberflächen in HTML/CSS und JS/JQuery.
-                                            Umsetzung von Single-Page-Applications mit modernen Frameworks und
-                                            Libraries wie Angular und React.
+                                            Erstellung von modernen Benutzeroberflächen in HTML5/CSS3 inkl. SASS. Erweiterung
+                                            der Funktionalität mit JavaScript und JQuery.
+                                        </p>
+                                        <p>
+                                            Implementation von modernen, webbasierten Applikationen mit React und diversen
+                                            zusätzlichen Libriaries. Erweiterung der Applikationslogik mit JWT-Token
+                                            Authentifizierung.
                                         </p>
                                     </section>
                                     <section>
                                         <header>
-                                            <h4 class="inline">Entwicklung und technische Konzipierung von
-                                                Software-Lösungen</h4>
+                                            <h4 class="inline">Entwicklung und technische Konzipierung von Softwarearchitekturen</h4>
                                         </header>
                                         <p>
-                                            Definition der Software-Architektur und Entwicklung von komplexen
-                                            Webapplikationen in OO PHP, Implementation von Datenwebservices in C++ sowie
-                                            Planung und Modellierung von komplexen,
-                                            relationalen Datenbankmodellen in MySQL und PostgreSQL.
+                                            Definition der Softwarearchitektur und Entwicklung von komplexer
+                                            Backend Funktionalität in OO PHP, Implementation von Datenwebservices in C++ sowie
+                                            Planung und Modellierung von komplexen, relationalen Datenbankmodellen in MySQL und PostgreSQL.
+                                        </p>
+                                        <p>
+                                            Verknüpfung von Backend Funktionalität und React Frontend über Schnittstellen (APIs) und damit
+                                            verbundene Datenabfragen. Implementation von REST APIs in PHP oder Python.
                                         </p>
                                     </section>
                                     <section>
@@ -102,22 +108,16 @@
                                             <h4 class="inline">Inhalt & Schwerpunkte</h4>
                                         </header>
                                         <p>
-                                            An der HSR unterrichten kompetente Dozentinnen und Dozenten, die gesuchte
-                                            Fachspezialistinnen und Fachspezialisten auf ihren Gebieten sind. Sie sind
-                                            in international führenden Fachnetzwerken eingebunden und arbeiten an
-                                            zukunftweisenden Informatik-Lösungen. Dabei ist die Studienstruktur
-                                            vielseitig und richtet sich nach individuellen Interessen.
+                                            Abschluss von diversen Modulen in den Spezialisierungen Application Design,
+                                            Software Engineering und Data Engineering.
                                         </p>
                                         <p>
-                                            Das Informatikstudium bietet eine Modulauswahl aus folgenden vier
-                                            Studienschwerpunkten.
-                                            Application Design, Data Engineering & Machine Intelligence, Networks &
-                                            Security und
-                                            Software Engineering.
+                                            Zwei Jahre Unterricht zur objektorientierten Programmierung in Java.
+                                            Sowie durchgehender Unterricht in SQL/PostgreSQL.
                                         </p>
                                         <p>
-                                            Ich konzentriere mich weitestgehend auf Module aus den Spezialisierungen
-                                            Application Design und Software Engineering.
+                                            Besuch von Modulen zur erfolgreichen Projektmethodik und der agilen Softwareentwicklung. Anwendung
+                                            des bekannten Vorgehensmodell SCRUM.
                                         </p>
                                     </section>
                                     <section>
@@ -215,7 +215,7 @@
                                         und
                                         anschliessend ein Protokoll für alle Teilnehmer veröffentlicht werden kann. Als
                                         Technologien eingesetzt habe ich HTML/CSS, JS/JQuery, OO PHP, MySQL und
-                                        LaTeX um die Dokumentation zu schreiben.
+                                        LaTeX.
                                     </p>
                                     <p>
                                         Im Juli 2013 schloss ich meine Lehre zum Applikationsentwickler EFZ mit der
