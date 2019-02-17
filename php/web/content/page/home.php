@@ -2,6 +2,7 @@
 
 $dateNow = new DateTime();
 $birthday = new DateTime('1992-07-20');
+$age = $dateNow->diff($birthday)->y;
 
 ?>
 <main class="fade-in">
@@ -35,26 +36,36 @@ $birthday = new DateTime('1992-07-20');
                                         <h2>Ich</h2>
                                     </header>
                                     <p>
-                                        Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                        euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
-                                        ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum.
-                                        Donec
-                                        dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus,
-                                        finibus
-                                        arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis.
-                                        Curabitur
-                                        vitae lobortis purus. Fusce bibendum bibendum sagittis.
+                                        Ich, Cyrill Gurtner, bin ein <?php echo $age; ?> jähriger Softwareentwickler aus
+                                        der Schweiz. Sehr früh merkte ich, dass
+                                        mich die Programmierung interessiert und startete damit, kleine
+                                        Terminal-Applikationen in C++ zu schreiben. Als die Berufswahl in der Schule
+                                        ein Thema wurde, wusste ich schnell, dass ich Informatiker in Fachrichtung
+                                        Applikationensentwicklung lernen möchte.
                                     </p>
                                     <p>
-                                        Duis gravida magna non tristique varius. Integer sagittis, erat quis blandit
-                                        euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis ac urna
-                                        ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id bibendum.
-                                        Donec
-                                        dictum sagittis arcu, in vestibulum magna finibus et. Nunc at mauris tempus,
-                                        finibus
-                                        arcu et, consectetur sem. Pellentesque rutrum tincidunt orci in lobortis.
-                                        Curabitur
-                                        vitae lobortis purus. Fusce bibendum bibendum sagittis.
+                                        Mit 16 jahren trat ich in die Informatischule Olten ein und absolvierte dort in
+                                        2 Jahren alle Module zum
+                                        Applikationsentwickler. Da ich die Möglichkeit hatte, zusätzlich alle Module aus
+                                        der Fachrichtung Systemtechnik
+                                        zu besuchen, schloss ich auch diese kantonal ab. Zum Abschluss meiner Lehre
+                                        schrieb ich die individuelle praktische Arbeit (IPA) mit dem Titel "Web-Tool zur
+                                        Protokollführung".
+                                        Mit den Technologien HTML/CSS, PHP, MySQL und LaTeX entwickelte ich ein
+                                        webbasiertes Tool um Meetings zu protokollieren,
+                                        Teilnehmer einzuladen und zu verwalten sowie das Protokoll automatisiert als PDF
+                                        zwischen allen Teilnehmer zu verteilen.
+                                    </p>
+                                    <p>
+                                        Im Sommer 2013 schloss ich meine Lehre mit kantonaler Auszeichung ab.
+                                    </p>
+                                    <p>
+                                        In meinem zweiten Lehrjahr startete ich ein Praktikum bei der Datahouse AG im
+                                        Herzen von Zürich. Seither beschäftige ich mich dort mit der Konzipierung von
+                                        Benutzeroberflächen, Softwarearchitekturen, Aufbau von komplexen Datenmodellen
+                                        sowie der Unterhalt von bestehenden Webapplikationen. Auch nach meinem
+                                        Praktikum blieb ich der Datahouse AG treu und arbeite bis heute an
+                                        spannenden Projekten verschiedenster Branchen.
                                     </p>
                                 </div>
                             </div>
@@ -73,21 +84,39 @@ $birthday = new DateTime('1992-07-20');
                                         </header>
                                         <section>
                                             <header>
-                                                <h4 class="inline">Datahouse AG</h4>
+                                                <h4 class="inline">Software Developer ▪
+                                                    <a href="https://www.datahouse.ch/" hreflang="de" target="_blank">
+                                                        Datahouse AG
+                                                    </a>
+                                                </h4>
                                             </header>
-                                            <p>
-                                                Duis gravida magna non tristique varius. Integer sagittis, erat quis
-                                                blandit
-                                                euismod, justo diam auctor erat, quis porta erat est ornare lectus. Duis
-                                                ac
-                                                urna ipsum. Proin eu vulputate diam. Quisque facilisis bibendum sem id
-                                                bibendum. Donec dictum sagittis arcu, in vestibulum magna finibus et.
-                                                Nunc
-                                                at mauris tempus, finibus arcu et, consectetur sem. Pellentesque rutrum
-                                                tincidunt orci in lobortis. Curabitur vitae lobortis purus. Fusce
-                                                bibendum
-                                                bibendum sagittis.
-                                            </p>
+                                            <dl class="row">
+                                                <dt class="col-sm-4">Benutzeroberflächen</dt>
+                                                <dd class="col-sm-8">
+                                                    Techniche Konzipierung von Benutzeroberflächen mit modernen
+                                                    Technologien wie HTML5, CSS3, SASS sowie JavaScript und JQuery.<br />
+                                                    Implementation von modernen user interfaces in React in Verbindung
+                                                    mit diversen modernen libraries.
+                                                </dd>
+                                                <dt class="col-sm-4">Softwarearchitektur</dt>
+                                                <dd class="col-sm-8">
+                                                    Implementation von komplexen Webapplikationen in PHP und Datenwebservices
+                                                    in C++. Planung und modellierung von passenden relationalen
+                                                    Datenbankmodellen.
+                                                </dd>
+                                                <dt class="col-sm-4">Schnittstellen</dt>
+                                                <dd class="col-sm-8">
+                                                    Entwicklung von API Schnittstellen und Bereitstellung für die
+                                                    Anbindung an diverse Softwarelösungen. Implementationen
+                                                    in Python oder PHP.
+                                                </dd>
+                                                <dt class="col-sm-4">Betrieb & Support</dt>
+                                                <dd class="col-sm-8">
+                                                    Instandhaltung von Betriebsprojekten und durchführen von
+                                                    Fehleranalysen. Wartung von bestehenden oder entwickelten
+                                                    Applikationen.
+                                                </dd>
+                                            </dl>
                                         </section>
                                     </section>
                                     <section>
