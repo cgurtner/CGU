@@ -26,8 +26,7 @@
                             continue;
                         }
                         $active = getActive($p, $page['url']);
-                        $url = CONFIG['baseUrl'] . $p['url'];
-                        echo '<a href="' . $url . '" hreflang="de" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
+                        echo '<a href="' . $p['url'] . '" hreflang="de" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
                     }
                     ?></div>
                 <ul class="navbar-nav navbar-nav-social navbar-nav-social-mobile ml-md-auto d-lg-none">
