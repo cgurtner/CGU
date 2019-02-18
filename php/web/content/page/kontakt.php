@@ -38,7 +38,7 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                         <a href="file/id_rsa.pub">SSH-RSA</a>
                     </p>
                 </div>
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-6 mb-md-5">
                     <?php echo $emailSent; ?>
                     <form method="post" action="<?php echo $page['url']; ?>">
                         <div class="row">
