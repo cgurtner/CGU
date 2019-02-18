@@ -17,7 +17,7 @@ $age = $dateNow->diff($birthday)->y;
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
                                 <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
-                                    <a property="item" typeof="WebPage" href="home"><span
+                                    <a property="item" typeof="WebPage" href="home" hreflang="de"><span
                                                 property="name">Home</span></a>
                                     <meta property="position" content="1">
                                 </li>
