@@ -112,7 +112,7 @@ $age = $dateNow->diff($birthday)->y;
                                                 </dd>
                                                 <dt class="col-sm-4">Betrieb & Support</dt>
                                                 <dd class="col-sm-8">
-                                                    Instandhaltung von Betriebsprojekten und durchführen von
+                                                    Instandhaltung von Betriebsprojekten und Durchführen von
                                                     Fehleranalysen. Wartung von bestehenden oder entwickelten
                                                     Applikationen.
                                                 </dd>
@@ -157,7 +157,7 @@ $age = $dateNow->diff($birthday)->y;
                                             <dl class="row">
                                                 <dt class="col-sm-4">Schwerpunkt & Abschluss</dt>
                                                 <dd class="col-sm-8">
-                                                    Schwerpunktfächer der technischen Berufsmaturität ist Mathematik und
+                                                    Schwerpunktfächer der technischen Berufsmaturität sind Mathematik und
                                                     die Naturwissenschaften Chemie & Physik. Abgschlossen habe ich
                                                     mit der interdisziplinären Projektarbeit (IDPA) im Fach
                                                     Physik.
