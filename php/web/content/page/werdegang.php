@@ -17,7 +17,7 @@
                                             Sept. 2011 - heute<br>
                                             Software Developer<br>
                                             <a href="https://www.datahouse.ch/" hreflang="de"
-                                               target="_blank">datahouse.ch</a>
+                                               target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </header>
                                 </div>
@@ -96,7 +96,7 @@
                                         <p>
                                             Sept. 2016 - Sept. 2018<br>
                                             BSc FHO in Informatik<br>
-                                            <a href="https://www.hsr.ch/" hreflang="de" target="_blank">hsr.ch</a>
+                                            <a href="https://www.hsr.ch/" hreflang="de" target="_blank" rel="noreferrer">hsr.ch</a>
                                         </p>
                                     </header>
                                 </div>
@@ -141,7 +141,7 @@
                                             Aug. 2013 - Feb. 2015<br>
                                             Eidg. Tech. Berufsmaturität<br>
                                             <a href="https://www.akad.ch/de-CH" hreflang="de"
-                                               target="_blank">akad.ch</a>
+                                               target="_blank" rel="noreferrer">akad.ch</a>
                                         </p>
                                     </header>
                                 </div>
@@ -150,11 +150,11 @@
                                         Um mir den Zugang zu den Fachhochschulen zu ermöglichen, absolvierte ich vom
                                         August 2013 bis Februar 2015 die technische Berufsmaturität berufsbegleitend bei
                                         der
-                                        <a href="https://www.akad.ch/de-CH" hreflang="de" target="_blank">AKAD</a>.
+                                        <a href="https://www.akad.ch/de-CH" hreflang="de" target="_blank" rel="noreferrer">AKAD</a>.
                                         Während der
                                         Berufsmaturität
                                         blieb ich in einem 60%-Pensum weiterhin als Softwareentwickler bei der
-                                        <a href="https://www.datahouse.ch/" hreflang="de" target="_blank">Datahouse
+                                        <a href="https://www.datahouse.ch/" hreflang="de" target="_blank" rel="noreferrer">Datahouse
                                             AG</a> angestellt.
                                     </p>
                                     <p>
@@ -176,14 +176,14 @@
                                             Jul. 2009 - Jul. 2013<br>
                                             Applikationsentwickler EFZ<br>
                                             <a href="https://www.informatikschuleolten.ch/" hreflang="de"
-                                               target="_blank">informatikschuleolten.ch</a>
+                                               target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
                                         </p>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <p>
                                         Im Juli 2009 startete ich meine Ausbildung zum Applikationsentwicker EFZ bei der
-                                        <a href="https://www.informatikschuleolten.ch" hreflang="de" target="_blank">Informatikschule
+                                        <a href="https://www.informatikschuleolten.ch" hreflang="de" target="_blank" rel="noreferrer">Informatikschule
                                             Olten</a>. Das
                                         Fundament
                                         für den Abschluss dieser vierjährigen Ausbildung bildete die zweijährige
@@ -196,7 +196,7 @@
                                     <p>
                                         In der zweiten Hälfte meiner Ausbildung arbeitete ich zu einem 80%-Pensum als
                                         Praktikant bei der <a href="https://www.datahouse.ch/" hreflang="de"
-                                                              target="_blank">Datahouse AG</a>. Da
+                                                              target="_blank" rel="noreferrer">Datahouse AG</a>. Da
                                         ich in den ersten zwei Jahren meiner Lehre bereits alle Module behandelt habe,
                                         war es mir möglich, bereits früh vollwertig mitzuarbeiten und mich an Projekten zu beteiligen.
                                     </p>

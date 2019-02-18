@@ -84,7 +84,7 @@ $age = $dateNow->diff($birthday)->y;
                         <header>
                             <h2>Kontakt</h2>
                         </header>
-                        <address class="home mt-2">
+                        <address class="home mt-2 mb-0">
                             <p>
                                 <strong>Cyrill Gurtner</strong><br>
                                 Software Developer
@@ -94,7 +94,7 @@ $age = $dateNow->diff($birthday)->y;
                                 5014 Gretzenbach<br>
                                 <a href="<?php echo CONFIG['baseUrl']; ?>"><?php echo CONFIG['baseUrlAsShown']; ?></a>
                             </p>
-                            <p>
+                            <p class="mb-0">
                                 <a href="kontakt">Kontaktformular</a>
                             </p>
                         </address>

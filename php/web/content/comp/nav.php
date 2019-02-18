@@ -13,7 +13,7 @@
                     $socials = '';
                     foreach (CONFIG['socials'] as $social) {
                         $socials .= '<li class="nav-item">';
-                        $socials .= '<a href="' . $social['url'] . '" class="nav-link" target="_blank" data-toggle="tooltip" data-placement="bottom" title="' . $social['title'] . '">';
+                        $socials .= '<a href="' . $social['url'] . '" class="nav-link" rel="noreferrer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="' . $social['title'] . '">';
                         $socials .= '<i class="fab ' . $social['icon'] . '"></i>';
                         $socials .= '</a>';
                         $socials .= '</li>';
@@ -33,7 +33,7 @@
                     <li class="nav-item"><?php
                         $socials = '';
                         foreach (CONFIG['socials'] as $social) {
-                            $socials .= '<a href="' . $social['url'] . '" target="_blank" class="nav-link" style="display: inline-block;">';
+                            $socials .= '<a href="' . $social['url'] . '" rel="noreferrer" target="_blank" class="nav-link" style="display: inline-block;">';
                             $socials .= '<i class="fab ' . $social['icon'] . '"></i>';
                             $socials .= '</a>';
                         }
