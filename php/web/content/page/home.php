@@ -40,11 +40,11 @@ $age = $dateNow->diff($birthday)->y;
                                         der Schweiz. Sehr früh merkte ich, dass
                                         mich die Programmierung interessiert und startete damit, kleine
                                         Terminal-Applikationen in C++ zu schreiben. Als die Berufswahl in der Schule
-                                        ein Thema wurde, wusste ich schnell, dass ich Informatiker mit Fachrichtung
-                                        Applikationensentwicklung lernen möchte.
+                                        ein Thema wurde, war ich mir sicher, dass ich Informatiker mit Fachrichtung
+                                        Applikationensentwicklung lernen werde.
                                     </p>
                                     <p>
-                                        Mit 16 jahren trat ich in die Informatikschule Olten ein und absolvierte dort in
+                                        Mit 16 Jahren trat ich in die Informatikschule Olten ein und absolvierte dort in
                                         2 Jahren alle Module zum
                                         Applikationsentwickler. Da ich die Möglichkeit hatte, zusätzlich alle Module aus
                                         der Fachrichtung Systemtechnik
@@ -52,7 +52,7 @@ $age = $dateNow->diff($birthday)->y;
                                         schrieb ich die individuelle praktische Arbeit (IPA) mit dem Titel "Web-Tool zur
                                         Protokollführung".
                                         Mit den Technologien HTML/CSS, OO PHP, MySQL und LaTeX entwickelte ich ein
-                                        webbasiertes Tool um Meetings zu protokollieren und Teilnehmer einzuladen und
+                                        webbasiertes Tool, um Meetings zu protokollieren, Teilnehmer einzuladen und
                                         zu verwalten. Aus den Eingaben im Tool konnte anschliessend ein PDF generiert werden, welches
                                         automatisch per E-Mail an alle Teilnehmer zur Einsicht freigegeben werden konnte.
                                     </p>
@@ -61,9 +61,9 @@ $age = $dateNow->diff($birthday)->y;
                                     </p>
                                     <p>
                                         In meinem dritten Lehrjahr startete ich ein Praktikum bei der Datahouse AG im
-                                        Herzen von Zürich. Seither beschäftige ich mich dort mit der Konzipierung von
-                                        Benutzeroberflächen, Softwarearchitekturen, Aufbau von komplexen Datenmodellen
-                                        sowie der Unterhalt von bestehenden Webapplikationen. Auch nach meinem
+                                        Herzen von Zürich. Seit diesem Zeitpunkt beschäftige ich mich dort mit der Konzipierung von
+                                        Benutzeroberflächen, mit Softwarearchitekturen, mit dem Aufbau von komplexen Datenmodellen,
+                                        sowie mit dem Unterhalt von bestehenden Webapplikationen. Auch nach meinem
                                         Praktikum blieb ich der Datahouse AG treu und arbeite bis heute an
                                         spannenden Projekten verschiedenster Branchen.
                                     </p>
