@@ -11,16 +11,16 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
     }
 }
 
-?><main class="fade-in">
+?>
+<main class="fade-in">
     <div class="container">
         <section>
             <?php include_once("content/comp/header.php"); ?>
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <p class="mb-3">
-                        Sie haben fachliche Fragen oder möchten sich über eine mögliche
-                        Zusammenarbeit erkunden? Dann nutzen Sie das nebenstehende Kontaktformular
-                        und melden Sie sich bei mir. Normalerweise antworte ich innerhalb von 48 Stunden.
+                        Sie haben fachliche Fragen und wünschen nähere Informationen?
+                        Nutzen Sie das nebenstehende Kontaktformular. Innerhalb von 48 Stunden erhalten Sie meine Antwort.
                     </p>
                     <address>
                         <p>
@@ -79,7 +79,8 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                                     <textarea
                                             class="form-control <?php echo (isset($contactForm['err']['message-empty']) && $contactForm['err']['message-empty'] == false) ? 'is-invalid' : ''; ?>"
                                             id="message" name="message"
-                                            rows="10" required><?php echo (isset($contactForm['data']['message'])) ? $contactForm['data']['message'] : ''; ?></textarea>
+                                            rows="10"
+                                            required><?php echo (isset($contactForm['data']['message'])) ? $contactForm['data']['message'] : ''; ?></textarea>
                                 </div>
                             </div>
                         </div>
