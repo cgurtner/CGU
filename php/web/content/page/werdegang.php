@@ -27,14 +27,14 @@
                                             <h4 class="inline">Data Analytics, Software und Business Intelligence</h4>
                                         </header>
                                         <p>
-                                            Wir analysieren komplexe Datensätze und entwickeln innovative Softwarelösungen mit anspruchsvoller Applikationslogik
+                                            Wir analysieren komplexe Datensätze und entwickeln innovative Softwarelösungen mit anspruchsvoller Applikationslogik.
                                         </p>
                                         <p>
                                             Als Spin-off der ETH Zürich im Jahr 2005 gegründet, ist Datahouse Big Data-Spezialist der ersten Stunde. Beschäftigt ist ein multi­dis­zi­plinäres Experten-Team aus den Bereichen Daten­analysen, Statistik, Program­mierung, Daten­banken und Projekt­ma­nagement. Heute ist Datahouse eine 100-prozentige Tochter­ge­sell­schaft der Wüest Partner AG.
                                         </p>
                                         <p>
                                             Meine Tätigkeits- und Aufgabenbereiche umfassen als Software Developer unter
-                                            anderem die Folgenden.
+                                            anderem die folgenden:
                                         </p>
                                     </section>
                                     <section>
@@ -108,30 +108,25 @@
                                             <h4 class="inline">Inhalt & Schwerpunkte</h4>
                                         </header>
                                         <p>
-                                            Abschluss von diversen Modulen in den Spezialisierungen Application Design,
+                                            Abschluss verschiedener Module in den Spezialisierungen Application Design,
                                             Software Engineering und Data Engineering.
                                         </p>
                                         <p>
                                             Zwei Jahre Unterricht zur objektorientierten Programmierung in Java.
-                                            Sowie durchgehender Unterricht in SQL/PostgreSQL.
+                                            Gleichzeitig durchgehender Unterricht in SQL/PostgreSQL.
                                         </p>
                                         <p>
                                             Besuch von Modulen zur erfolgreichen Projektmethodik und der agilen Softwareentwicklung. Anwendung
-                                            des bekannten Vorgehensmodell SCRUM.
+                                            des bekannten Vorgehensmodells SCRUM.
                                         </p>
                                     </section>
                                     <section>
                                         <header>
-                                            <h4 class="inline">Austritt</h4>
+                                            <h4 class="inline">Entschluss</h4>
                                         </header>
                                         <p>
                                             Im September 2018 entschied ich mich, meinen Fokus auf eigene Projekte
-                                            und Kundenbeziehungen zu richten und trat deshalb ohne Abschluss
-                                            aus der HSR aus.
-                                        </p>
-                                        <p>
-                                            Haben Sie Fragen zu meinem Studium und Fähigkeiten in den einzelnen Fachbereichen?
-                                            Nehmen Sie <a href="kontakt">Kontakt</a> mit mir auf!
+                                            und Kundenbeziehungen zu richten und trat deshalb aus der HSR aus.
                                         </p>
                                     </section>
                                 </div>
@@ -152,7 +147,7 @@
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <p>
-                                        Um mir den Zugang zu den Fachhochschulen zu ermöglichen absolvierte ich vom
+                                        Um mir den Zugang zu den Fachhochschulen zu ermöglichen, absolvierte ich vom
                                         August 2013 bis Februar 2015 die technische Berufsmaturität berufsbegleitend bei
                                         der
                                         <a href="https://www.akad.ch/de-CH" hreflang="de" target="_blank">AKAD</a>.
@@ -167,7 +162,7 @@
                                         sowie
                                         die Naturwissenschaften Physik und Chemie. Abschluss der Ausbildung bilden die
                                         eidgenössischen Prüfungen sowie die interdisziplinäre Projektarbeit (IDPA),
-                                        welche ich im Hauptfach Physik realisiert und gut abgeschlossen habe.
+                                        welche ich im Hauptfach Physik realisiert und erfolgreich abgeschlossen habe.
                                     </p>
                                 </div>
                             </div>
@@ -196,26 +191,24 @@
                                         Während
                                         diesen zwei Jahren besuchte ich alle Module, welche gemäss ICT Berufsbildung
                                         Schweiz
-                                        für den Abschluss zum Applikationsentwickler EFZ vorausgesetzt sind.
+                                        für den Abschluss zum Applikationsentwickler EFZ vorausgesetzt werden.
                                     </p>
                                     <p>
                                         In der zweiten Hälfte meiner Ausbildung arbeitete ich zu einem 80%-Pensum als
                                         Praktikant bei der <a href="https://www.datahouse.ch/" hreflang="de"
                                                               target="_blank">Datahouse AG</a>. Da
-                                        ich in den ersten zwei Jahren meiner Lehre bereits alle Module behandelt habe
-                                        war es mir möglich
-                                        bereits früh vollwertig mitzuarbeiten und mich an Projekten zu beteiligen.
+                                        ich in den ersten zwei Jahren meiner Lehre bereits alle Module behandelt habe,
+                                        war es mir möglich, bereits früh vollwertig mitzuarbeiten und mich an Projekten zu beteiligen.
                                     </p>
                                     <p>
                                         Den Abschluss meiner vierjährigen Berufslehre bildete die IPA im April 2013 mit
                                         dem
                                         Titel "Web-Tool zur Protokollführung". Im Rahmen dieser IPA habe ich eine
                                         Webapplikation
-                                        entwickelt mit welcher Mitarbeiter zu Meetings eingeladen, Traktanden erfasst
-                                        und
-                                        anschliessend ein Protokoll für alle Teilnehmer veröffentlicht werden kann. Als
-                                        Technologien eingesetzt habe ich HTML/CSS, JS/JQuery, OO PHP, MySQL und
-                                        LaTeX.
+                                        entwickelt, mit welcher Mitarbeiter zu Meetings eingeladen und ein Protokoll der
+                                        Sitzung erfasst werden kann. Das Protokoll kann anschliessend für alle Teilnehmer
+                                        automatisiert als PDF generiert und veröffentlicht werden. Bei der Umsetzung eingesetzt
+                                        habe ich HTML/CSS, JS/JQuery, OO PHP, MySQL und LaTeX.
                                     </p>
                                     <p>
                                         Im Juli 2013 schloss ich meine Lehre zum Applikationsentwickler EFZ mit der
