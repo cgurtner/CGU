@@ -1,12 +1,12 @@
 <?php
 
 $breadLinks = '<li class="breadcrumb-item" property="itemListElement" typeof="ListItem">';
-$breadLinks .= '<a property="item" typeof="WebPage" href="home"><span property="name">Home</span></a>';
+$breadLinks .= '<a property="item" typeof="WebPage" href="' . CONFIG['baseUrl'] . 'home" hreflang="de"><span property="name">Home</span></a>';
 $breadLinks .= '<meta property="position" content="1">';
 $breadLinks .= '</li>';
 
 $breadLinks .= '<li class="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">';
-$breadLinks .= '<a href="' . $page['url'] . '" property="item" typeof="WebPage">';
+$breadLinks .= '<a href="' . CONFIG['baseUrl'] . $page['url'] . '" property="item" typeof="WebPage" hreflang="de">';
 $breadLinks .= '<span property="name">';
 $breadLinks .= $page['meta']['title'];
 $breadLinks .= '</span>';
