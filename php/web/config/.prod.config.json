@@ -1,6 +1,6 @@
 {
   "system": "prod",
-  "baseUrl": "https://test.cgurtner.ch/",
+  "baseUrl": "https://cgurtner.ch/",
   "baseUrlAsShown": "cgurtner.ch",
   "email": {
     "to": {

@@ -9,8 +9,8 @@ prod:
 
   script:
     - ./.gitlab-deploy-prod
-    - scp -P 2121 -rv php/web cgu@cgurtner.ch:tmp/test.cgurtner.ch
-    - ssh -p2121 cgu@cgurtner.ch 'rm -rfv httpdocs/subdomain/test.cgurtner.ch && mv -v tmp/test.cgurtner.ch httpdocs/subdomain/test.cgurtner.ch'
+    - scp -P 2121 -rv php/web cgu@cgurtner.ch:tmp/cgurtner.ch
+    - ssh -p2121 cgu@cgurtner.ch 'rm -rfv httpdocs/cgurtner.ch && mv -v tmp/cgurtner.ch httpdocs/cgurtner.ch'
 
   before_script:
     - apt-get update && apt-get install -y git zip unzip
