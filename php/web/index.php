@@ -1,7 +1,5 @@
 <?php
-/*
- * REMOVE CSS UNIQID HACK!!!!!
- */
+
 session_start();
 
 define("CONFIG", json_decode(file_get_contents("config/config.json"), true));
@@ -50,7 +48,7 @@ if ($page['url'] === 'home') {
     <link rel="icon" href="/gui/image/logo-favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="/gui/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/gui/css/web-1.0.0.css?<?php echo uniqid(); ?>">
+    <link rel="stylesheet" href="/gui/css/web-1.0.0.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
 <body <?php if($page['url'] == 'home') { echo 'class="bg-fullscreen"'; } ?>>
@@ -58,7 +56,7 @@ if ($page['url'] === 'home') {
 <?php include_once($page['path']); ?>
 <script src="/gui/js/jquery-3.3.1.js"></script>
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/gui/js/web-1.0.0.js?<?php echo uniqid(); ?>"></script>
+<script src="/gui/js/web-1.0.0.js"></script>
 </body>
 </html><?php
 
