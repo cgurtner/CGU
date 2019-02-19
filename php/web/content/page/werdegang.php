@@ -108,7 +108,7 @@
                                             <h4 class="inline">Inhalt & Schwerpunkte</h4>
                                         </header>
                                         <p>
-                                            Abschluss verschiedener Module in den Spezialisierungen Application Design,
+                                            Besuch verschiedener Module in den Spezialisierungen Application Design,
                                             Software Engineering und Data Engineering.
                                         </p>
                                         <p>
@@ -126,7 +126,7 @@
                                         </header>
                                         <p>
                                             Im September 2018 entschied ich mich, meinen Fokus auf eigene Projekte
-                                            und Kundenbeziehungen zu richten und trat deshalb aus der HSR aus.
+                                            und meine Anstellung zu richten und trat deshalb aus der HSR aus.
                                         </p>
                                     </section>
                                 </div>
