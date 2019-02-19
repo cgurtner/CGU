@@ -76,6 +76,23 @@ div.bg-fullscreen {
   height: calc(var(--vh, 1vh) * 100);
 }
 
+div.bg-fullscreen a {
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  font-size: 3rem;
+  color: rgba(255,255,255,.5);
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 29px;
+  height: 52px;
+}
+
+div.bg-fullscreen a:hover {
+  color: $light;
+}
+
 hr {
   margin: 0.5rem 0;
   background-color: $light;
@@ -272,7 +289,7 @@ img.header-thumb {
 }
 
 .pt-5 {
-  padding-top: 5rem !important;
+  padding-top: 3.5rem !important;
 }
 
 .pb-6 {

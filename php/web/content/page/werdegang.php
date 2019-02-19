@@ -210,7 +210,7 @@
                                         automatisiert als PDF generiert und veröffentlicht werden. Bei der Umsetzung eingesetzt
                                         habe ich HTML/CSS, JS/JQuery, OO PHP, MySQL und LaTeX.
                                     </p>
-                                    <p>
+                                    <p class="mb-5">
                                         Im Juli 2013 schloss ich meine Lehre zum Applikationsentwickler EFZ mit der
                                         kantonalen
                                         Auszeichnung "5.3+ Spitzenleistung in der Berufslehre" ab.

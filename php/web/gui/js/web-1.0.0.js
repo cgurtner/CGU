@@ -5,6 +5,13 @@ $(document).ready(function () {
 
     $('main.fade-in').fadeIn(750);
 
+    $('div.bg-fullscreen a').click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: $("div.container").offset().top
+        }, 500);
+    })
+
     const insta = $("img.insta-thumb");
     const resizeInsta = function () {
         insta.outerHeight(insta.outerWidth() * 1);

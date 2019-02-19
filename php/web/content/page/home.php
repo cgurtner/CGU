@@ -6,8 +6,12 @@ $age = $dateNow->diff($birthday)->y;
 
 ?>
 <main class="fade-in">
-    <div class="bg-fullscreen"></div>
-    <div class="container">
+    <div class="bg-fullscreen">
+        <a href="#">
+            <i class="fas fa-angle-down"></i>
+        </a>
+    </div>
+    <div class="container" style="min-height: 100vh;">
         <section>
             <header>
                 <div class="row pt-5">
@@ -101,46 +105,38 @@ $age = $dateNow->diff($birthday)->y;
                     </div>
                     <div class="character dark-column">
                         <header>
-                            <h2>Technologie</h2>
+                            <h2>Technologien</h2>
                         </header>
                         <div class="tech-percent mt-2">
-                            <span>PHP | OO PHP | Composer</span>
-                            <small class="float-right">100%</small>
+                            <span>PHP | Composer</span>
                             <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>HTML5 | CSS3 | SASS</span>
-                            <small class="float-right">100%</small>
                             <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>JavaScript | JQuery</span>
-                            <small class="float-right">75%</small>
-                            <div class="tech-perc-bar perc-75"></div>
+                            <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>React</span>
-                            <small class="float-right">75%</small>
                             <div class="tech-perc-bar perc-75"></div>
-                        </div>
+                                                    </div>
                         <div class="tech-percent mt-3">
                             <span>MySQL | PostgreSQL</span>
-                            <small class="float-right">75%</small>
                             <div class="tech-perc-bar perc-75"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>Java</span>
-                            <small class="float-right">75%</small>
                             <div class="tech-perc-bar perc-75"></div>
                         </div>
                         <div class="tech-percent mt-3">
                             <span>Python</span>
-                            <small class="float-right">50%</small>
                             <div class="tech-perc-bar perc-50"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>Docker | Linux | Server</span>
-                            <small class="float-right">50%</small>
+                            <span>Git | Docker | Linux </span>
                             <div class="tech-perc-bar perc-50"></div>
                         </div>
                     </div>
