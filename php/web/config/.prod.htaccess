@@ -1,6 +1,6 @@
 RewriteEngine on
 
-Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload" env=HTTPS
 
 RewriteRule ^gui/.* - [L]
 RewriteRule ^file/.* - [L]
