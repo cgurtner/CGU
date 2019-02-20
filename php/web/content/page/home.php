@@ -19,11 +19,9 @@ $age = $dateNow->diff($birthday)->y;
                         <h1 class="text-center">Cyrill Gurtner</h1>
                         <hr/>
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
-                                <li class="breadcrumb-item active" property="itemListElement" typeof="ListItem">
-                                    <a property="item" typeof="WebPage" href="home" hreflang="de"><span
-                                                property="name">Home</span></a>
-                                    <meta property="position" content="1">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item active">
+                                    <a href="/" hreflang="de">Home</a>
                                 </li>
                             </ol>
                         </nav>
