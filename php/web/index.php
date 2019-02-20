@@ -66,7 +66,7 @@ if ($page['url'] === 'home') {
 } ?>>
 <?php include_once("content/comp/nav.php"); ?>
 <?php include_once($page['path']); ?>
-<script type="application/ld+json" src="<?php echo $page['breadcrumb']; ?>"></script>
+<script type="application/ld+json"><?php include_once($page['breadcrumb']); ?></script>
 <script src="/gui/js/jquery-3.3.1.js"></script>
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/gui/js/web-1.0.0.js"></script>

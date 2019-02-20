@@ -6,7 +6,7 @@
     },
     "url": "home",
     "path": "content/page/home.php",
-    "breadcrumb": "/file/google/breadcrumb-home.json",
+    "breadcrumb": "file/google/breadcrumb-home.json",
     "type": "page",
     "display": false,
     "disabled": false
@@ -18,7 +18,7 @@
     },
     "url": "werdegang",
     "path": "content/page/werdegang.php",
-    "breadcrumb": "/file/google/breadcrumb-werdegang.json",
+    "breadcrumb": "file/google/breadcrumb-werdegang.json",
     "type": "page",
     "display": true,
     "disabled": false
@@ -30,7 +30,7 @@
     },
     "url": "galerie",
     "path": "content/page/galerie.php",
-    "breadcrumb": "/file/google/breadcrumb-galerie.json",
+    "breadcrumb": "file/google/breadcrumb-galerie.json",
     "type": "page",
     "display": false,
     "disabled": true
@@ -43,7 +43,7 @@
     "description": "",
     "url": "kontakt",
     "path": "content/page/kontakt.php",
-    "breadcrumb": "/file/google/breadcrumb-kontakt.json",
+    "breadcrumb": "file/google/breadcrumb-kontakt.json",
     "type": "page",
     "display": true,
     "disabled": false
