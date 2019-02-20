@@ -1,17 +1,13 @@
 <?php
 
-$breadLinks = '<li class="breadcrumb-item" property="itemListElement" typeof="ListItem">';
-$breadLinks .= '<a property="item" typeof="WebPage" href="home" hreflang="de"><span property="name">Home</span></a>';
-$breadLinks .= '<meta property="position" content="1">';
+$breadLinks = '<li class="breadcrumb-item">';
+$breadLinks .= '<a href="home" hreflang="de">Home</a>';
 $breadLinks .= '</li>';
 
-$breadLinks .= '<li class="breadcrumb-item active" aria-current="page" property="itemListElement" typeof="ListItem">';
-$breadLinks .= '<a href="' . $page['url'] . '" property="item" typeof="WebPage" hreflang="de">';
-$breadLinks .= '<span property="name">';
+$breadLinks .= '<li class="breadcrumb-item active" aria-current="page">';
+$breadLinks .= '<a href="' . $page['url'] . '" hreflang="de">';
 $breadLinks .= $page['meta']['title'];
-$breadLinks .= '</span>';
 $breadLinks .= '</a>';
-$breadLinks .= '<meta property="position" content="2">';
 $breadLinks .= '</li>';
 
 ?><header>
@@ -21,7 +17,7 @@ $breadLinks .= '</li>';
             <h1><?php echo $page['meta']['title']; ?></h1>
             <hr />
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
+                <ol class="breadcrumb">
                     <?php echo $breadLinks; ?>
                 </ol>
             </nav>
