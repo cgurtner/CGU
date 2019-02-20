@@ -17,7 +17,6 @@ if (isset($_GET['page']) && trim($_GET['page']) != "") {
 } else {
     $pageURL = "home";
 }
-
 $page = null;
 foreach (PAGES as $p) {
     if ($p['url'] == $pageURL) {

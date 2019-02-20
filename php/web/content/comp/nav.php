@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark <?php if ($page['url'] == 'home') { echo 'navbar-home'; } ?>">
         <div class="container-fluid">
-            <a class="navbar-brand" href="home" hreflang="de">
+            <a class="navbar-brand" href="/" hreflang="de">
                 <img src="/gui/image/logo-bw-no-name.png" class="d-inline-block align-top" alt="Logo Cyrill Gurtner" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"

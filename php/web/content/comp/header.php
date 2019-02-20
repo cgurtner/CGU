@@ -1,7 +1,7 @@
 <?php
 
 $breadLinks = '<li class="breadcrumb-item">';
-$breadLinks .= '<a href="home" hreflang="de">Home</a>';
+$breadLinks .= '<a href="/" hreflang="de">Home</a>';
 $breadLinks .= '</li>';
 
 $breadLinks .= '<li class="breadcrumb-item active" aria-current="page">';
