@@ -41,6 +41,16 @@ if ($page['url'] === 'home') {
 ?><!DOCTYPE HTML>
 <html lang="de">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134844121-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-134844121-1');
+    </script>
     <base href="<?php echo CONFIG['baseUrl']; ?>">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -51,7 +61,9 @@ if ($page['url'] === 'home') {
     <link rel="stylesheet" href="/gui/css/web-1.0.0.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
-<body <?php if($page['url'] == 'home') { echo 'class="bg-fullscreen"'; } ?>>
+<body <?php if ($page['url'] == 'home') {
+    echo 'class="bg-fullscreen"';
+} ?>>
 <?php include_once("content/comp/nav.php"); ?>
 <?php include_once($page['path']); ?>
 <script src="/gui/js/jquery-3.3.1.js"></script>
