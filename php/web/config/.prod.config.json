@@ -24,6 +24,12 @@
       "title": "GitLab"
     },
     {
+      "name": "facebook",
+      "url": "https://www.facebook.com/cgurtner.ch",
+      "icon": "fa-facebook",
+      "title": "Facebook"
+    },
+    {
       "name": "instagram",
       "url": "https://www.instagram.com/cgurtner.ch",
       "icon": "fa-instagram",
