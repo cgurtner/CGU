@@ -18,6 +18,9 @@ foreach (PAGES as $p) {
         continue;
     }
     $url = CONFIG['baseUrl'] . $p['url'];
+    if ($p['url'] == 'home') {
+        $url = CONFIG['baseUrl'];
+    }
     $output .= '<url>' . "\n";
     $output .= '<loc>' . $url . '</loc>' . "\n";
     $output .= '</url>' . "\n";
