@@ -31,7 +31,7 @@ $age = $dateNow->diff($birthday)->y;
                 </div>
             </header>
             <div class="row">
-                <div class="col-sm-12 col-md-8 mb-3 mb-md-5">
+                <div class="col-sm-12 col-md-8 mb-md-5">
                     <section>
                         <div class="row mb-3">
                             <div class="col-sm-12 col-box">
