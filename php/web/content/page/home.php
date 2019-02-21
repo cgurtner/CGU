@@ -114,7 +114,7 @@ $age = $dateNow->diff($birthday)->y;
                             <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>JavaScript | JQuery</span>
+                            <span>ES6 | JavaScript | JQuery</span>
                             <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
