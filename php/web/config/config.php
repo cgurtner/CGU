@@ -1,1 +1,1 @@
-.prod.config.php
+.docker.config.php

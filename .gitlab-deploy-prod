@@ -10,6 +10,7 @@ find . -name 'composer.*' -delete
 find . -name 'Dockerfile' -delete
 
 mv php/web/config/.prod.config.json php/web/config/config.json
+mv php/web/config/.prod.config.php php/web/config/config.php
 mv php/web/config/.prod.htaccess php/web/.htaccess
 
 rm -rf php/web/gui/scss
