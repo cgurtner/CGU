@@ -28,5 +28,5 @@ foreach ($PAGES as $p) {
 
 $output .= '</urlset>';
 
-header("Content-type: application/xml; charset=utf-8");
+header("Content-type: text/xml; charset=utf-8");
 echo $output;
