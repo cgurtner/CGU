@@ -5,6 +5,8 @@ Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; prelo
 RewriteRule ^gui/.* - [L]
 RewriteRule ^file/.* - [L]
 RewriteRule ^vendor/.* - [L]
+RewriteRule ^robots.txt$ - [L]
+RewriteRule ^googlee9a73d96f0f7e5a7.html$ - [L]
 
 RewriteRule ^sitemap.xml$ sitemap.php [L]
 RewriteRule ^sitemap.php$ - [L]
