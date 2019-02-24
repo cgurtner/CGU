@@ -1,10 +1,10 @@
 <?php
 
-define("CONFIG", json_decode(file_get_contents("config/config.json"), true));
-define("PAGES", json_decode(file_get_contents("content/content.json"), true));
+require_once('config/config.php');
+require_once('content/content.php');
 
 // enable error reporting for dev system
-if (CONFIG['system'] == 'dev') {
+if ($CONFIG['system'] == 'dev') {
     error_reporting(-1);
     ini_set('display_errors', 1);
 }
@@ -13,13 +13,13 @@ $output = '';
 $output .= '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 $output .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 
-foreach (PAGES as $p) {
+foreach ($PAGES as $p) {
     if ($p['disabled']) {
         continue;
     }
-    $url = CONFIG['baseUrl'] . $p['url'];
+    $url = $CONFIG['baseUrl'] . $p['url'];
     if ($p['url'] == 'home') {
-        $url = CONFIG['baseUrl'];
+        $url = $CONFIG['baseUrl'];
     }
     $output .= '<url>' . "\n";
     $output .= '<loc>' . $url . '</loc>' . "\n";
