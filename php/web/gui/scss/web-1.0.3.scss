@@ -19,17 +19,19 @@ html, body {
   scrollbar-width: none;
 }
 
-body.bg-fullscreen {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-  background: black url("/gui/image/bg-mobile.jpg") no-repeat top center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+@media only screen and (orientation: portrait) {
+  body.bg-fullscreen {
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    background: black url("/gui/image/bg-mobile.jpg") no-repeat top center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (orientation: landscape) {
   body.bg-fullscreen {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
