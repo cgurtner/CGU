@@ -20,44 +20,20 @@ html, body {
 }
 
 body.bg-fullscreen {
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-    background: black url("/gui/image/bg-mobile.jpg") no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  background: black url("/gui/image/bg-mobile.jpg") no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 1000px) {
   body.bg-fullscreen {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-    background: black url("/gui/image/bg-fullscreen-200.jpg") no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  body.bg-fullscreen {
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-    background: black url("/gui/image/bg-fullscreen-16.jpg") no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-  body.bg-fullscreen {
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-    background: black url("/gui/image/bg-fullscreen-178.jpg") no-repeat center center scroll;
+    background: black url("/gui/image/bg-fullscreen.jpg") no-repeat top right scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -81,7 +57,7 @@ div.bg-fullscreen a {
   left: 0;
   right: 0;
   font-size: 3rem;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -328,6 +304,7 @@ ul {
   &.overview {
     list-style: none;
     padding: 0;
+
     li {
       a {
         padding: 1rem;
@@ -335,6 +312,7 @@ ul {
         background-color: $light-dark;
         display: block;
       }
+
       &:last-of-type {
         margin-bottom: 1rem;
       }
@@ -356,7 +334,8 @@ div.col-box {
 }
 
 address.home a {
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
+
   &:active, &:hover {
     color: $light;
   }
