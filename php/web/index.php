@@ -2,8 +2,11 @@
 
 session_start();
 
-define("CONFIG", json_decode(file_get_contents("config/config.json"), true));
-define("PAGES", json_decode(file_get_contents("content/content.json"), true));
+require_once('config/config.php');
+require_once('content/content.php');
+
+define("CONFIG", $CONFIG);
+define("PAGES", $PAGES);
 
 // enable error reporting for dev system
 if (CONFIG['system'] == 'dev') {
@@ -79,32 +82,40 @@ function sendEmail($input)
     require_once("vendor/phpmailer/phpmailer/src/PHPMailer.php");
     require_once("vendor/phpmailer/phpmailer/src/SMTP.php");
 
+    $fieldMapping = array(
+        'name' => 'Nachname',
+        'vname' => 'Vorname',
+        'email' => 'E-Mail',
+        'message' => 'Nachricht'
+    );
+
     $mail = new \PHPMailer\PHPMailer\PHPMailer();
     try {
         $mail->isSMTP();
-        $mail->Host = CONFIG['email']['smtp']['host'];
-        $mail->Username = CONFIG['email']['smtp']['user'];
-        $mail->Password = CONFIG['email']['smtp']['password'];
+        $mail->Host = CONFIG['email.smtp.host'];
+        $mail->Username = CONFIG['email.smtp.user'];
+        $mail->Password = CONFIG['email.smtp.password'];
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
         $mail->CharSet = "UTF-8";
 
-        $mail->setFrom(CONFIG['email']['from']['address'], CONFIG['email']['from']['name']);
-        $mail->addAddress(CONFIG['email']['to']['address']);
+        $mail->setFrom(CONFIG['email.from.address'], CONFIG['email.from.name']);
+        $mail->addAddress(CONFIG['email.to.address']);
         $mail->isHTML(false);
 
         $now = new DateTime();
+        $now->setTimezone(new DateTimeZone('Europe/Zurich'));
         $mail->Subject = 'CGU / Kontaktaufnahme ' . $now->format('d.m.Y H:i:s');
         $mail->Body = 'CGU / Kontaktaufnahme ' . $now->format('d.m.Y H:i:s') . "\n\n";
-        foreach ($input['data'] as $contactKey => $contactData) {
+        foreach ($fieldMapping as $field => $trans) {
             $nBreak = '';
             $bBreak = '';
-            if ($contactKey == 'message') {
+            if ($field == 'message') {
                 $bBreak .= "\n";
                 $nBreak .= "\n";
             }
-            $mail->Body .= $bBreak . $contactKey . ': ' . $nBreak . $contactData . "\n";
+            $mail->Body .= $bBreak . $trans . ': ' . $nBreak . $input['data'][$field] . "\n";
         }
         if ($mail->send()) {
             return true;
