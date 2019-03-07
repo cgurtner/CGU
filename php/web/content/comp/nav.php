@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark <?php if ($page['url'] == 'home') { echo 'navbar-home'; } ?>">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/" hreflang="de">
+            <a class="navbar-brand" href="/">
                 <img src="/gui/image/logo-bw-no-name.png" class="d-inline-block align-top" alt="Logo Cyrill Gurtner" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -26,7 +26,7 @@
                             continue;
                         }
                         $active = getActive($p, $page['url']);
-                        echo '<a href="' . $p['url'] . '" hreflang="de" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
+                        echo '<a href="' . $p['url'] . '" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
                     }
                     ?></div>
                 <ul class="navbar-nav navbar-nav-social navbar-nav-social-mobile ml-md-auto d-lg-none">
