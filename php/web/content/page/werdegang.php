@@ -124,8 +124,9 @@
                                             <h4 class="inline">Entschluss</h4>
                                         </header>
                                         <p>
-                                            Im September 2018 entschied ich mich, meinen Fokus auf eigene Projekte
-                                            und meine Anstellung zu richten und trat deshalb aus der HSR aus.
+                                            Im September 2018 entschied ich mich, meinen Fokus auf meinen beruflichen
+                                            Werdegang sowie eigene Projekte zu richten und trat deshalb aus der HSR
+                                            aus.
                                         </p>
                                     </section>
                                 </div>
