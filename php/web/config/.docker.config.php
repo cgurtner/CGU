@@ -1,9 +1,9 @@
 <?php
 
 $CONFIG = array(
-    'system' => 'test',
-    'baseUrl' => 'https://cgurtner.ch/',
-    'baseUrlAsShown' => 'cgurtner.ch',
+    'system' => 'dev',
+    'baseUrl' => 'http://localhost:8000/',
+    'baseUrlAsShown' => 'localhost:8000',
     'email.to.address' => 'me@cgurtner.ch',
     'email.from.address' => 'no-reply@cgurtner.ch',
     'email.from.name' => 'Cyrill Gurtner',
