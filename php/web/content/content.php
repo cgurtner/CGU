@@ -31,7 +31,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Galerie",
-        "description" => "Meine Galerie umfasst einen Live-Feed von meinem Instagram Profil."
+        "description" => "Feed meines persönlichen Instagram Accounts."
     ),
     "url" => "galerie",
     "path" => "content/page/galerie.php",
