@@ -135,6 +135,10 @@ div.navbar-nav a:last-of-type {
   padding-right: unset !important;
 }
 
+button.btn {
+  border-radius: unset;
+}
+
 button[type="submit"] {
   background-color: $highlight;
   border: unset;
@@ -152,6 +156,7 @@ span.badge {
 .form-control {
   color: $dark !important;
   border-color: $light-dark;
+  border-radius: unset;
 }
 
 .form-control:focus {
