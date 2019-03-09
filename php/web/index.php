@@ -60,7 +60,7 @@ if ($page['url'] === 'home') {
     <link rel="icon" href="/gui/image/logo-favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="/gui/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/gui/css/web-1.0.6.css">
+    <link rel="stylesheet" href="/gui/css/web-1.0.7.css">
     <title><?php echo $pageTitle; ?></title>
 </head>
 <body <?php if ($page['url'] == 'home') {
