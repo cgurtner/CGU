@@ -33,7 +33,7 @@
                     <li class="nav-item"><?php
                         $socials = '';
                         foreach (CONFIG['socials'] as $social) {
-                            $socials .= '<a href="' . $social['url'] . '" rel="noreferrer" target="_blank" class="nav-link" style="display: inline-block;">';
+                            $socials .= '<a href="' . $social['url'] . '" rel="noreferrer" target="_blank" class="nav-link" style="display: inline-block; padding-bottom: .5rem;">';
                             $socials .= '<i class="fab ' . $social['icon'] . '"></i>';
                             $socials .= '</a>';
                         }

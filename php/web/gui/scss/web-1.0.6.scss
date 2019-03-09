@@ -133,8 +133,14 @@ div.navbar-nav a:last-of-type {
   padding-right: unset !important;
 }
 
-button.btn {
-  border-radius: unset;
+button{
+  &.btn {
+    border-radius: unset;
+  }
+  &.navbar-toggler {
+    border: unset;
+    padding: unset;
+  }
 }
 
 button[type="submit"] {
