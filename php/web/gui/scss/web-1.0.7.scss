@@ -82,12 +82,11 @@ main.fade-in {
   background-color: transparent !important;
 }
 
-.navbar-brand img {
-  height: 36px;
-}
-
-.nav-link {
-  padding: .75rem 0 0 0;
+.navbar-brand {
+  padding-bottom: .5rem;
+  img {
+    height: 36px;
+  }
 }
 
 .nav-link:hover {
