@@ -118,7 +118,7 @@ $age = $dateNow->diff($birthday)->y;
                             <div class="tech-perc-bar perc-100"></div>
                         </div>
                         <div class="tech-percent mt-3">
-                            <span>React</span>
+                            <span>React | Redux | Saga</span>
                             <div class="tech-perc-bar perc-75"></div>
                                                     </div>
                         <div class="tech-percent mt-3">
