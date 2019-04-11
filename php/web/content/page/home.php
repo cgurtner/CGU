@@ -54,7 +54,7 @@ $age = $dateNow->diff($birthday)->y;
                                         schrieb ich die individuelle praktische Arbeit (IPA) mit dem Titel "Web-Tool zur
                                         Protokollführung".
                                         Mit den Technologien HTML/CSS, OO PHP, MySQL und LaTeX entwickelte ich ein
-                                        webbasiertes Tool, um Meetings zu protokollieren, Teilnehmer einzuladen und
+                                        webbasiertes Tool um Meetings zu protokollieren, Teilnehmer einzuladen und
                                         zu verwalten. Aus den Eingaben im Tool konnte anschliessend ein PDF generiert
                                         werden, welches
                                         automatisch per E-Mail an alle Teilnehmer zur Einsicht freigegeben werden
