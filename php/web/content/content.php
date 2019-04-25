@@ -37,8 +37,8 @@ $PAGES[] = array(
     "path" => "content/page/galerie.php",
     "breadcrumb" => "file/google/breadcrumb-galerie.json",
     "type" => "page",
-    "display" => true,
-    "disabled" => false
+    "display" => false,
+    "disabled" => true
 );
 
 $PAGES[] = array(
