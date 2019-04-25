@@ -84,6 +84,7 @@ main.fade-in {
 
 .navbar-brand {
   padding-bottom: .5rem;
+
   img {
     height: 36px;
   }
@@ -132,10 +133,11 @@ div.navbar-nav a:last-of-type {
   padding-right: unset !important;
 }
 
-button{
+button {
   &.btn {
     border-radius: unset;
   }
+
   &.navbar-toggler {
     border: unset;
     padding: unset;

@@ -11,6 +11,8 @@ RewriteRule ^googlee9a73d96f0f7e5a7.html$ - [L]
 RewriteRule ^sitemap.xml$ sitemap.php [L]
 RewriteRule ^sitemap.php$ - [L]
 
+RewriteRule ^instagram.php$ - [L]
+
 RewriteCond %{HTTPS} !=on  [OR]
 RewriteCond %{HTTP_HOST} !^cgurtner\.ch$ [NC]
 RewriteRule ^ https://cgurtner.ch%{REQUEST_URI} [R=301,L]
