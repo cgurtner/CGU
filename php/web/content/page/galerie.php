@@ -1,6 +1,6 @@
 <main class="fade-in">
     <div class="container">
-        <section>
+        <section class="mb-5">
             <?php include_once("content/comp/header.php"); ?>
             <?php
             $posts = json_decode(file_get_contents('./file/instagram.json'), true);
