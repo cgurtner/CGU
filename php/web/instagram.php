@@ -23,4 +23,6 @@ foreach ($recent as $post) {
     );
 }
 
-file_put_contents('./file/instagram.json', json_encode($json_data));
+$fp = fopen(CONFIG['instagram-json-path'], 'w+');
+fwrite($fp, json_encode($json_data));
+fclose($fp);

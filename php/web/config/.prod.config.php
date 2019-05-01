@@ -30,5 +30,6 @@ $CONFIG = array(
             'title' => 'Instagram'
         )
     ),
-    'instagram-auth' => '7650242573.88b3a4d.f50b396701e7426e88c97e18fbe4a3a2'
+    'instagram-auth' => '7650242573.88b3a4d.f50b396701e7426e88c97e18fbe4a3a2',
+    'instagram-json-path' => '/httpdocs/cgurtner.ch/file/instagram.json'
 );
