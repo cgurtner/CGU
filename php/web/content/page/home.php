@@ -93,7 +93,10 @@ $age = $dateNow->diff($birthday)->y;
                             </p>
                             <p>
                                 Bielackerstrasse 72<br>
-                                5014 Gretzenbach<br>
+                                CH-5014 Gretzenbach
+                            </p>
+                            <p>
+                                <a id="cml"></a><br>
                                 <a href="<?php echo CONFIG['baseUrl']; ?>"><?php echo CONFIG['baseUrlAsShown']; ?></a>
                             </p>
                             <p class="mb-0">
