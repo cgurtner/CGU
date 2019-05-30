@@ -64,6 +64,7 @@ if ($page['url'] === 'home') {
 } ?>>
 <?php include_once("content/comp/nav.php"); ?>
 <?php include_once($page['path']); ?>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="/gui/js/jquery-3.3.1.js"></script>
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/gui/js/web-1.0.4.js"></script>
@@ -109,7 +110,7 @@ function sendEmail($input)
                 $bBreak .= "\n";
                 $nBreak .= "\n";
             }
-            $mail->Body .= $bBreak . $trans . ': ' . $nBreak . $input['data'][$field] . "\n";
+            $mail->Body .= $bBreak . $trans . ': ' . $nBreak . $input[$field] . "\n";
         }
         if ($mail->send()) {
             return true;
@@ -122,7 +123,7 @@ function sendEmail($input)
 function contactFormData()
 {
     $ret = array();
-    $fields = array('name', 'vname', 'email', 'message');
+    $fields = array('name', 'vname', 'email', 'message', 'g-recaptcha-response');
     foreach ($fields as $field) {
         $ret[$field] = readPostParam($field);
     }
@@ -132,12 +133,21 @@ function contactFormData()
 function contactFormError($data)
 {
     $ret = array();
-    $fields = array('name', 'vname', 'email', 'message');
+    $fields = array('name', 'vname', 'email', 'message', 'g-recaptcha-response');
     foreach ($fields as $field) {
-        $ret[$field . '-empty'] = checkIfNotEmpty($data[$field]);
+        $ret[$field . '-valid'] = checkIfNotEmpty($data[$field]);
         if ($field == 'email') {
-            $ret[$field . '-invalid'] = checkEmail($data[$field]);
+            $ret[$field . '-valid'] = checkEmail($data[$field]);
         }
+    }
+    $captchaPost = json_decode(postRequest('https://www.google.com/recaptcha/api/siteverify', array(
+        'response' => $data['g-recaptcha-response'],
+        'secret' => CONFIG['recaptcha-secret-key']
+    )), true);
+    if ($captchaPost && $captchaPost['success'] == true) {
+        $ret['g-recaptcha-response-valid'] = true;
+    } else {
+        $ret['g-recaptcha-response-valid'] = false;
     }
     return $ret;
 }
@@ -154,6 +164,18 @@ function readPostParam($name)
         return trim(strip_tags($_POST[$name]));
     }
     return null;
+}
+
+function postRequest($url, $data) {
+    $ch = curl_init($url);
+
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+
+    $ret = curl_exec($ch);
+    curl_close($ch);
+
+    return $ret;
 }
 
 function checkIfNotEmpty($text)

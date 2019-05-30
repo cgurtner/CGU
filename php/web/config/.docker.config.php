@@ -24,5 +24,7 @@ $CONFIG = array(
         )
     ),
     'instagram-auth' => '7650242573.88b3a4d.f50b396701e7426e88c97e18fbe4a3a2',
-    'instagram-json-path' => './file/instagram.json'
+    'instagram-json-path' => './file/instagram.json',
+    'recaptcha-client-key' => '6LcOZaYUAAAAAKrMyY86NZuWOT4lECDilAV4YF0c',
+    'recaptcha-secret-key' => '6LcOZaYUAAAAABN9bPCddtq8O2C5S1vR3gxHwhD5'
 );
