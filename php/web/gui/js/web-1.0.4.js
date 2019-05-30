@@ -37,4 +37,9 @@ $(document).ready(function () {
         field.attr('href', mlc + cml);
         field.text(cml);
     }
+
+    var contactAlert = $('#alert-contact');
+    if (contactAlert.length > 0) {
+        $(window).scrollTop(contactAlert.offset().top);
+    }
 });
