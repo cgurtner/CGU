@@ -9,7 +9,6 @@ $PAGES[] = array(
     ),
     "url" => "home",
     "path" => "content/page/home.php",
-    "breadcrumb" => "file/google/breadcrumb-home.json",
     "type" => "page",
     "display" => false,
     "disabled" => false
@@ -22,7 +21,6 @@ $PAGES[] = array(
     ),
     "url" => "werdegang",
     "path" => "content/page/werdegang.php",
-    "breadcrumb" => "file/google/breadcrumb-werdegang.json",
     "type" => "page",
     "display" => true,
     "disabled" => false
@@ -35,7 +33,6 @@ $PAGES[] = array(
     ),
     "url" => "galerie",
     "path" => "content/page/galerie.php",
-    "breadcrumb" => "file/google/breadcrumb-galerie.json",
     "type" => "page",
     "display" => true,
     "disabled" => false
@@ -48,7 +45,6 @@ $PAGES[] = array(
     ),
     "url" => "kontakt",
     "path" => "content/page/kontakt.php",
-    "breadcrumb" => "file/google/breadcrumb-kontakt.json",
     "type" => "page",
     "display" => true,
     "disabled" => false
