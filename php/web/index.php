@@ -8,12 +8,6 @@ require_once('content/content.php');
 define("CONFIG", $CONFIG);
 define("PAGES", $PAGES);
 
-// enable error reporting for dev system
-if (CONFIG['system'] == 'dev') {
-    error_reporting(-1);
-    ini_set('display_errors', 1);
-}
-
 $pageURL = null;
 if (isset($_GET['page']) && trim($_GET['page']) != "") {
     $pageURL = trim(strtolower($_GET['page']));

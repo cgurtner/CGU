@@ -1,8 +1,10 @@
-FROM php:7.2-apache
+FROM php:7.3-apache
 
 RUN apt-get update
 RUN apt-get install -y git zip unzip
+
 RUN a2enmod rewrite
+COPY ./config/php.ini /usr/local/etc/php/conf.d/php.dev.ini
 
 RUN cd /tmp && php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
 php composer-setup.php && \
