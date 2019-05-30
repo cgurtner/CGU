@@ -67,7 +67,7 @@ if ($page['url'] === 'home') {
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="/gui/js/jquery-3.3.1.js"></script>
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/gui/js/web-1.0.4.js"></script>
+<script src="/gui/js/web-1.0.5.js"></script>
 </body>
 </html><?php
 
