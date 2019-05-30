@@ -55,7 +55,7 @@ if (isset($_POST['contact'])) {
                                     <input type="text" name="vname"
                                            value="<?php echo (isset($contactFormData['vname'])) ? $contactFormData['vname'] : ''; ?>"
                                            class="form-control <?php echo (isset($contactFormError['vname-valid']) && $contactFormError['vname-valid'] == false) ? 'is-invalid' : ''; ?>"
-                                           id="vname">
+                                           id="vname" required>
                                 </div>
                             </div>
                             <div class="col">
@@ -64,7 +64,7 @@ if (isset($_POST['contact'])) {
                                     <input type="text"
                                            value="<?php echo (isset($contactFormData['name'])) ? $contactFormData['name'] : ''; ?>"
                                            class="form-control <?php echo (isset($contactFormError['name-valid']) && $contactFormError['name-valid'] == false) ? 'is-invalid' : ''; ?>"
-                                           id="name" name="name">
+                                           id="name" name="name" required>
                                 </div>
                             </div>
                         </div>
@@ -72,10 +72,10 @@ if (isset($_POST['contact'])) {
                             <div class="col">
                                 <div class="form-group">
                                     <label for="email">E-Mail</label>
-                                    <input type="text"
+                                    <input type="email"
                                            value="<?php echo (isset($contactFormData['email'])) ? $contactFormData['email'] : ''; ?>"
                                            class="form-control <?php echo (isset($contactFormError['email-valid']) && $contactFormError['email-valid'] == false) ? 'is-invalid' : ''; ?>"
-                                           id="email" name="email">
+                                           id="email" name="email" required>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ if (isset($_POST['contact'])) {
                                     <textarea
                                             class="form-control <?php echo (isset($contactFormError['message-valid']) && $contactFormError['message-valid'] == false) ? 'is-invalid' : ''; ?>"
                                             id="message" name="message"
-                                            rows="10"><?php echo (isset($contactFormData['message'])) ? $contactFormData['message'] : ''; ?></textarea>
+                                            rows="10" required><?php echo (isset($contactFormData['message'])) ? $contactFormData['message'] : ''; ?></textarea>
                                 </div>
                             </div>
                         </div>
