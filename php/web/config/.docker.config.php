@@ -1,7 +1,6 @@
 <?php
 
 $CONFIG = array(
-    'system' => 'dev',
     'baseUrl' => 'http://localhost:8000/',
     'baseUrlAsShown' => 'localhost:8000',
     'email.to.address' => 'me@cgurtner.ch',
@@ -25,6 +24,5 @@ $CONFIG = array(
         )
     ),
     'instagram-auth' => '7650242573.88b3a4d.f50b396701e7426e88c97e18fbe4a3a2',
-    'instagram-json-path' => './file/instagram.json',
-    'captcha-client-key' => '6LfQ16UUAAAAAF3sjdSUXiREyEyqkMFWT8SrRoKg'
+    'instagram-json-path' => './file/instagram.json'
 );
