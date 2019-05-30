@@ -24,4 +24,17 @@ $(document).ready(function () {
     };
     resizeInsta();
     $(window).resize(resizeInsta);
+
+    var t = 'm' + 'e';
+    var y = 'cgu' + 'r' + 'tner'
+    var a = '@';
+    var e = '.c' + 'h';
+    var cml = t + a + y + e;
+    var mlc = 'ma' + 'il' + 'to' + ':';
+
+    var field = $('#cml');
+    if (field.length > 0) {
+        field.attr('href', mlc + cml);
+        field.text(cml);
+    }
 });

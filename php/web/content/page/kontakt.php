@@ -29,7 +29,10 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                         </p>
                         <p>
                             Bielackerstrasse 72<br>
-                            5014 Gretzenbach<br>
+                            CH-5014 Gretzenbach
+                        </p>
+                        <p>
+                            <a id="cml"></a><br>
                             <a href="<?php echo CONFIG['baseUrl']; ?>"><?php echo CONFIG['baseUrlAsShown']; ?></a>
                         </p>
                     </address>
