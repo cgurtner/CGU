@@ -1,13 +1,16 @@
 <?php
 
-$contactForm = checkContactForm();
 $emailSent = '';
-if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
-    if (sendEmail($contactForm)) {
-        $contactForm = null;
-        $emailSent = '<div class="alert alert-success">';
-        $emailSent .= 'Danke für Ihre Nachricht! Normalerweise melde ich mich innerhalb von 48 Stunden.';
-        $emailSent .= '</div>';
+if (isset($_POST['contact'])) {
+    $contactFormData = contactFormData();
+    $contactFormError = contactFormError($contactFormData);
+    if (isset($contactFormError) && !in_array(false, $contactFormError)) {
+        if (sendEmail($contactFormData)) {
+            $contactForm = null;
+            $emailSent = '<div class="alert alert-success">';
+            $emailSent .= 'Danke für Ihre Nachricht! Normalerweise melde ich mich innerhalb von 48 Stunden.';
+            $emailSent .= '</div>';
+        }
     }
 }
 
@@ -20,7 +23,8 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                 <div class="col-12 col-sm-6">
                     <p class="mb-3">
                         Sie haben fachliche Fragen und wünschen nähere Informationen?
-                        Nutzen Sie das nebenstehende Kontaktformular. Innerhalb von 48 Stunden erhalten Sie meine Antwort.
+                        Nutzen Sie das nebenstehende Kontaktformular. Innerhalb von 48 Stunden erhalten Sie meine
+                        Antwort.
                     </p>
                     <address>
                         <p>
@@ -49,18 +53,18 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                                 <div class="form-group">
                                     <label for="vname">Vorname</label>
                                     <input type="text" name="vname"
-                                           value="<?php echo (isset($contactForm['data']['vname'])) ? $contactForm['data']['vname'] : ''; ?>"
-                                           class="form-control <?php echo (isset($contactForm['err']['vname-empty']) && $contactForm['err']['vname-empty'] == false) ? 'is-invalid' : ''; ?>"
-                                           id="vname" required>
+                                           value="<?php echo (isset($contactFormData['vname'])) ? $contactFormData['vname'] : ''; ?>"
+                                           class="form-control <?php echo (isset($contactFormError['vname-empty']) && $contactFormError['vname-empty'] == false) ? 'is-invalid' : ''; ?>"
+                                           id="vname">
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="form-group">
                                     <label for="name">Name</label>
                                     <input type="text"
-                                           value="<?php echo (isset($contactForm['data']['name'])) ? $contactForm['data']['name'] : ''; ?>"
-                                           class="form-control <?php echo (isset($contactForm['err']['name-empty']) && $contactForm['err']['name-empty'] == false) ? 'is-invalid' : ''; ?>"
-                                           id="name" name="name" required>
+                                           value="<?php echo (isset($contactFormData['name'])) ? $contactFormData['name'] : ''; ?>"
+                                           class="form-control <?php echo (isset($contactFormError['name-empty']) && $contactFormError['name-empty'] == false) ? 'is-invalid' : ''; ?>"
+                                           id="name" name="name">
                                 </div>
                             </div>
                         </div>
@@ -68,10 +72,10 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                             <div class="col">
                                 <div class="form-group">
                                     <label for="email">E-Mail</label>
-                                    <input type="email"
-                                           value="<?php echo (isset($contactForm['data']['email'])) ? $contactForm['data']['email'] : ''; ?>"
-                                           class="form-control <?php echo (isset($contactForm['err']['email-empty']) && ($contactForm['err']['email-empty'] == false || $contactForm['err']['email-invalid'] == false)) ? 'is-invalid' : ''; ?>"
-                                           id="email" name="email" required>
+                                    <input type="text"
+                                           value="<?php echo (isset($contactFormData['email'])) ? $contactFormData['email'] : ''; ?>"
+                                           class="form-control <?php echo (isset($contactFormError['email-empty']) && ($contactFormError['email-empty'] == false || $contactFormError['email-invalid'] == false)) ? 'is-invalid' : ''; ?>"
+                                           id="email" name="email">
                                 </div>
                             </div>
                         </div>
@@ -80,10 +84,9 @@ if (isset($contactForm['err']) && !in_array(false, $contactForm['err'])) {
                                 <div class="form-group">
                                     <label for="message">Nachricht</label>
                                     <textarea
-                                            class="form-control <?php echo (isset($contactForm['err']['message-empty']) && $contactForm['err']['message-empty'] == false) ? 'is-invalid' : ''; ?>"
+                                            class="form-control <?php echo (isset($contactFormError['message-empty']) && $contactFormError['message-empty'] == false) ? 'is-invalid' : ''; ?>"
                                             id="message" name="message"
-                                            rows="10"
-                                            required><?php echo (isset($contactForm['data']['message'])) ? $contactForm['data']['message'] : ''; ?></textarea>
+                                            rows="10"><?php echo (isset($contactFormData['message'])) ? $contactFormData['message'] : ''; ?></textarea>
                                 </div>
                             </div>
                         </div>

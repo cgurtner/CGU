@@ -41,9 +41,11 @@ if ($page['url'] === 'home') {
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134844121-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag() {
             dataLayer.push(arguments);
         }
+
         gtag('js', new Date());
         gtag('config', 'UA-134844121-1');
     </script>
@@ -117,19 +119,24 @@ function sendEmail($input)
     }
 }
 
-function checkContactForm()
+function contactFormData()
 {
-    if (!isset($_POST['contact'])) {
-        return array();
-    }
-
     $ret = array();
     $fields = array('name', 'vname', 'email', 'message');
     foreach ($fields as $field) {
-        $ret['data'][$field] = readPostParam($field);
-        $ret['err'][$field . '-empty'] = checkIfNotEmpty($ret['data'][$field]);
+        $ret[$field] = readPostParam($field);
+    }
+    return $ret;
+}
+
+function contactFormError($data)
+{
+    $ret = array();
+    $fields = array('name', 'vname', 'email', 'message');
+    foreach ($fields as $field) {
+        $ret[$field . '-empty'] = checkIfNotEmpty($data[$field]);
         if ($field == 'email') {
-            $recgt['err'][$field . '-invalid'] = checkEmail($ret['data'][$field]);
+            $ret[$field . '-invalid'] = checkEmail($data[$field]);
         }
     }
     return $ret;
