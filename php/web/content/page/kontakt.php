@@ -97,7 +97,7 @@ if (isset($_POST['contact'])) {
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <div class="input-group justify-content-end">
-                                    <button type="submit" class="btn btn-primary d-inline-block mt-3 mt-sm-0" name="contact">Senden</button>
+                                    <button type="submit" class="btn btn-primary d-inline-block mt-3 mt-sm-0" name="contact" value="sent">Senden</button>
                                 </div>
                             </div>
                         </div>
