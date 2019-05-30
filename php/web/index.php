@@ -72,7 +72,7 @@ if ($page['url'] === 'home') {
 <script type="application/ld+json"><?php include_once($page['breadcrumb']); ?></script>
 <script src="/gui/js/jquery-3.3.1.js"></script>
 <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/gui/js/web-1.0.3.js"></script>
+<script src="/gui/js/web-1.0.4.js"></script>
 </body>
 </html><?php
 
