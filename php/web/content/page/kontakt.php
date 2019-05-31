@@ -7,13 +7,14 @@ if (isset($_POST['contact'])) {
     if (isset($contactFormError) && !in_array(false, $contactFormError)) {
         if (sendEmail($contactFormData)) {
             unset($contactFormData);
-            $alert = '<div id="alert-contact" class="alert alert-success">';
+            $alert = '<div id="alert-anker" style="height: 1rem;" class="d-sm-none"></div>';
+            $alert .= '<div id="alert-contact" class="alert alert-success">';
             $alert .= '<strong>Danke für Ihre Nachricht!</strong><br>';
-            $alert .= 'Normalerweise melde ich mich innerhalb von 48 Stunden.';
             $alert .= '</div>';
         }
     } else if (isset($contactFormError) && in_array(false, $contactFormError)) {
-        $alert = '<div id="alert-contact" class="alert alert-danger">';
+        $alert = '<div id="alert-anker" style="height: 1rem;" class="d-sm-none"></div>';
+        $alert .= '<div id="alert-contact" class="alert alert-danger">';
         $alert .= '<strong>Falscheingaben</strong><br>';
         $alert .= 'Bitte prüfen Sie Ihre Eingaben.';
         $alert .= '</div>';

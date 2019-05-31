@@ -38,7 +38,7 @@ $(document).ready(function () {
         field.text(cml);
     }
 
-    var contactAlert = $('#alert-contact');
+    var contactAlert = $('#alert-anker');
     if (contactAlert.length > 0) {
         $(window).scrollTop(contactAlert.offset().top);
     }
