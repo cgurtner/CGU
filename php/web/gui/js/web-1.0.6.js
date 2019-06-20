@@ -5,13 +5,6 @@ $(document).ready(function () {
 
     $('main.fade-in').fadeIn(750);
 
-    $('div.bg-fullscreen a').click(function (e) {
-        e.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("div.container").offset().top
-        }, 500);
-    })
-    
     var vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', vh + 'px');
 
