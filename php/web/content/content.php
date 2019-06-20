@@ -16,6 +16,18 @@ $PAGES[] = array(
 
 $PAGES[] = array(
     "meta" => array(
+        "title" => "Technologie",
+        "description" => ""
+    ),
+    "url" => "technologie",
+    "path" => "content/page/technologie.php",
+    "type" => "page",
+    "display" => true,
+    "disabled" => false
+);
+
+$PAGES[] = array(
+    "meta" => array(
         "title" => "Werdegang",
         "description" => "Informatiker EFZ mit Fachrichtung Applikationsentwicklung mit anschliessender technischen Berufsmatur und Studium an der technischen Hochschule Rapperswil."
     ),
