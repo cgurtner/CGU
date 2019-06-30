@@ -8,8 +8,15 @@ $(document).ready(function () {
     var vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', vh + 'px');
 
-    const headerHeight = $('body.bg-fullscreen header').height();
-    $('div.bg-fullscreen').height($('div.bg-fullscreen').height() - headerHeight)
+    const resizeBG = function () {
+        const headerHeight = $('body.bg-fullscreen header').height();
+        $('div.bg-fullscreen').height($('div.bg-fullscreen').height() - headerHeight)
+    }
+
+    resizeBG();
+    $('.navbar-collapse').on('shown.bs.collapse', function () {
+        resizeBG();
+    });
 
     const insta = $("img.insta-thumb");
     const resizeInsta = function () {
