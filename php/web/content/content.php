@@ -22,8 +22,8 @@ $PAGES[] = array(
     "url" => "technologie",
     "path" => "content/page/technologie.php",
     "type" => "page",
-    "display" => true,
-    "disabled" => false
+    "display" => false,
+    "disabled" => true
 );
 
 $PAGES[] = array(
