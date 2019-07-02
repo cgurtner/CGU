@@ -29,6 +29,7 @@ $(document).ready(function () {
 
     var contactAlert = $('#alert-anker');
     if (contactAlert.length > 0) {
-        $(window).scrollTop(contactAlert.offset().top);
+        var navHeight = $('nav').outerHeight();
+        $(window).scrollTop(contactAlert.offset().top - navHeight);
     }
 });
