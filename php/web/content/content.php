@@ -4,8 +4,8 @@ $PAGES = array();
 
 $PAGES[] = array(
     "meta" => array(
-      "title" => "Home",
-      "description" => "Ich, Cyrill Gurtner, bin ein Softwareentwickler aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
+        "title" => "Home",
+        "description" => "Ich, Cyrill Gurtner, bin ein Softwareentwickler aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
     ),
     "url" => "home",
     "path" => "content/page/home.php",
@@ -29,7 +29,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Werdegang",
-        "description" => "Informatiker EFZ mit Fachrichtung Applikationsentwicklung mit anschliessender technischen Berufsmatur und Studium an der technischen Hochschule Rapperswil."
+        "description" => "Mein Werdegang beschreibt meinen Weg von der Lehre bis zum erfolgreichen und versierten Softwareentwickler."
     ),
     "url" => "werdegang",
     "path" => "content/page/werdegang.php",
@@ -41,7 +41,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Galerie",
-        "description" => "Feed meines persönlichen Instagram Accounts."
+        "description" => "In Bildern hält meine Galerie Momente und Eindrücke aus meinem täglichen Leben fest. Folge mir bei meinen Abenteuern!"
     ),
     "url" => "galerie",
     "path" => "content/page/galerie.php",
