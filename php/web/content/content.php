@@ -5,7 +5,7 @@ $PAGES = array();
 $PAGES[] = array(
     "meta" => array(
         "title" => "Home",
-        "description" => "Ich, Cyrill Gurtner, bin ein Softwareentwickler aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
+        "description" => "Ich, Cyrill Gurtner, bin ein Softwareentwickler und Informatikdozent aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
     ),
     "url" => "home",
     "path" => "content/page/home.php",
@@ -29,7 +29,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Werdegang",
-        "description" => "Mein Werdegang beschreibt meinen Weg von der Lehre bis zum erfolgreichen und versierten Softwareentwickler."
+        "description" => "Der spannende Werdegang zum erfolgreichen Softwareentwickler mit Dozententätigkeiten."
     ),
     "url" => "werdegang",
     "path" => "content/page/werdegang.php",
@@ -41,7 +41,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Galerie",
-        "description" => "In Bildern hält meine Galerie Momente und Eindrücke aus meinem täglichen Leben fest. Folge mir bei meinen Abenteuern!"
+        "description" => "In Bildern hält meine Galerie Momente und Eindrücke aus meinem täglichen Leben fest."
     ),
     "url" => "galerie",
     "path" => "content/page/galerie.php",
@@ -53,7 +53,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Kontakt",
-        "description" => "Webapplikationen, komplexe Softwarelösungen und Datenbankmodelle. Nehmen Sie mit mir Kontakt auf und besprechen Sie mit mir Ihre Ideen!"
+        "description" => "Webapplikationen, komplexe Softwarelösungen, Datenbankmodelle und Dozententätigkeiten. Nehmen Sie mit mir Kontakt auf und besprechen Sie mit mir Ihre Vorstellungen!"
     ),
     "url" => "kontakt",
     "path" => "content/page/kontakt.php",
