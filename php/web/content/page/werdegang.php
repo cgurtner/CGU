@@ -12,6 +12,35 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
+                                        <h3>Informatikschule Olten</h3>
+                                        <p>
+                                            Aug. 2019 - heute<br>
+                                            Informatikdozent<br>
+                                            <a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
+                                        </p>
+                                    </header>
+                                </div>
+                                <div class="col-12 col-sm-8">
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Aufbauunterricht zum Java SE 11 Programmer</h4>
+                                        </header>
+                                        <p>
+                                            Zusätzlich zu meiner Tätigkeit als Softwareentwickler, unterrichte ich seit August 2019
+                                            an der Informatikschule Olten die Programmiersprache Java.
+                                        </p>
+                                        <p>
+                                            Mit praxisorientierten Einzellektionen und meinem Erfahrungswert aus der Berufswelt, bereite ich
+                                            die Studenten auf interessante und begeisternde Art und Weise auf die Zertifizierung zum Java SE 11 Programmer vor. 
+                                        </p>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <header>
                                         <h3>Datahouse AG</h3>
                                         <p>
                                             Sept. 2011 - heute<br>
