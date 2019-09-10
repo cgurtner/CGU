@@ -38,8 +38,8 @@ if (isset($_POST['contact'])) {
                             Software Developer
                         </p>
                         <p>
-                            Bielackerstrasse 72<br>
-                            CH-5014 Gretzenbach
+                            Bahnhofstrasse 40<br>
+                            CH-4663 Aarburg
                         </p>
                         <p>
                             <a id="cml"></a><br>
