@@ -153,9 +153,10 @@
                                             <h4 class="inline">Entschluss</h4>
                                         </header>
                                         <p>
-                                            Im September 2018 entschied ich mich, meinen Fokus auf meinen beruflichen
-                                            Werdegang sowie eigene Projekte zu richten und trat deshalb aus der HSR
-                                            aus.
+                                            Mein Bedürfnis, unabhängig vom Schulalltag an Projekten zu arbeiten und mich
+                                            auf meinen beruchflichen Werdegang zu konzentrieren, stieg seit Beginn des Studiums
+                                            stetig an. Im September 2018 entschied ich mich schliesslich die HSR ohne Abschluss
+                                            zu verlassen.
                                         </p>
                                     </section>
                                 </div>
