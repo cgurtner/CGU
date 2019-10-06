@@ -29,7 +29,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Werdegang",
-        "description" => "Der spannende Werdegang zum erfolgreichen Softwareentwickler mit Dozententätigkeiten."
+        "description" => "Informatiker EFZ, Softwareentwickler, Informatikdozent. Mein Werdegang in seiner vollen Schönheit."
     ),
     "url" => "werdegang",
     "path" => "content/page/werdegang.php",
@@ -41,7 +41,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Galerie",
-        "description" => "In Bildern hält meine Galerie Momente und Eindrücke aus meinem täglichen Leben fest."
+        "description" => "In Bildern hält meine Galerie Momente und Eindrücke aus meinem Leben fest."
     ),
     "url" => "galerie",
     "path" => "content/page/galerie.php",
@@ -53,7 +53,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Kontakt",
-        "description" => "Webapplikationen, komplexe Softwarelösungen, Datenbankmodelle und Dozententätigkeiten. Nehmen Sie mit mir Kontakt auf und besprechen Sie mit mir Ihre Vorstellungen!"
+        "description" => "Webapplikationen, komplexe Softwarelösungen, Datenbankmodelle und Dozententätigkeiten. Nehmen Sie mit mir Kontakt auf und besprechen Sie mit mir Ihre Ideen!"
     ),
     "url" => "kontakt",
     "path" => "content/page/kontakt.php",
