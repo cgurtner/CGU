@@ -23,7 +23,7 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Aufbauunterricht zum Java SE 11 Programmer</h4>
+                                            <h4 class="inline">Aufbauunterricht zum Oracle Certified Professional Java SE 11 Developer</h4>
                                         </header>
                                         <p>
                                             Zusätzlich zu meiner Tätigkeit als Softwareentwickler, unterrichte ich seit August 2019
@@ -31,7 +31,7 @@
                                         </p>
                                         <p>
                                             Mit praxisorientierten Einzellektionen und meinem Erfahrungswert aus der Berufswelt, bereite ich
-                                            die Studenten auf interessante und begeisternde Art und Weise auf die Zertifizierung zum Java SE 11 Programmer vor. 
+                                            die Studenten auf interessante und begeisternde Art und Weise auf die Zertifizierung zum OCP Java SE 11 Developer vor.
                                         </p>
                                     </section>
                                 </div>
