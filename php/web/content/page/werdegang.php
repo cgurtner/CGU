@@ -234,7 +234,7 @@
                                         Webapplikation
                                         entwickelt, mit welcher Mitarbeiter zu Meetings eingeladen und ein Protokoll der
                                         Sitzung erfasst werden kann. Das Protokoll kann anschliessend für alle Teilnehmer
-                                        automatisiert als PDF generiert und veröffentlicht werden. Bei der Umsetzung eingesetzt
+                                        automatisiert als PDF generiert und veröffentlicht werden. Bei der Implementierung eingesetzt
                                         habe ich HTML/CSS, JS/JQuery, OO PHP, MySQL und LaTeX.
                                     </p>
                                     <p class="mb-5">
