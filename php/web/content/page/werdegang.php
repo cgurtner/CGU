@@ -62,7 +62,7 @@
                                         </p>
                                         <p>
                                             Meine Tätigkeits- und Aufgabenbereiche umfassen als Software Developer unter
-                                            anderem die folgenden:
+                                            anderem die Folgenden:
                                         </p>
                                     </section>
                                     <section>
