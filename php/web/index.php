@@ -27,9 +27,9 @@ if ($page == null || $page['disabled'] || !file_exists($page['path'])) {
     die();
 }
 
-$pageTitle = 'Cyrill Gurtner';
+$pageTitle = 'Cyrill Gurtner | Software Developer';
 if ($page['url'] === 'home') {
-    $pageTitle = $pageTitle . ' | Software Developer';
+    // ok...
 } else if ($page['url'] !== 'home' && $page['type'] === 'page') {
     $pageTitle = $page['meta']['title'] . ' | ' . $pageTitle;
 }
