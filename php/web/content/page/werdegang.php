@@ -12,6 +12,30 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
+                                        <h3>Datahouse AG</h3>
+                                        <p>
+                                            Jan. 2020 - heute<br>
+                                            Senior Software Developer<br>
+                                            <a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
+                                        </p>
+                                    </header>
+                                </div>
+                                <div class="col-12 col-sm-8">
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Header</h4>
+                                        </header>
+                                        <p>
+                                            Text
+                                        </p>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <header>
                                         <h3>Informatikschule Olten</h3>
                                         <p>
                                             Aug. 2019 - heute<br>
@@ -43,7 +67,7 @@
                                     <header>
                                         <h3>Datahouse AG</h3>
                                         <p>
-                                            Sept. 2011 - heute<br>
+                                            Sept. 2011 - Dez. 2019<br>
                                             Software Developer<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
