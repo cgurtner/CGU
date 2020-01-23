@@ -29,8 +29,7 @@ if (isset($_POST['contact'])) {
                 <div class="col-12 col-sm-6">
                     <p class="mb-3">
                         Sie haben fachliche Fragen und wünschen nähere Informationen?
-                        Nutzen Sie das nebenstehende Kontaktformular. Innerhalb von 48 Stunden erhalten Sie meine
-                        Antwort.
+                        Nutzen Sie das nebenstehende Kontaktformular.
                     </p>
                     <address>
                         <p>
