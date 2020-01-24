@@ -27,7 +27,7 @@
                                         </header>
                                         <p>
                                             Per 1. Januar 2020 übernehme ich als Senior Software Entwickler, weiterhin für die
-                                            Datahouse AG, die Verantwortung für die selbstständige Abwicklung von mittelgrossen
+                                            Datahouse AG, die Verantwortung über die selbstständige Abwicklung von mittelgrossen
                                             Projekten.
                                         </p>
                                         <p>
