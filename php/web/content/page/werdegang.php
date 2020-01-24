@@ -12,6 +12,36 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
+                                        <h3>Datahouse AG</h3>
+                                        <p>
+                                            Jan. 2020 - heute<br>
+                                            Senior Software Developer<br>
+                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
+                                        </p>
+                                    </header>
+                                </div>
+                                <div class="col-12 col-sm-8">
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Senior Software Developer</h4>
+                                        </header>
+                                        <p>
+                                            Per 1. Januar 2020 übernehme ich als Senior Software Entwickler, weiterhin für die
+                                            Datahouse AG, die Verantwortung über die selbstständige Abwicklung von mittelgrossen
+                                            Projekten und komplexere konzeptionelle Entscheidungen.
+                                        </p>
+                                        <p>
+                                            Zusätzlich eigne ich mir vertiefte Projektmanagementfähigkeiten an und übernehme
+                                            Führungsaufgaben innerhalb des Projektteams.
+                                        </p>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <header>
                                         <h3>Informatikschule Olten</h3>
                                         <p>
                                             Aug. 2019 - heute<br>
@@ -43,7 +73,7 @@
                                     <header>
                                         <h3>Datahouse AG</h3>
                                         <p>
-                                            Sept. 2011 - heute<br>
+                                            Sept. 2011 - Jan. 2020<br>
                                             Software Developer<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
@@ -178,18 +208,12 @@
                                     <p>
                                         Um mir den Zugang zu den Fachhochschulen zu ermöglichen, absolvierte ich vom
                                         August 2013 bis Februar 2015 die technische Berufsmaturität berufsbegleitend bei
-                                        der
-                                        <a href="https://www.akad.ch/de-CH" target="_blank" rel="noreferrer">AKAD</a>.
-                                        Während der
-                                        Berufsmaturität
-                                        blieb ich in einem 60%-Pensum weiterhin als Softwareentwickler bei der
-                                        <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">Datahouse
-                                            AG</a> angestellt.
+                                        der AKAD. Während der Berufsmaturität blieb ich in einem 60%-Pensum weiterhin
+                                        als Softwareentwickler bei der Datahouse AG angestellt.
                                     </p>
                                     <p>
                                         Zu den Schwerpunktfächern der technischen Berufsmaturität zählen Mathematik
-                                        sowie
-                                        die Naturwissenschaften Physik und Chemie. Abschluss der Ausbildung bilden die
+                                        sowie die Naturwissenschaften Physik und Chemie. Abschluss der Ausbildung bilden die
                                         eidgenössischen Prüfungen sowie die interdisziplinäre Projektarbeit (IDPA),
                                         welche ich im Hauptfach Physik realisiert und erfolgreich abgeschlossen habe.
                                     </p>
@@ -211,26 +235,20 @@
                                 <div class="col-12 col-sm-8">
                                     <p>
                                         Im Juli 2009 startete ich meine Ausbildung zum Applikationsentwicker EFZ bei der
-                                        <a href="https://www.informatikschuleolten.ch" target="_blank" rel="noreferrer">Informatikschule
-                                            Olten</a>. Das
-                                        Fundament
-                                        für den Abschluss dieser vierjährigen Ausbildung bildete die zweijährige
-                                        Schulzeit.
-                                        Während
-                                        diesen zwei Jahren besuchte ich alle Module, welche gemäss ICT Berufsbildung
-                                        Schweiz
+                                        Informatikschule Olten. Das Fundament für den Abschluss dieser vierjährigen
+                                        Ausbildung bildete die zweijährige Schulzeit. Während diesen zwei Jahren
+                                        besuchte ich alle Module, welche gemäss ICT Berufsbildung Schweiz
                                         für den Abschluss zum Applikationsentwickler EFZ vorausgesetzt werden.
                                     </p>
                                     <p>
                                         In der zweiten Hälfte meiner Ausbildung arbeitete ich zu einem 80%-Pensum als
-                                        Praktikant bei der <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">Datahouse AG</a>. Da
-                                        ich in den ersten zwei Jahren meiner Lehre bereits alle Module behandelt habe,
-                                        war es mir möglich, bereits früh vollwertig mitzuarbeiten und mich an Projekten zu beteiligen.
+                                        Praktikant bei der Datahouse AG. Da ich in den ersten zwei Jahren meiner Lehre
+                                        bereits alle Module behandelt habe, war es mir möglich, bereits früh vollwertig
+                                        mitzuarbeiten und mich an Projekten zu beteiligen.
                                     </p>
                                     <p>
                                         Den Abschluss meiner vierjährigen Berufslehre bildete die IPA im April 2013 mit
-                                        dem
-                                        Titel "Web-Tool zur Protokollführung". Im Rahmen dieser IPA habe ich eine
+                                        dem Titel "Web-Tool zur Protokollführung". Im Rahmen dieser IPA habe ich eine
                                         Webapplikation
                                         entwickelt, mit welcher Mitarbeiter zu Meetings eingeladen und ein Protokoll der
                                         Sitzung erfasst werden kann. Das Protokoll kann anschliessend für alle Teilnehmer
