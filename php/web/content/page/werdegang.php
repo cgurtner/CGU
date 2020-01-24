@@ -16,17 +16,23 @@
                                         <p>
                                             Jan. 2020 - heute<br>
                                             Senior Software Developer<br>
-                                            <a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
+                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Header</h4>
+                                            <h4 class="inline">Senior Software Developer</h4>
                                         </header>
                                         <p>
-                                            Text
+                                            Per 1. Januar 2020 übernehme ich als Senior Software Entwickler, weiterhin für die
+                                            Datahouse AG, die Verantwortung für die selbstständige Abwicklung von mittelgrossen
+                                            Projekten.
+                                        </p>
+                                        <p>
+                                            Zusätzlich eigne ich mir vertiefte Projektmanagementfähigkeiten an und übernehme
+                                            Führungsaufgaben innerhalb des Projektteams.
                                         </p>
                                     </section>
                                 </div>
@@ -67,7 +73,7 @@
                                     <header>
                                         <h3>Datahouse AG</h3>
                                         <p>
-                                            Sept. 2011 - Dez. 2019<br>
+                                            Sept. 2011 - Jan. 2020<br>
                                             Software Developer<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>

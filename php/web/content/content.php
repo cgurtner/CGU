@@ -5,7 +5,7 @@ $PAGES = array();
 $PAGES[] = array(
     "meta" => array(
         "title" => "Home",
-        "description" => "Ich, Cyrill Gurtner, bin ein Softwareentwickler und Informatikdozent aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
+        "description" => "Ich, Cyrill Gurtner, bin ein (Senior-) Softwareentwickler und Informatikdozent aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
     ),
     "url" => "home",
     "path" => "content/page/home.php",
