@@ -29,7 +29,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Werdegang",
-        "description" => "Informatiker EFZ, Softwareentwickler, Informatikdozent. Mein Werdegang in seiner vollen Schönheit."
+        "description" => "Mein Werdegang (CV) zum (Senior-) Softwareentwickler, Informatiker EFZ und Informatikdozent."
     ),
     "url" => "werdegang",
     "path" => "content/page/werdegang.php",
