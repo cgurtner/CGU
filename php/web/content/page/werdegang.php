@@ -28,7 +28,7 @@
                                         <p>
                                             Per 1. Januar 2020 übernehme ich als Senior Software Entwickler, weiterhin für die
                                             Datahouse AG, die Verantwortung über die selbstständige Abwicklung von mittelgrossen
-                                            Projekten und komplexere konzeptionelle Entscheidungen.
+                                            Projekten und damit verbundene komplexe konzeptionelle Eintscheidungen.
                                         </p>
                                         <p>
                                             Zusätzlich eigne ich mir vertiefte Projektmanagementfähigkeiten an und übernehme
