@@ -28,8 +28,9 @@ if (isset($_POST['contact'])) {
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <p class="mb-3">
-                        Sie haben fachliche Fragen und wünschen nähere Informationen?
-                        Nutzen Sie das nebenstehende Kontaktformular.
+                        Sie haben Fragen zu meinen Kompetenzen und möchten mit mir
+                        Kontakt aufnehmen? Gerne bin ich über das Formular oder
+                        die untenstehende E-Mail Adresse direkt erreichbar für Sie.
                     </p>
                     <address>
                         <p>
