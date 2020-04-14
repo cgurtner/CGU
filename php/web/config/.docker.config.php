@@ -16,12 +16,6 @@ $CONFIG = array(
             'icon' => 'fa-gitlab',
             'title' => 'GitLab'
         ),
-        'github' => array(
-            'name' => 'github',
-            'url' => 'https://github.com/cgurtner',
-            'icon' => 'fa-github',
-            'title' => 'GitHub'
-        ),
         'instagram' => array(
             'name' => 'instagram',
             'url' => 'https://www.instagram.com/cgurtner.ch',
