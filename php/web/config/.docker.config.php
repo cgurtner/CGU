@@ -10,6 +10,12 @@ $CONFIG = array(
     'email.smtp.user' => 'no-reply@cgurtner.ch',
     'email.smtp.password' => 'cBac%a2.A?cJAHcYATC23@cAB',
     'socials' => array(
+        'datacamp' => array(
+            'name' => 'datacamp',
+            'url' => 'https://www.datacamp.com/profile/cgurtner-ch',
+            'icon' => 'fa-python',
+            'title' => 'DataCamp'
+        ),
         'gitlab' => array(
             'name' => 'gitlab',
             'url' => 'https://gitlab.com/cgurtner.ch',
