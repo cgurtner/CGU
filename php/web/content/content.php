@@ -46,8 +46,8 @@ $PAGES[] = array(
     "url" => "galerie",
     "path" => "content/page/galerie.php",
     "type" => "page",
-    "display" => true,
-    "disabled" => false
+    "display" => false,
+    "disabled" => true
 );
 
 $PAGES[] = array(
