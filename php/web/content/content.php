@@ -40,18 +40,6 @@ $PAGES[] = array(
 
 $PAGES[] = array(
     "meta" => array(
-        "title" => "Galerie",
-        "description" => "In Bildern hält meine Galerie Momente und Eindrücke aus meinem Leben fest."
-    ),
-    "url" => "galerie",
-    "path" => "content/page/galerie.php",
-    "type" => "page",
-    "display" => false,
-    "disabled" => true
-);
-
-$PAGES[] = array(
-    "meta" => array(
         "title" => "Kontakt",
         "description" => "Webapplikationen, komplexe Softwarelösungen, Datenbankmodelle und Dozententätigkeiten. Nehmen Sie mit mir Kontakt auf und besprechen Sie mit mir Ihre Ideen!"
     ),

@@ -1,3 +1,2 @@
 User-Agent: *
 Sitemap: https://cgurtner.ch/sitemap.xml
-Disallow: https://scontent.cdninstagram.com/*
