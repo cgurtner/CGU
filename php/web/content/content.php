@@ -16,18 +16,6 @@ $PAGES[] = array(
 
 $PAGES[] = array(
     "meta" => array(
-        "title" => "Technologie",
-        "description" => ""
-    ),
-    "url" => "technologie",
-    "path" => "content/page/technologie.php",
-    "type" => "page",
-    "display" => false,
-    "disabled" => true
-);
-
-$PAGES[] = array(
-    "meta" => array(
         "title" => "Werdegang",
         "description" => "Mein Werdegang (CV) zum (Senior-) Softwareentwickler, Informatiker EFZ und Informatikdozent."
     ),
