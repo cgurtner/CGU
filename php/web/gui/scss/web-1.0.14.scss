@@ -277,6 +277,11 @@ p {
   margin-bottom: .5rem;
 }
 
+.container > section:nth-child(1) > section:nth-child(2) h5,
+.container > section:nth-child(1) > section:nth-child(3) h5 {
+  margin-bottom: 0.1rem;
+}
+
 section p:last-of-type {
   margin-bottom: 1rem;
 }
