@@ -218,7 +218,7 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">JavaScript Days</h4>
+                                            <h4 class="inline">JavaScript-, Angular-Days</h4>
                                             <p>
                                                 Berlin, DE
                                             </p>
