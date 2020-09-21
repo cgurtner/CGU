@@ -180,7 +180,7 @@
                                     </section>
                                     <section>
                                         <header>
-                                            <h4 class="inline">C1 English for the workplace</h4>
+                                            <h4 class="inline">C1 english for the workplace</h4>
                                             <p>
                                                 Flying Teachers GmbH, Zürich, CH
                                             </p>
