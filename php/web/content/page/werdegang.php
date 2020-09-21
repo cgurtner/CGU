@@ -12,7 +12,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2020 - heute</h3>
+                                        <h3>01/2020 - heute</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -32,7 +32,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2019 - 2020</h3>
+                                        <h3>08/2019 - 09/2020</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -52,7 +52,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2013 - 2019</h3>
+                                        <h3>08/2013 - 12/2019</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -72,7 +72,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2011 - 2013</h3>
+                                        <h3>09/2011 - 07/2013</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -101,7 +101,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2016 - 2018</h3>
+                                        <h3>09/2016 - 09/2018</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -121,7 +121,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2013 - 2015</h3>
+                                        <h3>08/2013 - 02/2015</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -139,7 +139,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2009 - 2013</h3>
+                                        <h3>07/2009 - 07/2013</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
