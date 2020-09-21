@@ -74,6 +74,13 @@ hr {
   background-color: $light;
 }
 
+header.bg-dark {
+  background-color: $dark;
+  color: $light;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
 main.fade-in {
   display: none;
 }
@@ -246,13 +253,19 @@ h2 {
 
 h3 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.10rem;
 }
 
 h4.inline {
-  font-size: inherit;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 500;
   margin-bottom: .1rem;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: .5rem;
 }
 
 div.dark-card {
@@ -262,6 +275,11 @@ div.dark-card {
 
 p {
   margin-bottom: .5rem;
+}
+
+.container > section:nth-child(1) > section:nth-child(2) h5,
+.container > section:nth-child(1) > section:nth-child(3) h5 {
+  margin-bottom: 0.1rem;
 }
 
 section p:last-of-type {

@@ -5,25 +5,13 @@ $PAGES = array();
 $PAGES[] = array(
     "meta" => array(
         "title" => "Home",
-        "description" => "Ich, Cyrill Gurtner, bin ein (Senior-) Softwareentwickler und Informatikdozent aus der Schweiz. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
+        "description" => "Ich, Cyrill Gurtner, bin ein schweizer (Senior-) Softwareentwickler. Ich realisiere Webapplikationen mit modernsten Technologien und einer ansprechenden, agilen Projektmethodik."
     ),
     "url" => "home",
     "path" => "content/page/home.php",
     "type" => "page",
     "display" => false,
     "disabled" => false
-);
-
-$PAGES[] = array(
-    "meta" => array(
-        "title" => "Technologie",
-        "description" => ""
-    ),
-    "url" => "technologie",
-    "path" => "content/page/technologie.php",
-    "type" => "page",
-    "display" => false,
-    "disabled" => true
 );
 
 $PAGES[] = array(
