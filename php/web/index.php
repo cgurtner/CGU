@@ -41,6 +41,7 @@ if ($page['url'] === 'home') {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="<?php echo $page['meta']['description']; ?>">
+    <meta name="format-detection" content="telephone=no">
     <link rel="icon" href="/gui/image/logo-favicon.jpg">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
     <link rel="stylesheet" href="/gui/css/fontawesome-all.min.css">
