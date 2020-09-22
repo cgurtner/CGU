@@ -166,7 +166,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2019</h3>
+                                        <h3>10/2019</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -178,6 +178,17 @@
                                             London, GB
                                         </p>
                                     </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <header>
+                                        <h3>01/2019 - 04/2019</h3>
+                                    </header>
+                                </div>
+                                <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
                                             <h4 class="inline">C1 english for the workplace</h4>
@@ -193,7 +204,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2017</h3>
+                                        <h3>05/2017</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -212,7 +223,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2016</h3>
+                                        <h3>10/2016</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -231,7 +242,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2015</h3>
+                                        <h3>06/2015</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -250,7 +261,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2014</h3>
+                                        <h3>09/2014</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
