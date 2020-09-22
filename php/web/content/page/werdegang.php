@@ -22,6 +22,7 @@
                                             <h5>Senior Software Developer</h5>
                                         </header>
                                         <p>
+                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </section>
@@ -42,6 +43,7 @@
                                             <h5>Informatikdozent</h5>
                                         </header>
                                         <p>
+                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
                                             <a href="https://www.informatikschuleolten.ch/home" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
                                         </p>
                                     </section>
@@ -62,6 +64,7 @@
                                             <h5>Software Developer</h5>
                                         </header>
                                         <p>
+                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </section>
@@ -82,6 +85,7 @@
                                             <h5>Praktikant</h5>
                                         </header>
                                         <p>
+                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </section>
@@ -111,6 +115,7 @@
                                             <h5>BSc FHO in Informatik</h5>
                                         </header>
                                         <p>
+                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
                                             <a href="https://www.hsr.ch/" target="_blank" rel="noreferrer">hsr.ch</a>
                                         </p>
                                     </section>
@@ -130,6 +135,7 @@
                                         <h5>Eidg. Tech. Berufsmaturität</h5>
                                     </header>
                                     <p>
+                                        Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
                                         <a href="https://www.akad.ch/" target="_blank" rel="noreferrer">akad.ch</a>
                                     </p>
                                 </div>
@@ -148,6 +154,7 @@
                                         <h5>Applikationsentwickler EFZ</h5>
                                     </header>
                                     <p>
+                                        Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
                                         <a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
                                     </p>
                                 </div>

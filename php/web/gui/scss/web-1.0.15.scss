@@ -249,11 +249,13 @@ h1 {
 
 h2 {
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 h3 {
   font-weight: 500;
   font-size: 1.10rem;
+  margin-bottom: 0.25rem;
 }
 
 h4.inline {
@@ -265,7 +267,7 @@ h4.inline {
 h5 {
   font-size: 1rem;
   font-weight: normal;
-  margin-bottom: .5rem;
+  margin-bottom: .25rem;
 }
 
 div.dark-card {
@@ -275,11 +277,6 @@ div.dark-card {
 
 p {
   margin-bottom: .5rem;
-}
-
-.container > section:nth-child(1) > section:nth-child(2) h5,
-.container > section:nth-child(1) > section:nth-child(3) h5 {
-  margin-bottom: 0.1rem;
 }
 
 section p:last-of-type {
