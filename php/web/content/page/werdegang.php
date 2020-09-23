@@ -22,7 +22,9 @@
                                             <h5>Senior Software Developer</h5>
                                         </header>
                                         <p>
-                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
+                                            Seit der Beförderung zum Senior Software Developer grössere Verantwortung über konzeptionelle
+                                            Entscheide und deren Umsetzung; Mithilfe bei der Erarbeitung von Spezifikationen sowie technische
+                                            Projektführung im Team.
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </section>
@@ -43,7 +45,9 @@
                                             <h5>Informatikdozent</h5>
                                         </header>
                                         <p>
-                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
+                                            Zusätzlich zu meiner Beschäftigung als Softwareentwickler unterrichte ich in
+                                            dieser Zeit Java um die Studenten auf die Zertifizierung zum OCP Java SE 11
+                                            Programmer I vorzubereiten.<br>
                                             <a href="https://www.informatikschuleolten.ch/home" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
                                         </p>
                                     </section>
@@ -64,7 +68,11 @@
                                             <h5>Software Developer</h5>
                                         </header>
                                         <p>
-                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
+                                            Weiterbeschäftigung als Softwareentwickler. Zu meinen Hauptaufgaben gehören die Entwicklung von
+                                            Backend-Softwarelösungen, Anbindung von komplexen MySQL- und PostgreSQL-Datenbanken inkl.
+                                            Definition der relationalen Datenbankmodelle, Implementation und Anbindung von REST APIs,
+                                            Implementation von Frontendapplikationen in React und JavaScript sowie die Erstellung von
+                                            Docker-Konfigurationen und Inbetriebnahmen von Test-, Integrations- und Produktivsystemen.<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </section>
@@ -85,7 +93,8 @@
                                             <h5>Praktikant</h5>
                                         </header>
                                         <p>
-                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
+                                            Anstellung im 80%-Pensum als Praktikant begleitend zu meinem dritten und vierten Lehrjahr. Abschluss meiner
+                                            Lehre und Durchführung der IPA innerhalb des Betriebes mit dem Titel "Web-Tool zur Protokollführung".<br>
                                             <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
                                         </p>
                                     </section>
