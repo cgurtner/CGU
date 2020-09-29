@@ -18,15 +18,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Datahouse AG</h4>
-                                            <h5>Senior Software Developer</h5>
+                                            <h4 class="inline">Senior Software Developer</h4>
                                         </header>
-                                        <p>
-                                            Seit der Beförderung zum Senior Software Developer grössere Verantwortung über konzeptionelle
-                                            Entscheide und deren Umsetzung; Mithilfe bei der Erarbeitung von Spezifikationen sowie technische
-                                            Projektführung im Team.
-                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
-                                        </p>
+                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                              rel="noreferrer">Datahouse AG</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -41,15 +36,11 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Informatikschule Olten GmbH</h4>
-                                            <h5>Informatikdozent</h5>
+                                            <h4 class="inline">Informatikdozent</h4>
                                         </header>
-                                        <p>
-                                            Zusätzlich zu meiner Beschäftigung als Softwareentwickler unterrichte ich in
-                                            dieser Zeit Java um die Studenten auf die Zertifizierung zum OCP Java SE 11
-                                            Programmer I vorzubereiten.<br>
-                                            <a href="https://www.informatikschuleolten.ch/home" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
-                                        </p>
+                                        <p><a href="https://www.informatikschuleolten.ch/home"
+                                              target="_blank"
+                                              rel="noreferrer">Informatikschule Olten GmbH</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -64,17 +55,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Datahouse AG</h4>
-                                            <h5>Software Developer</h5>
+                                            <h4 class="inline">Software Developer</h4>
                                         </header>
-                                        <p>
-                                            Weiterbeschäftigung als Softwareentwickler. Zu meinen Hauptaufgaben gehören die Entwicklung von
-                                            Backend-Softwarelösungen, Anbindung von komplexen MySQL- und PostgreSQL-Datenbanken inkl.
-                                            Definition der relationalen Datenbankmodelle, Implementation und Anbindung von REST APIs,
-                                            Implementation von Frontendapplikationen in React und JavaScript sowie die Erstellung von
-                                            Docker-Konfigurationen und Inbetriebnahmen von Test-, Integrations- und Produktivsystemen.<br>
-                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
-                                        </p>
+                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                              rel="noreferrer">Datahouse AG</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -89,14 +73,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Datahouse AG</h4>
-                                            <h5>Praktikant</h5>
+                                            <h4 class="inline">Praktikant</h4>
                                         </header>
-                                        <p>
-                                            Anstellung im 80%-Pensum als Praktikant begleitend zu meinem dritten und vierten Lehrjahr. Abschluss meiner
-                                            Lehre und Durchführung der IPA innerhalb des Betriebes mit dem Titel "Web-Tool zur Protokollführung".<br>
-                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
-                                        </p>
+                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                              rel="noreferrer">Datahouse AG</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -120,13 +100,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Hochschule für Technik Rapperswil</h4>
-                                            <h5>BSc FHO in Informatik</h5>
+                                            <h4 class="inline">BSc FHO in Informatik</h4>
                                         </header>
-                                        <p>
-                                            Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
-                                            <a href="https://www.hsr.ch/" target="_blank" rel="noreferrer">hsr.ch</a>
-                                        </p>
+                                        <p><a href="https://www.hsr.ch/" target="_blank"
+                                              rel="noreferrer">Hochschule für Technik Rapperswil</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -140,13 +117,10 @@
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <header>
-                                        <h4 class="inline">AKAD College</h4>
-                                        <h5>Eidg. Tech. Berufsmaturität</h5>
+                                        <h4 class="inline">Eidg. Tech. Berufsmaturität</h4>
                                     </header>
-                                    <p>
-                                        Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
-                                        <a href="https://www.akad.ch/" target="_blank" rel="noreferrer">akad.ch</a>
-                                    </p>
+                                    <p><a href="https://www.akad.ch/" target="_blank"
+                                          rel="noreferrer">AKAD College</a></p>
                                 </div>
                             </div>
                         </section>
@@ -159,13 +133,10 @@
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <header>
-                                        <h4 class="inline">Informatikschule Olten GmbH</h4>
-                                        <h5>Applikationsentwickler EFZ</h5>
+                                        <h4 class="inline">Informatiker EFZ<br>Schwerpunkt Applikationsentwicklung</h4>
                                     </header>
-                                    <p>
-                                        Generiere einfach soviel Lorem Ipsum Text wie du brauchst. Kopiere und füge ihn in dein Layout als vorübergehenden Platzhalter ein und schon sieht das Projekt ein Stückchen vollständiger aus. Viel Spaß dabei.<br>
-                                        <a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
-                                    </p>
+                                    <p><a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">Informatikschule
+                                            Olten GmbH</a></p>
                                 </div>
                             </div>
                         </section>
@@ -176,116 +147,21 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <header class="bg-dark">
-                            <h2>Weiterbildung</h2>
+                            <h2>Auszeichnungen</h2>
                         </header>
                         <section>
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>10/2019</h3>
+                                        <h3>07/2013</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">React Advanced</h4>
+                                            <h4 class="inline">Spitzenleistung in der Berufslehre 5.3+</h4>
                                         </header>
-                                        <p>
-                                            London, GB
-                                        </p>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>01/2019 - 04/2019</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">C1 english for the workplace</h4>
-                                            <p>
-                                                Flying Teachers GmbH, Zürich, CH
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>05/2017</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Survival Guide Selbstständigkeit</h4>
-                                            <p>
-                                                Business-Tools AG, ETH Zürich, CH
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>10/2016</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">JavaScript-, Angular-Days</h4>
-                                            <p>
-                                                Berlin, DE
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>06/2015</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Norwegian Developers Conference (NDC)</h4>
-                                            <p>
-                                                Oslo, NO
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>09/2014</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">PHP Summit</h4>
-                                            <h5>Düsseldorf, DE</h5>
-                                        </header>
+                                        <p>Qualitätsverfahren 2013 zum Informatiker EFZ mit kantonaler Auszeichnung bestanden.</p>
                                     </section>
                                 </div>
                             </div>
