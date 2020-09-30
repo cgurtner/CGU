@@ -18,12 +18,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Datahouse AG</h4>
-                                            <h5>Senior Software Developer</h5>
+                                            <h4 class="inline">Senior Software Developer</h4>
                                         </header>
-                                        <p>
-                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
-                                        </p>
+                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                              rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -38,12 +36,11 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Informatikschule Olten GmbH</h4>
-                                            <h5>Informatikdozent</h5>
+                                            <h4 class="inline">Informatikdozent</h4>
                                         </header>
-                                        <p>
-                                            <a href="https://www.informatikschuleolten.ch/home" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
-                                        </p>
+                                        <p><a href="https://www.informatikschuleolten.ch/home"
+                                              target="_blank"
+                                              rel="noreferrer">Informatikschule Olten GmbH</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -58,12 +55,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Datahouse AG</h4>
-                                            <h5>Software Developer</h5>
+                                            <h4 class="inline">Software Developer</h4>
                                         </header>
-                                        <p>
-                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
-                                        </p>
+                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                              rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -78,12 +73,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Datahouse AG</h4>
-                                            <h5>Praktikant</h5>
+                                            <h4 class="inline">Praktikant</h4>
                                         </header>
-                                        <p>
-                                            <a href="https://www.datahouse.ch/" target="_blank" rel="noreferrer">datahouse.ch</a>
-                                        </p>
+                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                              rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -107,12 +100,10 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">Hochschule für Technik Rapperswil</h4>
-                                            <h5>BSc FHO in Informatik</h5>
+                                            <h4 class="inline">BSc FHO in Informatik</h4>
                                         </header>
-                                        <p>
-                                            <a href="https://www.hsr.ch/" target="_blank" rel="noreferrer">hsr.ch</a>
-                                        </p>
+                                        <p><a href="https://www.hsr.ch/" target="_blank"
+                                              rel="noreferrer">Hochschule für Technik Rapperswil</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -126,12 +117,10 @@
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <header>
-                                        <h4 class="inline">AKAD College</h4>
-                                        <h5>Eidg. Tech. Berufsmaturität</h5>
+                                        <h4 class="inline">Eidg. Tech. Berufsmaturität</h4>
                                     </header>
-                                    <p>
-                                        <a href="https://www.akad.ch/" target="_blank" rel="noreferrer">akad.ch</a>
-                                    </p>
+                                    <p><a href="https://www.akad.ch/" target="_blank"
+                                          rel="noreferrer">AKAD College, Zürich</a></p>
                                 </div>
                             </div>
                         </section>
@@ -144,12 +133,10 @@
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <header>
-                                        <h4 class="inline">Informatikschule Olten GmbH</h4>
-                                        <h5>Applikationsentwickler EFZ</h5>
+                                        <h4 class="inline">Informatiker EFZ<br>Schwerpunkt Applikationsentwicklung</h4>
                                     </header>
-                                    <p>
-                                        <a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">informatikschuleolten.ch</a>
-                                    </p>
+                                    <p><a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">Informatikschule
+                                            Olten GmbH</a></p>
                                 </div>
                             </div>
                         </section>
@@ -160,105 +147,21 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <header class="bg-dark">
-                            <h2>Weiterbildung</h2>
+                            <h2>Auszeichnungen</h2>
                         </header>
                         <section>
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>2019</h3>
+                                        <h3>07/2013</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">React Advanced</h4>
+                                            <h4 class="inline">Spitzenleistung in der Berufslehre 5.3+</h4>
                                         </header>
-                                        <p>
-                                            London, GB
-                                        </p>
-                                    </section>
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">C1 english for the workplace</h4>
-                                            <p>
-                                                Flying Teachers GmbH, Zürich, CH
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>2017</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Survival Guide Selbstständigkeit</h4>
-                                            <p>
-                                                Business-Tools AG, ETH Zürich, CH
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>2016</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">JavaScript-, Angular-Days</h4>
-                                            <p>
-                                                Berlin, DE
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>2015</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Norwegian Developers Conference (NDC)</h4>
-                                            <p>
-                                                Oslo, NO
-                                            </p>
-                                        </header>
-                                    </section>
-                                </div>
-                            </div>
-                        </section>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>2014</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">PHP Summit</h4>
-                                            <h5>Düsseldorf, DE</h5>
-                                        </header>
+                                        <p>Qualitätsverfahren 2013 zum Informatiker EFZ mit kantonaler Auszeichnung bestanden.</p>
                                     </section>
                                 </div>
                             </div>
