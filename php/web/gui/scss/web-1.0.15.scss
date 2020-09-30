@@ -165,10 +165,6 @@ button[type="submit"]:active:focus {
   background-color: $highlight-dark !important;
 }
 
-span.badge {
-  background-color: rgba(0, 0, 0, .1);
-}
-
 .form-control {
   color: $dark !important;
   border-color: $light-dark;
@@ -188,58 +184,6 @@ span.badge {
   box-shadow: 0px 0px 0px $highlight inset, 0px 0px 5px $highlight-dark;
 }
 
-div.insta-row div:nth-of-type(2) {
-  padding-left: 7.5px;
-  padding-right: 7.5px;
-}
-
-div.dark-column {
-  background-color: $dark;
-  color: $light;
-  padding: 1rem;
-  background-clip: padding-box;
-}
-
-div.character {
-  h2 {
-    margin-bottom: 0rem;
-  }
-
-  h3 {
-    text-align: center;
-  }
-
-  hr {
-    margin-top: 0rem;
-    margin-bottom: 1rem;
-  }
-
-  dt, dd {
-    text-align: center;
-  }
-}
-
-div.insta-row:first-of-type {
-  margin-top: 6px;
-}
-
-img.insta-thumb {
-  width: 100%;
-  object-fit: cover;
-  margin-bottom: 1rem;
-  margin-bottom: 7.5px;
-  border: solid 1px $light-dark;
-}
-
-div.insta-row div:last-of-type {
-  padding-left: 0px;
-}
-
-div.insta-row div:first-of-type {
-  padding-right: 0px;
-  padding-left: 15px;
-}
-
 h1 {
   font-size: 40px;
   font-weight: 900;
@@ -255,7 +199,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 1.10rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: .1rem;
 }
 
 h4.inline {
@@ -264,27 +208,12 @@ h4.inline {
   margin-bottom: .1rem;
 }
 
-h5 {
-  font-size: 1rem;
-  font-weight: normal;
-  margin-bottom: .25rem;
-}
-
-div.dark-card {
-  background-color: $dark;
-  color: $light;
-}
-
 p {
   margin-bottom: .5rem;
 }
 
 section p:last-of-type {
   margin-bottom: 1rem;
-}
-
-img.rounded-circle:hover {
-  cursor: pointer;
 }
 
 img.header-thumb {
@@ -313,13 +242,6 @@ button.collapse-button {
 
 div.h1-box {
   margin-bottom: 1rem;
-}
-
-.h2-home {
-  font-size: 40px;
-  font-weight: 900;
-  letter-spacing: .15em;
-  text-transform: uppercase;
 }
 
 div.container {
@@ -369,38 +291,6 @@ address.home a {
 
   &:active, &:hover {
     color: $light;
-  }
-}
-
-div.tech-percent {
-  div.tech-perc-bar {
-    height: 10px;
-    width: 100%;
-    border: 1px solid $light;
-
-    &.perc-100 {
-      background: -webkit-linear-gradient(left, $light 100%, $dark 0%);
-      background: -o-linear-gradient(left, $light 100%, $dark 0%);
-      background: -ms-linear-gradient(left, $light 100%, $dark 0%);
-      background: -moz-linear-gradient(left, $light 100%, $dark 0%);
-      background: linear-gradient(left, $light 100%, $dark 0%);
-    }
-
-    &.perc-75 {
-      background: -webkit-linear-gradient(left, $light 75%, $dark 25%);
-      background: -o-linear-gradient(left, $light 75%, $dark 25%);
-      background: -ms-linear-gradient(left, $light 75%, $dark 25%);
-      background: -moz-linear-gradient(left, $light 75%, $dark 25%);
-      background: linear-gradient(left, $light 75%, $dark 25%);
-    }
-
-    &.perc-50 {
-      background: -webkit-linear-gradient(left, $light 50%, $dark 50%);
-      background: -o-linear-gradient(left, $light 50%, $dark 50%);
-      background: -ms-linear-gradient(left, $light 50%, $dark 50%);
-      background: -moz-linear-gradient(left, $light 50%, $dark 50%);
-      background: linear-gradient(left, $light 50%, $dark 50%);
-    }
   }
 }
 

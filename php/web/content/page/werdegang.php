@@ -21,7 +21,7 @@
                                             <h4 class="inline">Senior Software Developer</h4>
                                         </header>
                                         <p><a href="https://www.datahouse.ch/" target="_blank"
-                                              rel="noreferrer">Datahouse AG</a></p>
+                                              rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                                             <h4 class="inline">Software Developer</h4>
                                         </header>
                                         <p><a href="https://www.datahouse.ch/" target="_blank"
-                                              rel="noreferrer">Datahouse AG</a></p>
+                                              rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
                                             <h4 class="inline">Praktikant</h4>
                                         </header>
                                         <p><a href="https://www.datahouse.ch/" target="_blank"
-                                              rel="noreferrer">Datahouse AG</a></p>
+                                              rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@
                                         <h4 class="inline">Eidg. Tech. Berufsmaturität</h4>
                                     </header>
                                     <p><a href="https://www.akad.ch/" target="_blank"
-                                          rel="noreferrer">AKAD College</a></p>
+                                          rel="noreferrer">AKAD College, Zürich</a></p>
                                 </div>
                             </div>
                         </section>
