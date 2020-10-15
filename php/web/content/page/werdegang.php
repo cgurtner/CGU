@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <header class="bg-dark">
-                            <h2>Karriere</h2>
+                            <h2>Berufliche Tätigkeit</h2>
                         </header>
                         <section>
                             <div class="row">
@@ -30,7 +30,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>08/2019 - 09/2020</h3>
+                                        <h3>08/2019 - 08/2020</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
