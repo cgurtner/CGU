@@ -28,10 +28,10 @@ prod:
     - rm -f sass.tar.gz
     - ln -s /tmp/dart-sass/sass /bin/sass
 
-    - cd /builds/cgurtner.ch/CGU/php/web
+    - cd /builds/cgurtner/CGU/php/web
     - composer install
     - sass gui/scss:gui/css
-    - cd /builds/cgurtner.ch/CGU/
+    - cd /builds/cgurtner/CGU/
 
     # install openssh-client
     # create .ssh directory
