@@ -12,7 +12,7 @@ $CONFIG = array(
     'socials' => array(
         'gitlab' => array(
             'name' => 'gitlab',
-            'url' => 'https://gitlab.com/cgurtner.ch',
+            'url' => 'https://gitlab.com/cgurtner',
             'icon' => 'fa-gitlab',
             'title' => 'GitLab'
         )
