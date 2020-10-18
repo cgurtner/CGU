@@ -10,6 +10,17 @@
                 <span class="icon-bar bottom-bar"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav navbar-nav-social d-none d-lg-inline-flex"><?php
+                    $socials = '';
+                    foreach (CONFIG['socials'] as $social) {
+                        $socials .= '<li class="nav-item">';
+                        $socials .= '<a href="' . $social['url'] . '" class="nav-link" rel="noreferrer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="' . $social['title'] . '">';
+                        $socials .= '<i class="fab ' . $social['icon'] . '"></i>';
+                        $socials .= '</a>';
+                        $socials .= '</li>';
+                    }
+                    echo $socials;
+                    ?></ul>
                 <div class="navbar-nav ml-md-auto"><?php
                     foreach (PAGES as $p) {
                         if ($p['disabled'] || !$p['display']) {
@@ -19,6 +30,17 @@
                         echo '<a href="' . $p['url'] . '" class="nav-item nav-link ' . $active . '">' . $p['meta']['title'] . '</a>';
                     }
                     ?></div>
+                <ul class="navbar-nav navbar-nav-social navbar-nav-social-mobile ml-md-auto d-lg-none">
+                    <li class="nav-item"><?php
+                        $socials = '';
+                        foreach (CONFIG['socials'] as $social) {
+                            $socials .= '<a href="' . $social['url'] . '" rel="noreferrer" target="_blank" class="nav-link" style="display: inline-block; padding-bottom: .5rem;">';
+                            $socials .= '<i class="fab ' . $social['icon'] . '"></i>';
+                            $socials .= '</a>';
+                        }
+                        echo $socials;
+                        ?></li>
+                </ul>
             </div>
         </div>
     </nav>
