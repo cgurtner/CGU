@@ -15,12 +15,6 @@ $CONFIG = array(
             'url' => 'https://gitlab.com/cgurtner.ch',
             'icon' => 'fa-gitlab',
             'title' => 'GitLab'
-        ),
-        'instagram' => array(
-            'name' => 'instagram',
-            'url' => 'https://www.instagram.com/cgurtner.ch',
-            'icon' => 'fa-instagram',
-            'title' => 'Instagram'
         )
     ),
     'recaptcha-client-key' => '6LcOZaYUAAAAAKrMyY86NZuWOT4lECDilAV4YF0c',

@@ -7,7 +7,6 @@ RewriteRule ^file/.* - [L]
 RewriteRule ^vendor/.* - [L]
 RewriteRule ^robots.txt$ - [L]
 RewriteRule ^instagram.php$ - [L]
-RewriteRule ^googlee9a73d96f0f7e5a7.html$ - [L]
 
 RewriteRule ^sitemap.xml$ sitemap.php [L]
 RewriteRule ^sitemap.php$ - [L]
@@ -17,7 +16,6 @@ RewriteCond %{HTTP_HOST} !^cgurtner\.ch$ [NC]
 RewriteRule (.*) https://cgurtner.ch/$1 [R=301,L]
 
 RewriteRule ^Werdegang$ https://cgurtner.ch/werdegang [R=301,L]
-RewriteRule ^Galerie$ https://cgurtner.ch/galerie [R=301,L]
 RewriteRule ^Kontakt$ https://cgurtner.ch/kontakt [R=301,L]
 
 RewriteRule ^home$ https://cgurtner.ch/ [NC,R=301,L]
