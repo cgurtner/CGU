@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <header class="bg-dark">
-                            <h2>Berufliche Tätigkeit</h2>
+                            <h2>Berufserfahrung</h2>
                         </header>
                         <section>
                             <div class="row">
@@ -88,7 +88,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <header class="bg-dark">
-                            <h2>Ausbildung</h2>
+                            <h2>Bildungsweg</h2>
                         </header>
                         <section>
                             <div class="row">
