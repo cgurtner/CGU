@@ -22,6 +22,38 @@
                                         </header>
                                         <p><a href="https://www.datahouse.ch/" target="_blank"
                                               rel="noreferrer">Datahouse AG, Zürich</a></p>
+                                        <p>
+                                            Erarbeitung von technischen Spezifikationen und technische Projektführung im
+                                            Team. Entwicklung von Backend-Softwarelösungen in OO PHP und Python sowie
+                                            Anbindung von komplexen MySQL- oder PostgreSQL-Datenbanken inkl. Definition
+                                            der relationalen Datenbankmodelle.
+                                        </p>
+                                        <p>
+                                            Implementation und Dokumentation von REST APls zur Verknüpfung von
+                                            Backend-Funktionalität mit Frontendapplikationen; Implementation von
+                                            modernen Single-Page-Applikationen in React und JavaScript.
+                                        </p>
+                                        <p>
+                                            Erstellung von Docker-Konfigurationen und Inbetriebnahme von Test-,
+                                            Integrations- und Produktivsystemen.
+                                        </p>
+                                        <p>
+                                            Verantwortung für die fachliche Betreuung von Lernenden zum
+                                            Informatiker EFZ mit Schwerpunkt Applikationsentwicklung.
+                                        </p>
+                                        <p>
+                                            <span class="badge badge-dark">React</span>
+                                            <span class="badge badge-dark">JavaScript</span>
+                                            <span class="badge badge-dark">OO PHP</span>
+                                            <span class="badge badge-dark">Python</span>
+                                            <span class="badge badge-dark">REST</span>
+                                            <span class="badge badge-dark">SQL</span>
+                                            <span class="badge badge-dark">MySQL</span>
+                                            <span class="badge badge-dark">PostgreSQL</span>
+                                            <span class="badge badge-dark">Docker</span>
+                                            <span class="badge badge-dark">Praxisbildner</span>
+                                            <span class="badge badge-dark">Berufsbildner</span>
+                                        </p>
                                     </section>
                                 </div>
                             </div>
@@ -41,6 +73,19 @@
                                         <p><a href="https://www.informatikschuleolten.ch/home"
                                               target="_blank"
                                               rel="noreferrer">Informatikschule Olten GmbH</a></p>
+                                        <p>
+                                            Informatikunterricht Java-Entwicklung mit Abschluss Oracle Certified
+                                            Professional Java SE 11
+                                            Programmer I.
+                                        </p>
+                                        <p>
+                                            Unterricht im Umfang von 237 Einzellektionen in Java sowie Prüfungsbetreuung
+                                            im Umfang von 7 Lektionen.
+                                        </p>
+                                        <p>
+                                            <span class="badge badge-dark">Java SE 11</span>
+                                            <span class="badge badge-dark">Java SE 11 Programmer I</span>
+                                        </p>
                                     </section>
                                 </div>
                             </div>
@@ -94,6 +139,53 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
+                                        <h3>ab 09/2021</h3>
+                                    </header>
+                                </div>
+                                <div class="col-12 col-sm-8">
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">MAS in Data Science</h4>
+                                        </header>
+                                        <p><a href="https://berufsbildner.ch/" target="_blank"
+                                              rel="noreferrer">ZHAW School of Engineering</a></p>
+                                        <p>
+                                            Der Master of Advanced Studies in Data Science umfasst die Pflicht-CAS Datenanalyse und
+                                            Information Engineering, sowie die Vertiefungs-CAS Statistical Modelling und Machine Intelligence.
+                                        </p>
+                                        <p>
+                                            Abschluss mit der Masterarbeit (Titel: tba) und dem optionalen CAS Smart Service Engineering (Data Product Design).
+                                        </p>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <header>
+                                        <h3>11/2020</h3>
+                                    </header>
+                                </div>
+                                <div class="col-12 col-sm-8">
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">Eidg. Berufsbildner</h4>
+                                        </header>
+                                        <p><a href="https://berufsbildner.ch/" target="_blank"
+                                              rel="noreferrer">berufsbildner.ch</a></p>
+                                        <p>
+                                            Besuch des in Zusammenarbeit mit dem ICT konzipierten Berufsbildnerkurs für Informatiker und
+                                            Mediamatiker.
+                                        </p>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <header>
                                         <h3>09/2016 - 09/2018</h3>
                                     </header>
                                 </div>
@@ -104,6 +196,19 @@
                                         </header>
                                         <p><a href="https://www.hsr.ch/" target="_blank"
                                               rel="noreferrer">Hochschule für Technik Rapperswil</a></p>
+                                        <p>
+                                            Besuch verschiedener Module in den Spezialisierungen Application Design,
+                                            Software Engineering und Data Engineering.
+                                        </p>
+                                        <p>
+                                            Zwei Jahre Unterricht zur objektorientierten Programmierung in Java.
+                                            Gleichzeitig durchgehender Unterricht in SQL/PostgreSQL.
+                                        </p>
+                                        <p>
+                                            Besuch von Modulen zur erfolgreichen Projektmethodik und der agilen
+                                            Softwareentwicklung. Anwendung
+                                            des bekannten Vorgehensmodells SCRUM.
+                                        </p>
                                     </section>
                                 </div>
                             </div>
@@ -161,7 +266,8 @@
                                         <header>
                                             <h4 class="inline">Spitzenleistung in der Berufslehre 5.3+</h4>
                                         </header>
-                                        <p>Qualitätsverfahren 2013 zum Informatiker EFZ mit kantonaler Auszeichnung bestanden.</p>
+                                        <p>Qualitätsverfahren 2013 zum Informatiker EFZ mit kantonaler Auszeichnung
+                                            bestanden.</p>
                                     </section>
                                 </div>
                             </div>
