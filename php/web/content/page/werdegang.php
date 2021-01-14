@@ -41,19 +41,6 @@
                                             Verantwortung für die fachliche Betreuung von Lernenden zum
                                             Informatiker EFZ mit Schwerpunkt Applikationsentwicklung.
                                         </p>
-                                        <p>
-                                            <span class="badge badge-dark">React</span>
-                                            <span class="badge badge-dark">JavaScript</span>
-                                            <span class="badge badge-dark">OO PHP</span>
-                                            <span class="badge badge-dark">Python</span>
-                                            <span class="badge badge-dark">REST</span>
-                                            <span class="badge badge-dark">SQL</span>
-                                            <span class="badge badge-dark">MySQL</span>
-                                            <span class="badge badge-dark">PostgreSQL</span>
-                                            <span class="badge badge-dark">Docker</span>
-                                            <span class="badge badge-dark">Praxisbildner</span>
-                                            <span class="badge badge-dark">Berufsbildner</span>
-                                        </p>
                                     </section>
                                 </div>
                             </div>
@@ -81,10 +68,6 @@
                                         <p>
                                             Unterricht im Umfang von 237 Einzellektionen in Java sowie Prüfungsbetreuung
                                             im Umfang von 7 Lektionen.
-                                        </p>
-                                        <p>
-                                            <span class="badge badge-dark">Java SE 11</span>
-                                            <span class="badge badge-dark">Java SE 11 Programmer I</span>
                                         </p>
                                     </section>
                                 </div>
@@ -150,11 +133,10 @@
                                         <p><a href="https://berufsbildner.ch/" target="_blank"
                                               rel="noreferrer">ZHAW School of Engineering</a></p>
                                         <p>
-                                            Der Master of Advanced Studies in Data Science umfasst die Pflicht-CAS Datenanalyse und
-                                            Information Engineering, sowie die Vertiefungs-CAS Statistical Modelling und Machine Intelligence.
-                                        </p>
-                                        <p>
-                                            Abschluss mit der Masterarbeit (Titel: tba) und dem optionalen CAS Smart Service Engineering (Data Product Design).
+                                            Der Master of Advanced Studies in Data Science umfasst die Pflicht-CAS
+                                            Datenanalyse und
+                                            Information Engineering, sowie die Vertiefungs-CAS Statistical Modelling und
+                                            Machine Intelligence.
                                         </p>
                                     </section>
                                 </div>
@@ -175,7 +157,8 @@
                                         <p><a href="https://berufsbildner.ch/" target="_blank"
                                               rel="noreferrer">berufsbildner.ch</a></p>
                                         <p>
-                                            Besuch des in Zusammenarbeit mit dem ICT konzipierten Berufsbildnerkurs für Informatiker und
+                                            Besuch des in Zusammenarbeit mit dem ICT konzipierten Berufsbildnerkurs für
+                                            Informatiker und
                                             Mediamatiker.
                                         </p>
                                     </section>
@@ -242,33 +225,8 @@
                                     </header>
                                     <p><a href="https://www.informatikschuleolten.ch/" target="_blank" rel="noreferrer">Informatikschule
                                             Olten GmbH</a></p>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="row">
-                    <div class="col-sm-12">
-                        <header class="bg-dark">
-                            <h2>Auszeichnungen</h2>
-                        </header>
-                        <section>
-                            <div class="row">
-                                <div class="col-12 col-sm-4">
-                                    <header>
-                                        <h3>07/2013</h3>
-                                    </header>
-                                </div>
-                                <div class="col-12 col-sm-8">
-                                    <section>
-                                        <header>
-                                            <h4 class="inline">Spitzenleistung in der Berufslehre 5.3+</h4>
-                                        </header>
-                                        <p>Qualitätsverfahren 2013 zum Informatiker EFZ mit kantonaler Auszeichnung
-                                            bestanden.</p>
-                                    </section>
+                                    <p>Qualitätsverfahren 2013 zum Informatiker EFZ mit kantonaler Auszeichnung
+                                        bestanden.</p>
                                 </div>
                             </div>
                         </section>
