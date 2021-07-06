@@ -1,7 +1,7 @@
 <main class="fade-in">
     <div class="container">
         <section>
-            <?php include_once("content/comp/header.php"); ?>
+            <?php include_once("../../content/comp/header.php"); ?>
             <section>
                 <div class="row">
                     <div class="col-sm-12">
