@@ -61,13 +61,16 @@
                                               target="_blank"
                                               rel="noreferrer">Informatikschule Olten GmbH</a></p>
                                         <p>
-                                            Informatikunterricht Java-Entwicklung mit Abschluss Oracle Certified
-                                            Professional Java SE 11
-                                            Programmer I.
+                                            Verantwortung über die Ausbildung eines Schülers, welcher aus
+                                            gesundheitlichen
+                                            Gründen keine vollständige Lehrzeit absolvieren konnte. Vorbereitung des
+                                            Schülers
+                                            auf die Prüfung und Zertifizierung zum Oracle Certified Professional Java SE
+                                            11 Programmer 1.
                                         </p>
                                         <p>
-                                            Unterricht im Umfang von 237 Einzellektionen in Java sowie Prüfungsbetreuung
-                                            im Umfang von 7 Lektionen.
+                                            Halten von 237 Unterrichtslektionen in Java, sowie Prüfungsbetreuung im
+                                            Umfang von 7 Lektionen.
                                         </p>
                                     </section>
                                 </div>
@@ -134,11 +137,14 @@
                                               rel="noreferrer">berufsbildner.ch</a></p>
                                         <p>
                                         <p>
-                                            Vertiefung der Schwerpunkte «Selektion», «Lernende führen und Begleiten», «Professionell instruieren»,
-                                            «Konfliktsituationen mit Lernenden» und «Auf das Qualifikationsverfahren vorbereiten».
+                                            Vertiefung der Schwerpunkte «Selektion», «Lernende führen und Begleiten»,
+                                            «Professionell instruieren»,
+                                            «Konfliktsituationen mit Lernenden» und «Auf das Qualifikationsverfahren
+                                            vorbereiten».
                                         </p>
                                         <p>
-                                            Abschluss des Lehrgangs mit einer schriftlichen Disposition und zusätzlicher Präsentation.
+                                            Abschluss des Lehrgangs mit einer schriftlichen Disposition und
+                                            Präsentation.
                                         </p>
                                     </section>
                                 </div>
@@ -191,8 +197,7 @@
                                         </p>
                                         <p>
                                             Besuch von Modulen zur erfolgreichen Projektmethodik und der agilen
-                                            Softwareentwicklung. Anwendung
-                                            des bekannten Vorgehensmodells SCRUM.
+                                            Softwareentwicklung. Anwendung des bekannten Vorgehensmodells SCRUM.
                                         </p>
                                     </section>
                                 </div>
