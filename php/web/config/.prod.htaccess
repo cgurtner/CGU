@@ -6,7 +6,6 @@ RewriteRule ^gui/.* - [L]
 RewriteRule ^file/.* - [L]
 RewriteRule ^vendor/.* - [L]
 RewriteRule ^robots.txt$ - [L]
-RewriteRule ^instagram.php$ - [L]
 
 RewriteRule ^sitemap.xml$ sitemap.php [L]
 RewriteRule ^sitemap.php$ - [L]
