@@ -122,21 +122,23 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>ab 09/2021</h3>
+                                        <h3>05/2021 - heute</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">MAS in Data Science</h4>
+                                            <h4 class="inline">Eidg. Dipl. Berufsbildner in Lehrbetrieben</h4>
                                         </header>
                                         <p><a href="https://berufsbildner.ch/" target="_blank"
-                                              rel="noreferrer">ZHAW School of Engineering</a></p>
+                                              rel="noreferrer">berufsbildner.ch</a></p>
                                         <p>
-                                            Der Master of Advanced Studies in Data Science umfasst die Pflicht-CAS
-                                            Datenanalyse und
-                                            Information Engineering, sowie die Vertiefungs-CAS Statistical Modelling und
-                                            Machine Intelligence.
+                                        <p>
+                                            Vertiefung der Schwerpunkte «Selektion», «Lernende führen und Begleiten», «Professionell instruieren»,
+                                            «Konfliktsituationen mit Lernenden» und «Auf das Qualifikationsverfahren vorbereiten».
+                                        </p>
+                                        <p>
+                                            Abschluss des Lehrgangs mit einer schriftlichen Disposition und zusätzlicher Präsentation.
                                         </p>
                                     </section>
                                 </div>
