@@ -5,7 +5,7 @@
             <section>
                 <div class="row">
                     <div class="col-sm-12">
-                        <header class="bg-dark">
+                        <header>
                             <h2>Berufserfahrung</h2>
                         </header>
                         <section>
@@ -106,7 +106,7 @@
                                         <header>
                                             <h4 class="inline">Praktikant</h4>
                                         </header>
-                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                        <p class="last-of-section"><a href="https://www.datahouse.ch/" target="_blank"
                                               rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
@@ -118,7 +118,7 @@
             <section>
                 <div class="row">
                     <div class="col-sm-12">
-                        <header class="bg-dark">
+                        <header>
                             <h2>Bildungsweg</h2>
                         </header>
                         <section>
@@ -135,7 +135,6 @@
                                         </header>
                                         <p><a href="https://berufsbildner.ch/" target="_blank"
                                               rel="noreferrer">berufsbildner.ch</a></p>
-                                        <p>
                                         <p>
                                             Vertiefung der Schwerpunkte «Selektion», «Lernende führen und Begleiten»,
                                             «Professionell instruieren»,

@@ -193,7 +193,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  margin-bottom: 1.25rem;
+  margin-bottom: 0.75rem;
 }
 
 h3 {
@@ -212,8 +212,12 @@ p {
   margin-bottom: .5rem;
 }
 
+p.last-of-section {
+  margin-bottom: 1rem !important;
+}
+
 section p:last-of-type {
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 img.header-thumb {
