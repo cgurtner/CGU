@@ -70,7 +70,8 @@
                                         </p>
                                         <p>
                                             Halten von 237 Unterrichtslektionen in Java, sowie Prüfungsbetreuung im
-                                            Umfang von 7 Lektionen.
+                                            Umfang von 7 Lektionen. Durchführung der Lektionen laufend neben meiner
+                                            Anstellung bei der Datahouse AG.
                                         </p>
                                     </section>
                                 </div>
