@@ -5,7 +5,7 @@
             <section>
                 <div class="row">
                     <div class="col-sm-12">
-                        <header class="bg-dark">
+                        <header>
                             <h2>Berufserfahrung</h2>
                         </header>
                         <section>
@@ -70,7 +70,8 @@
                                         </p>
                                         <p>
                                             Halten von 237 Unterrichtslektionen in Java, sowie Prüfungsbetreuung im
-                                            Umfang von 7 Lektionen.
+                                            Umfang von 7 Lektionen. Durchführung der Lektionen laufend neben meiner
+                                            Anstellung bei der Datahouse AG.
                                         </p>
                                     </section>
                                 </div>
@@ -106,7 +107,7 @@
                                         <header>
                                             <h4 class="inline">Praktikant</h4>
                                         </header>
-                                        <p><a href="https://www.datahouse.ch/" target="_blank"
+                                        <p class="mb-3"><a href="https://www.datahouse.ch/" target="_blank"
                                               rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
@@ -118,7 +119,7 @@
             <section>
                 <div class="row">
                     <div class="col-sm-12">
-                        <header class="bg-dark">
+                        <header>
                             <h2>Bildungsweg</h2>
                         </header>
                         <section>
@@ -135,7 +136,6 @@
                                         </header>
                                         <p><a href="https://berufsbildner.ch/" target="_blank"
                                               rel="noreferrer">berufsbildner.ch</a></p>
-                                        <p>
                                         <p>
                                             Vertiefung der Schwerpunkte «Selektion», «Lernende führen und Begleiten»,
                                             «Professionell instruieren»,
