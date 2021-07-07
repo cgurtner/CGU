@@ -106,7 +106,7 @@
                                         <header>
                                             <h4 class="inline">Praktikant</h4>
                                         </header>
-                                        <p class="last-of-section"><a href="https://www.datahouse.ch/" target="_blank"
+                                        <p class="mb-3"><a href="https://www.datahouse.ch/" target="_blank"
                                               rel="noreferrer">Datahouse AG, Zürich</a></p>
                                     </section>
                                 </div>
