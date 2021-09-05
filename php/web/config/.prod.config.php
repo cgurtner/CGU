@@ -12,7 +12,7 @@ $CONFIG = array(
     'socials' => array(
         'linkedin' => array(
             'name' => 'linkedin',
-            'url' => 'linkedin.com/in/cgurtner',
+            'url' => 'https://linkedin.com/in/cgurtner',
             'class' => 'fab fa-linkedin',
             'title' => 'LinkedIn'
         )
