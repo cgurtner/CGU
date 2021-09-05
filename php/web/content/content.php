@@ -5,7 +5,7 @@ $PAGES = array();
 $PAGES[] = array(
     "meta" => array(
         "title" => "Home",
-        "description" => "Ich, Cyrill Gurtner, bin ein schweizer (Senior-) Softwareentwickler und Berufsbildner mit Dozententätigkeiten."
+        "description" => "Ich, Cyrill Gurtner, bin ein schweizer (Senior-) Softwareentwickler und eidg. dipl. Berufsbildner in Lehrbetrieben."
     ),
     "url" => "home",
     "path" => "content/page/home.php",
@@ -17,7 +17,7 @@ $PAGES[] = array(
 $PAGES[] = array(
     "meta" => array(
         "title" => "Werdegang",
-        "description" => "Mein Werdegang (CV) vom Informatiker EFZ zum (Senior-) Softwareentwickler und Berufsbildner mit Dozententätigkeiten."
+        "description" => "Der Werdegang (CV) von mir, Cyrill Gurtner."
     ),
     "url" => "werdegang",
     "path" => "content/page/werdegang.php",

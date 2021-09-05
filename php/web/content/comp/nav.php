@@ -15,7 +15,7 @@
                     foreach (CONFIG['socials'] as $social) {
                         $socials .= '<li class="nav-item">';
                         $socials .= '<a href="' . $social['url'] . '" class="nav-link" rel="noreferrer" target="_blank" data-toggle="tooltip" data-placement="bottom" title="' . $social['title'] . '">';
-                        $socials .= '<i class="fab ' . $social['icon'] . '"></i>';
+                        $socials .= '<i class="' . $social['class'] . '"></i>';
                         $socials .= '</a>';
                         $socials .= '</li>';
                     }
