@@ -127,7 +127,29 @@
                             <div class="row">
                                 <div class="col-12 col-sm-4">
                                     <header>
-                                        <h3>05/2021 - heute</h3>
+                                        <h3>09/2021 - heute</h3>
+                                    </header>
+                                </div>
+                                <div class="col-12 col-sm-8">
+                                    <section>
+                                        <header>
+                                            <h4 class="inline">BSc ZFH in Data Science</h4>
+                                        </header>
+                                        <p><a href="https://zhaw.ch/" target="_blank"
+                                              rel="noreferrer">ZHAW School of Engineering</a></p>
+                                        <p>
+                                            Datenerhebung, Datenaufbereitung, Datenanalyse, maschinelles Lernen auf Basis 
+                                            von Daten inklusive Visualisierung und Umsetzung von Datenprodukten.
+                                        </p>
+                                    </section>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="row">
+                                <div class="col-12 col-sm-4">
+                                    <header>
+                                        <h3>05/2021 - 09/2021</h3>
                                     </header>
                                 </div>
                                 <div class="col-12 col-sm-8">
@@ -136,7 +158,7 @@
                                             <h4 class="inline">Eidg. Dipl. Berufsbildner in Lehrbetrieben</h4>
                                         </header>
                                         <p><a href="https://berufsbildner.ch/" target="_blank"
-                                              rel="noreferrer">berufsbildner.ch</a></p>
+                                              rel="noreferrer">berufsbildner.ch AG</a></p>
                                         <p>
                                             Vertiefung der Schwerpunkte «Selektion», «Lernende führen und Begleiten»,
                                             «Professionell instruieren»,
@@ -164,7 +186,7 @@
                                             <h4 class="inline">Eidg. Berufsbildner</h4>
                                         </header>
                                         <p><a href="https://berufsbildner.ch/" target="_blank"
-                                              rel="noreferrer">berufsbildner.ch</a></p>
+                                              rel="noreferrer">berufsbildner.ch AG</a></p>
                                         <p>
                                             Besuch des in Zusammenarbeit mit dem ICT konzipierten Berufsbildnerkurs für
                                             Informatiker und
