@@ -71,8 +71,8 @@
                                         <p>
                                             Halten von 237 Unterrichtslektionen in Java, sowie Prüfungsbetreuung im
                                             Umfang von 7 Lektionen. Durchführung der Lektionen laufend neben meiner
-                                            Anstellung bei der Datahouse AG. Während COVID-19 Schliessungen
-                                            mit digitalem Unterrichtsmaterial und Demos.
+                                            Anstellung bei der Datahouse AG. Während COVID-19 Lockdown
+                                            auch mit digitalem Unterrichtsmaterial und digitalen Übungslektionen.
                                         </p>
                                     </section>
                                 </div>
