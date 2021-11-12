@@ -206,7 +206,7 @@
                                 <div class="col-12 col-sm-8">
                                     <section>
                                         <header>
-                                            <h4 class="inline">BSc FHO in Informatik (ohne Abschluss)</h4>
+                                            <h4 class="inline">BSc FHO in Informatik</h4>
                                         </header>
                                         <p><a href="https://www.hsr.ch/" target="_blank"
                                               rel="noreferrer">Hochschule für Technik Rapperswil</a></p>
