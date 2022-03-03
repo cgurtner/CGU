@@ -66,7 +66,7 @@
                                             Gründen keine vollständige Lehrzeit absolvieren konnte. Vorbereitung des
                                             Schülers
                                             auf die Prüfung und Zertifizierung zum Oracle Certified Professional Java SE
-                                            11 Programmer 1.
+                                            11 Programmer I.
                                         </p>
                                         <p>
                                             Halten von 237 Unterrichtslektionen in Java, sowie Prüfungsbetreuung im
