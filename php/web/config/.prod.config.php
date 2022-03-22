@@ -13,7 +13,7 @@ $CONFIG = array(
         'linkedin' => array(
             'name' => 'linkedin',
             'url' => 'https://linkedin.com/in/cgurtner',
-            'class' => 'fab fa-linkedin',
+            'class' => 'fab fa-linkedin-in',
             'title' => 'LinkedIn'
         ),
         'github' => array(
