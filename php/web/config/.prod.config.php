@@ -15,6 +15,12 @@ $CONFIG = array(
             'url' => 'https://linkedin.com/in/cgurtner',
             'class' => 'fab fa-linkedin',
             'title' => 'LinkedIn'
+        ),
+        'github' => array(
+            'name' => 'github',
+            'url' => 'https://github.com/cgurtner',
+            'class' => 'fab fa-github',
+            'title' => 'GitHub'
         )
     ),
     'recaptcha-client-key' => '6LcOZaYUAAAAAKrMyY86NZuWOT4lECDilAV4YF0c',
