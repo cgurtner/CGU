@@ -22,7 +22,5 @@ $CONFIG = array(
             'class' => 'fab fa-github',
             'title' => 'GitHub'
         )
-    ),
-    'recaptcha-client-key' => '6LcOZaYUAAAAAKrMyY86NZuWOT4lECDilAV4YF0c',
-    'recaptcha-secret-key' => '6LcOZaYUAAAAABN9bPCddtq8O2C5S1vR3gxHwhD5'
+    )
 );
