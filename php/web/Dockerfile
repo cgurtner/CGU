@@ -34,4 +34,4 @@ RUN find . -name '.htaccess' -delete && \
     find . -name 'php.ini' -delete && \
     mv config/.prod.config.php config/config.php && \
     mv config/.prod.htaccess .htaccess && \
-    rm -rf php/web/gui/scss
+    rm -rf gui/scss
