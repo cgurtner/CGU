@@ -1,4 +1,4 @@
-FROM php:8.0-apache
+FROM php:8.0-apache AS dev
 
 RUN apt-get update
 RUN apt-get install -y git zip unzip
@@ -17,3 +17,21 @@ rm -f sass.tar.gz
 
 RUN ln -s /tmp/composer.phar /bin/composer
 RUN cd /var/www/html/
+
+FROM dev AS prod
+
+RUN rm -rf /var/www/dist
+WORKDIR /var/www/dist
+
+COPY . /var/www/dist
+RUN composer install -vv && sass gui/scss:gui/css
+
+RUN find . -name '.htaccess' -delete && \
+    find . -name 'config.json' -delete && \
+    find . -name '*.docker.*' -delete && \
+    find . -name 'composer.*' -delete && \
+    find . -name 'Dockerfile' -delete && \
+    find . -name 'php.ini' -delete && \
+    mv config/.prod.config.php config/config.php && \
+    mv config/.prod.htaccess .htaccess && \
+    rm -rf php/web/gui/scss
