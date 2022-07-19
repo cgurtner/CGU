@@ -32,6 +32,7 @@ RUN find . -name '.htaccess' -delete && \
     find . -name 'composer.*' -delete && \
     find . -name 'Dockerfile' -delete && \
     find . -name 'php.ini' -delete && \
+    find . -name '.DS_Store' -delete && \
     mv config/.prod.config.php config/config.php && \
     mv config/.prod.htaccess .htaccess && \
     rm -rf gui/scss
